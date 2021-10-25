@@ -1,26 +1,26 @@
 import argparse
 import requests
 import pymysql
-from datetime import datetime
 import pandas as pd
+from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+from secrets import mysql_password, mysql_bridge_ip
+
 # get arguments
-parser = argparse.ArgumentParser(description="market info")
+parser = argparse.ArgumentParser()
 parser.add_argument("--market", default=None, required=True,
                     type=str, help="market name")
 parser.add_argument("--update", default=False,
                     action='store_true', help="only run for first time")
-parser.add_argument("--period", default="daily",
-                    required=False, type=str, help="period of ohlcv")
 args = parser.parse_args()
 
 
 class DBUpdater:
     def __init__(self, market):
         self.market = market
-        self.conn = pymysql.connect(host='localhost', user='root', password='333@7t86$',
+        self.conn = pymysql.connect(host=mysql_bridge_ip, user='root', password=mysql_password,
                                     db=self.market, charset='utf8')
         with self.conn.cursor() as curs:
             sql = """
@@ -44,20 +44,6 @@ class DBUpdater:
                 `volume` BIGINT(20),
                 PRIMARY KEY (`symbol`, `date`))
             """
-            curs.execute(sql)
-
-            #sql = """
-            #CREATE TABLE IF NOT EXISTS minutely_price (
-            #    `symbol` VARCHAR(20),
-            #    `datetime` DATETIME,
-            #    `price` BIGINT(20),
-            #    `long` BIGINT(20),
-            #    `short` BIGINT(20),
-            #    `diff` BIGINT(20),
-            #    `volume` BIGINT(20),
-            #    `volatility` BIGINT(20),
-            #    PRIMARY KEY (`symbol`, `datetime`))
-            # """
             curs.execute(sql)
         self.conn.commit()
 
@@ -92,36 +78,23 @@ class DBUpdater:
                 self.conn.commit()
                 print('')
 
-    def replace_into_db(self, df, num, symbol, company, period):
+    def replace_into_db(self, df, num, symbol, company):
         with self.conn.cursor() as curs:
             for r in df.itertuples():
-                sql = ""
-                if period == "daily":
-                    sql = f"REPLACE INTO daily_price VALUES ('{symbol}', "\
-                        f"'{r.date}', {r.open}, {r.high}, {r.low}, {r.close}, "\
-                        f"{r.diff}, {r.volume})"
-                elif period == "minutely":
-                    sql = f"REPLACE INTO minutely_price VALUES ('{symbol}', "\
-                        f"'{r.datetime}', {r.price}, {r.long}, {r.short}, "\
-                        f"{r.diff}, {r.volume}, {r.volatility})"
-                else:
-                    raise(AttributeError)
+                sql = f"REPLACE INTO daily_price VALUES ('{symbol}', "\
+                      f"'{r.date}', {r.open}, {r.high}, {r.low}, {r.close}, "\
+                      f"{r.diff}, {r.volume})"
                 curs.execute(sql)
             self.conn.commit()
-            print('[{}] #{:04d} {} ({}) : {} rows > REPLACE INTO {}_price [OK]'.format(
-                datetime.now().strftime('%Y-%m-%d %H:%M'), num+1, company, symbol, len(df), period))
+            print('[{}] #{:04d} {} ({}) : {} rows > REPLACE INTO daily_price [OK]'.format(
+                datetime.now().strftime('%Y-%m-%d %H:%M'), num+1, company, symbol, len(df)))
 
-    def update_price(self, period):
+    def update_price(self):
         for idx, symbol in enumerate(self.symbols):
-            if period == "daily":
-                df = self.get_dataframe(symbol, self.symbols[symbol])
-            elif period == "minutely":
-                df = self.get_dataframe_minutely(symbol, self.symbols[symbol])
-            else:
-                raise(AttributeError)
+            df = self.get_dataframe(symbol, self.symbols[symbol])
             if df is None:
                 continue
-            self.replace_into_db(df, idx, symbol, self.symbols[symbol], period)
+            self.replace_into_db(df, idx, symbol, self.symbols[symbol])
     
 
 class KRXUpdater(DBUpdater):
@@ -177,38 +150,6 @@ class KRXUpdater(DBUpdater):
 
         return df
     
-    def get_dataframe_minutely(self, symbol, company):
-        df = pd.DataFrame()
-        date = datetime.today().strftime('%Y%m%d')
-        prefix = datetime.today().strftime('%Y-%m-%d ')
-        tmnow = datetime.now().strftime('%Y-%m-%d %H:%M')
-        try:
-            url = f"https://finance.naver.com/item/sise_time.nhn?code={symbol}&thistime={date}153000"
-            headers = {'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'}
-            with requests.get(url, headers=headers) as doc:
-                html = BeautifulSoup(doc.text, 'lxml')
-                pgrr = html.find("td", class_="pgRR")
-                if pgrr is None:
-                    return None
-                s = str(pgrr.a['href']).split('=')
-                lastpage = int(s[-1])
-            for page in range(1, lastpage+1):
-                print('[{}] {} ({}) : {:04d}/{:04d} pages are downloading...'.format(tmnow, company, symbol, page, lastpage), end='\r')
-                pg_url = '{}&page={}'.format(url, page)
-                pg_url = requests.get(pg_url, headers=headers).text
-                df = df.append(pd.read_html(pg_url, header=0)[0])
-            df = df.dropna()
-            df.reset_index(drop=True, inplace=True)
-            df = df.rename(columns={'체결시각': 'datetime', '체결가': 'price', '전일비': 'diff',
-                '매도': 'short', '매수': 'long', '거래량': 'volume', '변동량': 'volatility'})
-            df.datetime = prefix + df.datetime    # need check
-            df[['price', 'diff', 'short', 'long', 'volume', 'volat']] = df[['price', 'diff', 'short', 'long', 'volume', 'volatility']].astype(int)
-            df = df[['datetime', 'price', 'long', 'short', 'diff', 'volume', 'volatility']]
-            return df
-        except Exception as e:
-            print("Exception occurred :", str(e))
-            return None
-
 class ETFUpdater(DBUpdater):
     def __init__(self):
         # add webdriver
@@ -217,7 +158,7 @@ class ETFUpdater(DBUpdater):
         opt.add_argument('--no-sandbox')
         opt.add_argument('--disable-dev-shm-usage')
         self.driver = webdriver.Chrome(
-            r'/Users/choij/workspace/Finance/myPackages/chromedriver', options=opt)
+            r'/root/workspace/SystemTrading/MyPackages/chromedriver', options=opt)
         self.driver.implicitly_wait(3)
         super().__init__("ETF")
 
@@ -284,43 +225,11 @@ class ETFUpdater(DBUpdater):
 
         return df
     
-    def get_dataframe_minutely(self, symbol, company):
-        df = pd.DataFrame()
-        date = datetime.today().strftime('%Y%m%d')
-        prefix = datetime.today().strftime('%Y-%m-%d ')
-        tmnow = datetime.now().strftime('%Y-%m-%d %H:%M')
-        try:
-            url = f"https://finance.naver.com/item/sise_time.nhn?code={symbol}&thistime={date}153000"
-            headers = {'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'}
-            with requests.get(url, headers=headers) as doc:
-                html = BeautifulSoup(doc.text, 'lxml')
-                pgrr = html.find("td", class_="pgRR")
-                if pgrr is None:
-                    return None
-                s = str(pgrr.a['href']).split('=')
-                lastpage = int(s[-1])
-            for page in range(1, lastpage+1):
-                print('[{}] {} ({}) : {:04d}/{:04d} pages are downloading...'.format(tmnow, company, symbol, page, lastpage), end='\r')
-                pg_url = '{}&page={}'.format(url, page)
-                pg_url = requests.get(pg_url, headers=headers).text
-                df = df.append(pd.read_html(pg_url, header=0)[0])
-            df = df.dropna()
-            df.reset_index(drop=True, inplace=True)
-            df = df.rename(columns={'체결시각': 'datetime', '체결가': 'price', '전일비': 'diff',
-                '매도': 'short', '매수': 'long', '거래량': 'volume', '변동량': 'volatility'})
-            df.datetime = prefix + df.datetime    # need check
-            df[['price', 'diff', 'short', 'long', 'volume', 'volat']] = df[['price', 'diff', 'short', 'long', 'volume', 'volatility']].astype(int)
-            df = df[['datetime', 'price', 'long', 'short', 'diff', 'volume', 'volatility']]
-            return df
-        except Exception as e:
-            print("Exception occurred :", str(e))
-            return None
-
 if __name__ == '__main__':
     if args.market == "KRX":
         krx = KRXUpdater()
-        krx.update_price(args.period)
+        krx.update_price()
 
     if args.market == "ETF":
         etf = ETFUpdater()
-        etf.update_price(args.period)
+        etf.update_price()
