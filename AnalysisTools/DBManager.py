@@ -24,11 +24,12 @@ class MarketDB:
                          ] = market['company'].values[idx]
         return self.symbols
 
-    def get_daily_price(self, symbol, start_date=None, end_date=None):
+    def get_daily_price(self, symbol, start_date=None, end_date=None, verbose=False):
         if (start_date is None):
             one_year_ago = datetime.today() - timedelta(days=365)
             start_date = one_year_ago.strftime('%Y-%m-%d')
-            print("start_date is initialized to '{}'".format(start_date))
+            if verbose:
+                print("start_date is initialized to '{}'".format(start_date))
         else:
             start_lst = re.split('\D+', start_date)
             if (start_lst[0] == ''):
@@ -49,7 +50,8 @@ class MarketDB:
 
         if (end_date is None):
             end_date = datetime.today().strftime('%Y-%m-%d')
-            print("end_date is initialized to '{}'".format(end_date))
+            if verbose:
+                print("end_date is initialized to '{}'".format(end_date))
         else:
             end_lst = re.split('\D+', end_date)
             if end_lst[0] == '':
