@@ -1,0 +1,8 @@
+upbit_access_key = "uVw20krvTro1gwKJF4qmH5Lw8oLcXtE5PziUNcQa"
+upbit_secret_key = "oGj7s3Nt4Ix9muDfEXfMgIg4OeZykyoGjxDB0Atp"
+bithumb_connect_key = "d5c7f4458a58322ac7573f9f8193d4f2"
+bithumb_secret_key = "aacd7c9c31a4bbcf30d5088a1b22e338"
+binance_api_key = "7FJLvgxmvEP8PgdrfgS29uQ0ZLJ9XAQNuRS0d8UUu9MNFYL06xD61Y5RWvq7GxGO"
+binance_secret_key = "s3lO7ZRw8eZL11tQvB32WVkE1snLyqKxbdDxNGDyqL21zkP5cEApJmsNOtMfqZJP"
+telegram_token = "1774799461:AAGS5XJ_anOZ-0x_WAscIEKercpmengE_ds"
+telegram_chat_id = "1759533516"
