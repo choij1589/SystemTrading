@@ -77,24 +77,34 @@ class Trader(pyupbit.Upbit):
         return out
 
 if __name__ == "__main__":
-    # This scripts starts every 9 a.m. by crond
-    # 1. make two lists of coins, the first list for current possessing coins and the second list for to buy
-    # 2. if current possessing coins not in the buying list, then sell the coins
-    # 3. Estimate current balance
-    # 4. else, estimate the difference and buy/sell that coin
-    # 5. NOTE: You should sell the coin first!
+    # trading rule
+    # choose coins first from top 20 trading coins
     trader = Trader()
     trader.send_message("Start trading...")
 
     # make a buying list first
     tickers = trader.select_t20_coins()
-    buying_list = []
-    # MFI filtering
+    buying_list_up1 = []
+    buying_list_up2 = []
+    buying_list_down1 = []
+    buying_list_down2 = []
     for key, value in trader.estimate(tickers).items():
-        if value[1] < 0.3:
+        momentum = value[1]
+        if momentum > 0.75: 
+            buying_list_up1.append(key)
+        elif momentum > 0.3: 
+            buying_list_up2.append(key)
+        elif momentum > -0.25:
             continue
-        buying_list.append(key)
-    trader.send_message(buying_list)
+        elif momentum > -0.55:
+            buying_list_down1.append(key)
+        else:
+            buying_list_down2.append(key)
+    buying_list = buying_list_up1+buying_list_up2+buying_list_down1+buying_list_down2
+    trader.send_message(f"mom > 0.75: {buying_list_up1}")
+    trader.send_message(f"0.3 < mom < 0.75: {buying_list_up2}")
+    trader.send_message(f"-0.55 < mom < -0.25: {buying_list_down1}")
+    trader.send_message(f"mom < -0.55: {buying_list_down2}")
 
     # sell the coins that currently possess and not in the buying list
     possessing_list = []
@@ -105,11 +115,13 @@ if __name__ == "__main__":
             try:
                 unit = trader.get_balance(ticker)
                 price = pyupbit.get_current_price(ticker)
-                if (unit*price > 5000.) and (ticker not in buying_list):     # not in the buying list, sell the coin
+                if (unit*price > 5000.) and (ticker not in buying_list):    
+                    # not in the buying list, sell the coin
                     order = trader.sell_market_order(ticker, unit)
                     trader.send_message(order)
                     break
-                elif (unit*price > 5000.) and (ticker in buying_list):       # in the buying list, estimate later
+                elif (unit*price > 5000.) and (ticker in buying_list):       
+                    # in the buying list, estimate later
                     possessing_list.append(ticker)
                     break
                 else:
@@ -134,11 +146,22 @@ if __name__ == "__main__":
     # sell first
     for ticker in possessing_list:
         i = 0
+        # update target amount
+        if ticker in buying_list_up1: 
+            this_target_amount = target_amount
+        elif ticker in buying_list_up2: 
+            this_target_amount = target_amount*0.2
+        elif ticker in buying_list_down1:
+            this_target_amount = target_amount*0.4
+        elif ticker in buying_list_down2:
+            this_target_amount = target_amount
+        else:
+            pass
         while True:
             try:
                 unit= trader.get_balance(ticker)
                 price = pyupbit.get_current_price(ticker)
-                difference = unit*price - target_amount
+                difference = unit*price - this_target_amount
                 if difference > 5000.:
                     selling_unit = round(difference/price, 3)
                     order = trader.sell_market_order(ticker, selling_unit)
@@ -160,9 +183,20 @@ if __name__ == "__main__":
     # now buy the all
     for ticker in buying_list:
         i = 0
+        # update target amount
+        if ticker in buying_list_up1:
+            this_target_amount = target_amount
+        elif ticker in buying_list_up2:
+            this_target_amount = target_amount*0.2
+        elif ticker in buying_list_down1:
+            this_target_amount = target_amount*0.4
+        elif ticker in buying_list_down2:
+            this_target_amount = target_amount
+        else:
+            pass
         while True:
             try:
-                order = trader.buy_market_order(ticker, int(target_amount))
+                order = trader.buy_market_order(ticker, int(this_target_amount))
                 trader.send_message(order)
                 break
             except Exception as e:
