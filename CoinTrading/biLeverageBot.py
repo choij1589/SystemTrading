@@ -160,7 +160,7 @@ if __name__ == "__main__":
             ticker = coin[:-3]
             if samples[ticker].iloc[-2]['momentum'] < 0.3:
                 continue
-            elif samples[ticker].iloc[-2]['momentum'] < 0.7:
+            elif samples[ticker].iloc[-2]['momentum'] < 0.8:
                 trader.set_leverage(ticker, 1)
                 order = trader.buy_market_order(ticker, target_amount)
             else:
@@ -174,7 +174,7 @@ if __name__ == "__main__":
                 trader.set_leverage(ticker, 2)
                 order = trader.buy_market_order(ticker, target_amount*2)
             else:
-                trader.set_leverage(ticker, 5)
+                trader.set_leverage(ticker, 12)
                 order = trader.buy_market_order(ticker, target_amount*5)
         trader.send_message(order)
     trader.send_message("End trading")
