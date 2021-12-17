@@ -1,3 +1,4 @@
 MyPackages/*
 ./idea/*
 ./vscode/*
+CoinTrading/secrets.py
