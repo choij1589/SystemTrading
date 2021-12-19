@@ -128,3 +128,53 @@
 {'symbol': 'AVAXUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
 [Binance 2021-12-11 09:01:07.661017] {'info': {'orderId': '5682433219', 'symbol': 'AVAXUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcucf9075ed91b336ee2b3973', 'price': '0', 'avgPrice': '80.6240', 'origQty': '4', 'executedQty': '4', 'cumQty': '4', 'cumQuote': '322.4960', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639180869637'}, 'id': '5682433219', 'clientOrderId': 'x-xcKtGhcucf9075ed91b336ee2b3973', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'AVAX/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 80.624, 'stopPrice': None, 'amount': 4.0, 'cost': 322.496, 'average': 80.624, 'filled': 4.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
 [Binance 2021-12-11 09:01:08.137449] End trading
+[Binance 2021-12-12 09:00:02.204058] Start trading...
+[Binance 2021-12-12 09:00:04.531873] Cancled all orders
+[Binance 2021-12-12 09:01:06.607348] target coins: dict_keys(['NEAR/USDT-UP', 'SFP/USDT-UP', 'SOL/USDT-DOWN', 'LUNA/USDT-DOWN', 'MANA/USDT-DOWN', 'BTT/USDT-UP'])
+[Binance 2021-12-12 09:01:07.197451] target_amount: 184.179197574
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2021-12-12 09:01:08.202527] {'info': {'orderId': '5363767792', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub96f85dddcd0f7172bc6ad', 'price': '0', 'avgPrice': '11.5774', 'origQty': '15', 'executedQty': '15', 'cumQty': '15', 'cumQuote': '173.6610', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639267268171'}, 'id': '5363767792', 'clientOrderId': 'x-xcKtGhcub96f85dddcd0f7172bc6ad', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 11.5774, 'stopPrice': None, 'amount': 15.0, 'cost': 173.661, 'average': 11.5774, 'filled': 15.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2021-12-12 09:01:08.682235] End trading
+[Binance 2021-12-13 09:00:02.757930] Start trading...
+[Binance 2021-12-13 09:00:04.938378] Cancled all orders
+[Binance 2021-12-13 09:01:06.336278] target coins: dict_keys(['UNFI/USDT-UP', 'NEAR/USDT-UP', 'DOT/USDT-UP', 'SAND/USDT-UP', 'SOL/USDT-DOWN', 'ATOM/USDT-UP'])
+[Binance 2021-12-13 09:01:06.922107] target_amount: 181.875064293
+[Binance 2021-12-13 09:01:07.428086] End trading
+[Binance 2021-12-14 09:00:02.262137] Start trading...
+[Binance 2021-12-14 09:00:04.494669] Cancled all orders
+[Binance 2021-12-14 09:01:06.605009] target coins: dict_keys(['LUNA/USDT-DOWN', 'FTM/USDT-DOWN', 'MATIC/USDT-DOWN', 'SOL/USDT-DOWN', 'LRC/USDT-DOWN', 'MANA/USDT-DOWN'])
+[Binance 2021-12-14 09:01:07.236080] target_amount: 181.875064293
+{'symbol': 'FTMUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2021-12-14 09:01:08.218280] {'info': {'orderId': '6378285129', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5772ba9b9120f0fc41ddbf', 'price': '0', 'avgPrice': '1.274600', 'origQty': '285', 'executedQty': '285', 'cumQty': '285', 'cumQuote': '363.261000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639440068273'}, 'id': '6378285129', 'clientOrderId': 'x-xcKtGhcu5772ba9b9120f0fc41ddbf', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 1.2746, 'stopPrice': None, 'amount': 285.0, 'cost': 363.261, 'average': 1.2746, 'filled': 285.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2021-12-14 09:01:08.804486] End trading
+[Binance 2021-12-15 09:00:02.788847] Start trading...
+[Binance 2021-12-15 09:00:05.146346] Cancled all orders
+[Binance 2021-12-15 09:01:07.574141] target coins: dict_keys(['DOGE/USDT-UP', 'FTM/USDT-DOWN', 'MANA/USDT-DOWN', 'SOL/USDT-DOWN', 'LINK/USDT-DOWN', 'SAND/USDT-DOWN'])
+[Binance 2021-12-15 09:01:08.318347] target_amount: 183.44300219550001
+[Binance 2021-12-15 09:01:08.794339] End trading
+[Binance 2021-12-16 09:00:02.193889] Start trading...
+[Binance 2021-12-16 09:00:04.098474] Cancled all orders
+[Binance 2021-12-16 09:01:04.259498] target coins: dict_keys(['AVAX/USDT-UP', 'EGLD/USDT-UP', 'NEAR/USDT-UP', 'SOL/USDT-UP', 'MATIC/USDT-UP', 'FTM/USDT-UP'])
+[Binance 2021-12-16 09:01:04.825471] target_amount: 183.44300219550001
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2021-12-16 09:01:05.662132] {'info': {'orderId': '5457911422', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue8ef78e04b8b1406e48dcc', 'price': '0', 'avgPrice': '9.8319', 'origQty': '18', 'executedQty': '18', 'cumQty': '18', 'cumQuote': '176.9742', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639612865650'}, 'id': '5457911422', 'clientOrderId': 'x-xcKtGhcue8ef78e04b8b1406e48dcc', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 9.8319, 'stopPrice': None, 'amount': 18.0, 'cost': 176.9742, 'average': 9.8319, 'filled': 18.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2021-12-16 09:01:06.147535] End trading
+[Binance 2021-12-17 09:00:02.124181] Start trading...
+[Binance 2021-12-17 09:00:04.228792] Cancled all orders
+[Binance 2021-12-17 09:01:04.175447] target coins: dict_keys(['YFI/USDT-UP', 'CELR/USDT-UP', 'AVAX/USDT-UP', 'LUNA/USDT-UP', 'MANA/USDT-DOWN', 'ADA/USDT-DOWN'])
+[Binance 2021-12-17 09:01:04.748073] target_amount: 181.7951915805
+[Binance 2021-12-17 09:01:05.221396] End trading
+[Binance 2021-12-18 09:00:04.433191] Start trading...
+[Binance 2021-12-18 09:00:06.398397] Cancled all orders
+[Binance 2021-12-18 09:01:06.205692] target coins: dict_keys(['YFI/USDT-UP', 'AVAX/USDT-UP', 'CRV/USDT-UP', 'NEAR/USDT-DOWN', '1000SHIB/USDT-DOWN', 'DOT/USDT-DOWN'])
+[Binance 2021-12-18 09:01:06.791012] target_amount: 181.7951915805
+{'symbol': 'YFIUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2021-12-18 09:01:07.620195] {'info': {'orderId': '13432717946', 'symbol': 'YFIUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4efdfbe84143c97222ff4b', 'price': '0', 'avgPrice': '33418.0000', 'origQty': '0.005', 'executedQty': '0.005', 'cumQty': '0.005', 'cumQuote': '167.0900', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639785667600'}, 'id': '13432717946', 'clientOrderId': 'x-xcKtGhcu4efdfbe84143c97222ff4b', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'YFI/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 33418.0, 'stopPrice': None, 'amount': 0.005, 'cost': 167.09, 'average': 33418.0, 'filled': 0.005, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2021-12-18 09:01:08.088721] End trading
+[Binance 2021-12-19 09:00:02.656442] Start trading...
+[Binance 2021-12-19 09:00:05.101727] Cancled all orders
+[Binance 2021-12-19 09:01:04.260922] target coins: dict_keys(['YFI/USDT-UP', 'HBAR/USDT-UP', 'BAL/USDT-UP', 'AVAX/USDT-UP', 'LUNA/USDT-UP', 'CRV/USDT-UP'])
+[Binance 2021-12-19 09:01:04.831805] target_amount: 180.2244330975
+{'symbol': 'YFIUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2021-12-19 09:01:05.799170] {'info': {'orderId': '13454720460', 'symbol': 'YFIUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu89e1533e3092c9a059d6e6', 'price': '0', 'avgPrice': '31291.0000', 'origQty': '0.005', 'executedQty': '0.005', 'cumQty': '0.005', 'cumQuote': '156.4550', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1639872065786'}, 'id': '13454720460', 'clientOrderId': 'x-xcKtGhcu89e1533e3092c9a059d6e6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'YFI/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 31291.0, 'stopPrice': None, 'amount': 0.005, 'cost': 156.455, 'average': 31291.0, 'filled': 0.005, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2021-12-19 09:01:06.275626] End trading
