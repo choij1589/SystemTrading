@@ -1,4 +1,3 @@
-#!/opt/homebrew/Caskroom/miniforge/base/envs/coin/bin/python
 import numpy as np
 import pandas as pd
 import pyupbit
