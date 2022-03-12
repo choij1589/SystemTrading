@@ -138,9 +138,9 @@ if __name__ == "__main__":
     trader.send_message(f"target_amount: {target_amount}")
     for coin in res.keys():
         lev = 0
-        if samples[coin].iloc[-2]['mom7'] > 0.5:  lev += 1
+        if 0.5 < samples[coin].iloc[-2]['mom7'] and samples[coin].iloc[-2]['mom7'] < 2.3:  lev += 1
         if samples[coin].iloc[-2]['mom7'] < -0.4: lev += 1
-        if samples[coin].iloc[-2]['mom20'] > 0.1: lev += 1
+        if 0.1 < samples[coin].iloc[-2]['mom20'] and samples[coin].iloc[-2]['mom20'] < 4.7: lev += 1
         
         trader.send_message(f"{coin}-mom7: {samples[coin].iloc[-2]['mom7']}")
         trader.send_message(f"{coin}-mom20: {samples[coin].iloc[-2]['mom20']}")

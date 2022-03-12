@@ -1,0 +1,1162 @@
+[Binance 2022-01-15 09:01:02.713024] Start trading...
+[Binance 2022-01-15 09:01:05.799905] Cancled all orders
+[Binance 2022-01-15 09:01:35.808511] target coins: ['ONE/USDT', 'FTM/USDT', 'ATOM/USDT', 'NEAR/USDT']
+[Binance 2022-01-15 09:01:36.622308] target_amount: 393.96081481875
+[Binance 2022-01-15 09:01:37.050994] ONE/USDT-mom7: 0.1748745709004488
+[Binance 2022-01-15 09:01:37.479658] ONE/USDT-mom20: 0.4096633663366336
+[Binance 2022-01-15 09:01:37.904821] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-15 09:01:38.709533] {'info': {'orderId': '2652501147', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu7c93ce84bb354f935d7ea4', 'price': '0', 'avgPrice': '0.35523', 'origQty': '1109', 'executedQty': '1109', 'cumQty': '1109', 'cumQuote': '393.95227', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642204898691'}, 'id': '2652501147', 'clientOrderId': 'x-xcKtGhcu7c93ce84bb354f935d7ea4', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.35523, 'stopPrice': None, 'amount': 1109.0, 'cost': 393.95227, 'average': 0.35523, 'filled': 1109.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-15 09:01:39.211767] FTM/USDT-mom7: 0.13609649291284134
+[Binance 2022-01-15 09:01:39.642180] FTM/USDT-mom20: 0.4008430824610429
+[Binance 2022-01-15 09:01:40.065483] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-15 09:01:41.098935] {'info': {'orderId': '7327255470', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu6909abfeb699df2129d2a3', 'price': '0', 'avgPrice': '2.964597', 'origQty': '133', 'executedQty': '133', 'cumQty': '133', 'cumQuote': '394.291400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642204901080'}, 'id': '7327255470', 'clientOrderId': 'x-xcKtGhcu6909abfeb699df2129d2a3', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.964597, 'stopPrice': None, 'amount': 133.0, 'cost': 394.2914, 'average': 2.964597, 'filled': 133.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-15 09:01:41.535414] ATOM/USDT-mom7: 0.047542513479883766
+[Binance 2022-01-15 09:01:41.958550] ATOM/USDT-mom20: 0.362349133571573
+[Binance 2022-01-15 09:01:42.390163] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-15 09:01:43.315949] {'info': {'orderId': '9366410414', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu47125364820fd9e70624d0', 'price': '0', 'avgPrice': '40.48700', 'origQty': '9.74', 'executedQty': '9.74', 'cumQty': '9.74', 'cumQuote': '394.34338', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642204903296'}, 'id': '9366410414', 'clientOrderId': 'x-xcKtGhcu47125364820fd9e70624d0', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 40.487, 'stopPrice': None, 'amount': 9.74, 'cost': 394.34338, 'average': 40.487, 'filled': 9.74, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-15 09:01:43.735873] NEAR/USDT-mom7: 0.3401723702906923
+[Binance 2022-01-15 09:01:44.152787] NEAR/USDT-mom20: 0.32610181072770766
+[Binance 2022-01-15 09:01:44.568602] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-15 09:01:45.357717] {'info': {'orderId': '6374647932', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub4f81e9435b79eba595aff', 'price': '0', 'avgPrice': '20.1035', 'origQty': '19', 'executedQty': '19', 'cumQty': '19', 'cumQuote': '381.9665', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642204905338'}, 'id': '6374647932', 'clientOrderId': 'x-xcKtGhcub4f81e9435b79eba595aff', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 20.1035, 'stopPrice': None, 'amount': 19.0, 'cost': 381.9665, 'average': 20.1035, 'filled': 19.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-15 09:01:45.776671] End trading
+[Binance 2022-01-16 09:01:02.901877] Start trading...
+[Binance 2022-01-16 09:01:05.704948] Cancled all orders
+[Binance 2022-01-16 09:01:35.137417] target coins: ['FTM/USDT', 'ONE/USDT', 'ATOM/USDT', 'NEAR/USDT']
+[Binance 2022-01-16 09:01:35.680969] target_amount: 382.839828822
+[Binance 2022-01-16 09:01:36.103110] FTM/USDT-mom7: 0.3140181189548778
+[Binance 2022-01-16 09:01:36.531497] FTM/USDT-mom20: 0.28516394144336976
+[Binance 2022-01-16 09:01:36.946475] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-16 09:01:37.764564] {'info': {'orderId': '7356754026', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf744f95ed7d49bc484ac92', 'price': '0', 'avgPrice': '3.014200', 'origQty': '127', 'executedQty': '127', 'cumQty': '127', 'cumQuote': '382.803400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642291297739'}, 'id': '7356754026', 'clientOrderId': 'x-xcKtGhcuf744f95ed7d49bc484ac92', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.0142, 'stopPrice': None, 'amount': 127.0, 'cost': 382.8034, 'average': 3.0142, 'filled': 127.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-16 09:01:38.195369] ONE/USDT-mom7: 0.10535253584141606
+[Binance 2022-01-16 09:01:38.630887] ONE/USDT-mom20: 0.27292215118465574
+[Binance 2022-01-16 09:01:39.047700] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-16 09:01:39.832401] {'info': {'orderId': '2668902474', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5a76cae8615b276e309a1a', 'price': '0', 'avgPrice': '0.33585', 'origQty': '1140', 'executedQty': '1140', 'cumQty': '1140', 'cumQuote': '382.87198', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642291299807'}, 'id': '2668902474', 'clientOrderId': 'x-xcKtGhcu5a76cae8615b276e309a1a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.33585, 'stopPrice': None, 'amount': 1140.0, 'cost': 382.87198, 'average': 0.33585, 'filled': 1140.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-16 09:01:40.254368] ATOM/USDT-mom7: 0.0914011494894259
+[Binance 2022-01-16 09:01:40.681797] ATOM/USDT-mom20: 0.2181738913801694
+[Binance 2022-01-16 09:01:41.100416] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-16 09:01:41.848077] {'info': {'orderId': '9386726998', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue8c34013549383d2aa3ead', 'price': '0', 'avgPrice': '39.07088', 'origQty': '9.79', 'executedQty': '9.79', 'cumQty': '9.79', 'cumQuote': '382.50388', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642291301824'}, 'id': '9386726998', 'clientOrderId': 'x-xcKtGhcue8c34013549383d2aa3ead', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 39.07088, 'stopPrice': None, 'amount': 9.79, 'cost': 382.50388, 'average': 39.07088, 'filled': 9.79, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-16 09:01:42.268816] NEAR/USDT-mom7: 0.3947105571720155
+[Binance 2022-01-16 09:01:42.701487] NEAR/USDT-mom20: 0.1858872183690175
+[Binance 2022-01-16 09:01:43.147040] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-16 09:01:44.014954] {'info': {'orderId': '6403689079', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu6eebbfe014041ee39a1804', 'price': '0', 'avgPrice': '19.3288', 'origQty': '19', 'executedQty': '19', 'cumQty': '19', 'cumQuote': '367.2463', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642291303989'}, 'id': '6403689079', 'clientOrderId': 'x-xcKtGhcu6eebbfe014041ee39a1804', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 19.3288, 'stopPrice': None, 'amount': 19.0, 'cost': 367.2463, 'average': 19.3288, 'filled': 19.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-16 09:01:44.447386] End trading
+[Binance 2022-01-17 09:01:03.352508] Start trading...
+[Binance 2022-01-17 09:01:06.423851] Cancled all orders
+[Binance 2022-01-17 09:01:35.367944] target coins: ['FTM/USDT', 'ATOM/USDT', 'NEAR/USDT', 'ONE/USDT']
+[Binance 2022-01-17 09:01:35.901085] target_amount: 408.40105870125
+[Binance 2022-01-17 09:01:36.354535] FTM/USDT-mom7: 0.3825730651837605
+[Binance 2022-01-17 09:01:36.783477] FTM/USDT-mom20: 0.5024990912395493
+[Binance 2022-01-17 09:01:37.223281] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-17 09:01:38.032912] {'info': {'orderId': '7396744325', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcufce6c6392a1b25577f8db5', 'price': '0', 'avgPrice': '3.313000', 'origQty': '123', 'executedQty': '123', 'cumQty': '123', 'cumQuote': '407.499000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642377697997'}, 'id': '7396744325', 'clientOrderId': 'x-xcKtGhcufce6c6392a1b25577f8db5', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.313, 'stopPrice': None, 'amount': 123.0, 'cost': 407.499, 'average': 3.313, 'filled': 123.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-17 09:01:38.474500] ATOM/USDT-mom7: 0.24813363462143545
+[Binance 2022-01-17 09:01:38.914280] ATOM/USDT-mom20: 0.46828628150341534
+[Binance 2022-01-17 09:01:39.345307] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-17 09:01:40.224832] {'info': {'orderId': '9411468787', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8cce85df1ed09c7a7e17c0', 'price': '0', 'avgPrice': '43.41500', 'origQty': '9.40', 'executedQty': '9.40', 'cumQty': '9.40', 'cumQuote': '408.10100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642377700188'}, 'id': '9411468787', 'clientOrderId': 'x-xcKtGhcu8cce85df1ed09c7a7e17c0', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 43.415, 'stopPrice': None, 'amount': 9.4, 'cost': 408.101, 'average': 43.415, 'filled': 9.4, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-17 09:01:40.661660] NEAR/USDT-mom7: 0.48995945306025807
+[Binance 2022-01-17 09:01:41.091924] NEAR/USDT-mom20: 0.3650420281995661
+[Binance 2022-01-17 09:01:41.516806] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-17 09:01:42.409863] {'info': {'orderId': '6433998359', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu97ebb165eeaca70fbaf9a1', 'price': '0', 'avgPrice': '20.0434', 'origQty': '20', 'executedQty': '20', 'cumQty': '20', 'cumQuote': '400.8688', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642377702374'}, 'id': '6433998359', 'clientOrderId': 'x-xcKtGhcu97ebb165eeaca70fbaf9a1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 20.0434, 'stopPrice': None, 'amount': 20.0, 'cost': 400.8688, 'average': 20.0434, 'filled': 20.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-17 09:01:42.843145] ONE/USDT-mom7: 0.20476419634263718
+[Binance 2022-01-17 09:01:43.270791] ONE/USDT-mom20: 0.33545437226138314
+[Binance 2022-01-17 09:01:43.710081] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-17 09:01:44.590902] {'info': {'orderId': '2693450725', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue1f22f0235eb4d30868bf8', 'price': '0', 'avgPrice': '0.35132', 'origQty': '1162', 'executedQty': '1162', 'cumQty': '1162', 'cumQuote': '408.23222', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642377704555'}, 'id': '2693450725', 'clientOrderId': 'x-xcKtGhcue1f22f0235eb4d30868bf8', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.35132, 'stopPrice': None, 'amount': 1162.0, 'cost': 408.23222, 'average': 0.35132, 'filled': 1162.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-17 09:01:45.017814] End trading
+[Binance 2022-01-18 09:01:02.884473] Start trading...
+[Binance 2022-01-18 09:01:06.234971] Cancled all orders
+[Binance 2022-01-18 09:01:36.813356] target coins: ['ATOM/USDT', 'ONE/USDT', 'NEAR/USDT', 'FTM/USDT']
+[Binance 2022-01-18 09:01:37.381357] target_amount: 369.3497078025
+[Binance 2022-01-18 09:01:37.974564] ATOM/USDT-mom7: 0.0330515191545574
+[Binance 2022-01-18 09:01:38.429012] ATOM/USDT-mom20: 0.4712898856110776
+[Binance 2022-01-18 09:01:38.863719] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-18 09:01:39.653978] {'info': {'orderId': '9439268026', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu77a781bd51e8c9965ea7b6', 'price': '0', 'avgPrice': '39.34000', 'origQty': '9.39', 'executedQty': '9.39', 'cumQty': '9.39', 'cumQuote': '369.40260', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642464099713'}, 'id': '9439268026', 'clientOrderId': 'x-xcKtGhcu77a781bd51e8c9965ea7b6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 39.34, 'stopPrice': None, 'amount': 9.39, 'cost': 369.4026, 'average': 39.34, 'filled': 9.39, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-18 09:01:40.087445] ONE/USDT-mom7: 0.14891840882694546
+[Binance 2022-01-18 09:01:40.542100] ONE/USDT-mom20: 0.34017781541066894
+[Binance 2022-01-18 09:01:40.994123] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-18 09:01:41.741184] {'info': {'orderId': '2716627976', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu87479dc51b91a7f0f3a1ad', 'price': '0', 'avgPrice': '0.31730', 'origQty': '1164', 'executedQty': '1164', 'cumQty': '1164', 'cumQuote': '369.33786', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642464101801'}, 'id': '2716627976', 'clientOrderId': 'x-xcKtGhcu87479dc51b91a7f0f3a1ad', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.3173, 'stopPrice': None, 'amount': 1164.0, 'cost': 369.33786, 'average': 0.3173, 'filled': 1164.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-18 09:01:42.173725] NEAR/USDT-mom7: 0.14412944983818776
+[Binance 2022-01-18 09:01:42.603527] NEAR/USDT-mom20: 0.32776492503680554
+[Binance 2022-01-18 09:01:43.062333] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-18 09:01:43.994840] {'info': {'orderId': '6465675747', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu62b0f83cf94a522cded1a3', 'price': '0', 'avgPrice': '17.7296', 'origQty': '20', 'executedQty': '20', 'cumQty': '20', 'cumQuote': '354.5920', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642464104056'}, 'id': '6465675747', 'clientOrderId': 'x-xcKtGhcu62b0f83cf94a522cded1a3', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.7296, 'stopPrice': None, 'amount': 20.0, 'cost': 354.592, 'average': 17.7296, 'filled': 20.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-18 09:01:44.425437] FTM/USDT-mom7: 0.3146765049941511
+[Binance 2022-01-18 09:01:44.856870] FTM/USDT-mom20: 0.3116667414822463
+[Binance 2022-01-18 09:01:45.301125] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-18 09:01:46.165379] {'info': {'orderId': '7437732970', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcubde4aadb58c3bdd59a229e', 'price': '0', 'avgPrice': '2.941300', 'origQty': '126', 'executedQty': '126', 'cumQty': '126', 'cumQuote': '370.603800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642464106226'}, 'id': '7437732970', 'clientOrderId': 'x-xcKtGhcubde4aadb58c3bdd59a229e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.9413, 'stopPrice': None, 'amount': 126.0, 'cost': 370.6038, 'average': 2.9413, 'filled': 126.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-18 09:01:46.607954] End trading
+[Binance 2022-01-19 09:01:02.419707] Start trading...
+[Binance 2022-01-19 09:01:05.396631] Cancled all orders
+[Binance 2022-01-19 09:01:35.590325] target coins: ['ONE/USDT', 'FTM/USDT', 'ATOM/USDT', 'NEAR/USDT']
+[Binance 2022-01-19 09:01:36.152821] target_amount: 367.96893665625004
+[Binance 2022-01-19 09:01:36.593522] ONE/USDT-mom7: 0.05064127991537749
+[Binance 2022-01-19 09:01:37.071465] ONE/USDT-mom20: 0.4128105969684847
+[Binance 2022-01-19 09:01:37.617330] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-19 09:01:38.463453] {'info': {'orderId': '2742633250', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua091af53d873a5ffe7122f', 'price': '0', 'avgPrice': '0.31877', 'origQty': '1154', 'executedQty': '1154', 'cumQty': '1154', 'cumQuote': '367.86058', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642550498520'}, 'id': '2742633250', 'clientOrderId': 'x-xcKtGhcua091af53d873a5ffe7122f', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.31877, 'stopPrice': None, 'amount': 1154.0, 'cost': 367.86058, 'average': 0.31877, 'filled': 1154.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-19 09:01:38.897794] FTM/USDT-mom7: 0.14123332688961915
+[Binance 2022-01-19 09:01:39.345431] FTM/USDT-mom20: 0.3823818667166206
+[Binance 2022-01-19 09:01:39.776806] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-19 09:01:40.682049] {'info': {'orderId': '7482018666', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf6ed3d0316a24d065ec977', 'price': '0', 'avgPrice': '2.962900', 'origQty': '124', 'executedQty': '124', 'cumQty': '124', 'cumQuote': '367.399600', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642550500738'}, 'id': '7482018666', 'clientOrderId': 'x-xcKtGhcuf6ed3d0316a24d065ec977', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.9629, 'stopPrice': None, 'amount': 124.0, 'cost': 367.3996, 'average': 2.9629, 'filled': 124.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-19 09:01:41.122003] ATOM/USDT-mom7: -0.01119904821022139
+[Binance 2022-01-19 09:01:41.560201] ATOM/USDT-mom20: 0.36793330470874486
+[Binance 2022-01-19 09:01:42.020089] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-19 09:01:42.913594] {'info': {'orderId': '9467225569', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu59107d671ff10a3addd9e2', 'price': '0', 'avgPrice': '38.41600', 'origQty': '9.58', 'executedQty': '9.58', 'cumQty': '9.58', 'cumQuote': '368.02528', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642550502969'}, 'id': '9467225569', 'clientOrderId': 'x-xcKtGhcu59107d671ff10a3addd9e2', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 38.416, 'stopPrice': None, 'amount': 9.58, 'cost': 368.02528, 'average': 38.416, 'filled': 9.58, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-19 09:01:43.357728] NEAR/USDT-mom7: -0.018841238851665984
+[Binance 2022-01-19 09:01:43.788443] NEAR/USDT-mom20: 0.18805491007266736
+[Binance 2022-01-19 09:01:44.217859] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-19 09:01:45.137450] {'info': {'orderId': '6499070932', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4f452b40fa5ec799a920d8', 'price': '0', 'avgPrice': '17.7356', 'origQty': '20', 'executedQty': '20', 'cumQty': '20', 'cumQuote': '354.7120', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642550505192'}, 'id': '6499070932', 'clientOrderId': 'x-xcKtGhcu4f452b40fa5ec799a920d8', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.7356, 'stopPrice': None, 'amount': 20.0, 'cost': 354.712, 'average': 17.7356, 'filled': 20.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-19 09:01:45.574388] End trading
+[Binance 2022-01-20 09:01:02.055851] Start trading...
+[Binance 2022-01-20 09:01:04.984093] Cancled all orders
+[Binance 2022-01-20 09:01:34.735060] target coins: ['FTM/USDT', 'ONE/USDT', 'ATOM/USDT', 'LINK/USDT']
+[Binance 2022-01-20 09:01:35.272729] target_amount: 343.93916090475
+[Binance 2022-01-20 09:01:35.703696] FTM/USDT-mom7: -0.05941738332370232
+[Binance 2022-01-20 09:01:36.138265] FTM/USDT-mom20: 0.3178549316569035
+[Binance 2022-01-20 09:01:36.568987] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-20 09:01:37.387190] {'info': {'orderId': '7526597930', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua99401c98fa80cc19cb3b5', 'price': '0', 'avgPrice': '2.773092', 'origQty': '124', 'executedQty': '124', 'cumQty': '124', 'cumQuote': '343.863400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642636897366'}, 'id': '7526597930', 'clientOrderId': 'x-xcKtGhcua99401c98fa80cc19cb3b5', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.773092, 'stopPrice': None, 'amount': 124.0, 'cost': 343.8634, 'average': 2.773092, 'filled': 124.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-20 09:01:37.813429] ONE/USDT-mom7: -0.17944634273469617
+[Binance 2022-01-20 09:01:38.232207] ONE/USDT-mom20: 0.23920934097170593
+[Binance 2022-01-20 09:01:38.646039] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-20 09:01:39.402885] {'info': {'orderId': '2764885059', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue108385fe42eb43de9bb11', 'price': '0', 'avgPrice': '0.28251', 'origQty': '1217', 'executedQty': '1217', 'cumQty': '1217', 'cumQuote': '343.81467', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642636899381'}, 'id': '2764885059', 'clientOrderId': 'x-xcKtGhcue108385fe42eb43de9bb11', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.28251, 'stopPrice': None, 'amount': 1217.0, 'cost': 343.81467, 'average': 0.28251, 'filled': 1217.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-20 09:01:39.837327] ATOM/USDT-mom7: -0.07987466739611576
+[Binance 2022-01-20 09:01:40.263974] ATOM/USDT-mom20: 0.2270677190422497
+[Binance 2022-01-20 09:01:40.677202] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-20 09:01:41.615311] {'info': {'orderId': '9492440912', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu6a5c9e63fbffe1712fad1f', 'price': '0', 'avgPrice': '36.99072', 'origQty': '9.29', 'executedQty': '9.29', 'cumQty': '9.29', 'cumQuote': '343.64375', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642636901593'}, 'id': '9492440912', 'clientOrderId': 'x-xcKtGhcu6a5c9e63fbffe1712fad1f', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 36.99072, 'stopPrice': None, 'amount': 9.29, 'cost': 343.64375, 'average': 36.99072, 'filled': 9.29, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-20 09:01:42.038076] LINK/USDT-mom7: -0.19475907442712423
+[Binance 2022-01-20 09:01:42.460431] LINK/USDT-mom20: 0.08083291520321127
+[Binance 2022-01-20 09:01:42.876683] LINK/USDT-leverage: 0
+[Binance 2022-01-20 09:01:43.298767] End trading
+[Binance 2022-01-21 09:01:02.340974] Start trading...
+[Binance 2022-01-21 09:01:05.082254] Cancled all orders
+[Binance 2022-01-21 09:01:34.632785] target coins: ['ATOM/USDT', 'FTM/USDT', 'ONE/USDT', 'NEAR/USDT']
+[Binance 2022-01-21 09:01:35.185496] target_amount: 340.7130412515
+[Binance 2022-01-21 09:01:35.612514] ATOM/USDT-mom7: 0.03598308555623525
+[Binance 2022-01-21 09:01:36.048341] ATOM/USDT-mom20: 0.20224684423320258
+[Binance 2022-01-21 09:01:36.476873] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-21 09:01:37.317938] {'info': {'orderId': '9523574090', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu7c44bdc8bfe5369ad91d7b', 'price': '0', 'avgPrice': '39.14829', 'origQty': '8.69', 'executedQty': '8.69', 'cumQty': '8.69', 'cumQuote': '340.19865', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642723297298'}, 'id': '9523574090', 'clientOrderId': 'x-xcKtGhcu7c44bdc8bfe5369ad91d7b', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 39.14829, 'stopPrice': None, 'amount': 8.69, 'cost': 340.19865, 'average': 39.14829, 'filled': 8.69, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-21 09:01:37.755610] FTM/USDT-mom7: -0.10702296672981688
+[Binance 2022-01-21 09:01:38.178869] FTM/USDT-mom20: 0.19419503955907194
+[Binance 2022-01-21 09:01:38.599143] FTM/USDT-leverage: 1
+{'symbol': 'FTMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-21 09:01:39.402615] {'info': {'orderId': '7567227272', 'symbol': 'FTMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcubd42cef6ec9435b976b3cd', 'price': '0', 'avgPrice': '2.688300', 'origQty': '127', 'executedQty': '127', 'cumQty': '127', 'cumQuote': '341.414100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642723299381'}, 'id': '7567227272', 'clientOrderId': 'x-xcKtGhcubd42cef6ec9435b976b3cd', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'FTM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.6883, 'stopPrice': None, 'amount': 127.0, 'cost': 341.4141, 'average': 2.6883, 'filled': 127.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-21 09:01:39.827230] ONE/USDT-mom7: -0.25427313782655914
+[Binance 2022-01-21 09:01:40.249458] ONE/USDT-mom20: 0.11753619463719704
+[Binance 2022-01-21 09:01:40.684139] ONE/USDT-leverage: 1
+{'symbol': 'ONEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-21 09:01:41.570998] {'info': {'orderId': '2785494786', 'symbol': 'ONEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub072d1dc8f6cdebbed64b7', 'price': '0', 'avgPrice': '0.26065', 'origQty': '1307', 'executedQty': '1307', 'cumQty': '1307', 'cumQuote': '340.66955', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642723301551'}, 'id': '2785494786', 'clientOrderId': 'x-xcKtGhcub072d1dc8f6cdebbed64b7', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ONE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.26065, 'stopPrice': None, 'amount': 1307.0, 'cost': 340.66955, 'average': 0.26065, 'filled': 1307.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-21 09:01:42.003616] NEAR/USDT-mom7: -0.22252831343740434
+[Binance 2022-01-21 09:01:42.458709] NEAR/USDT-mom20: 0.04391426751330578
+[Binance 2022-01-21 09:01:42.895393] NEAR/USDT-leverage: 0
+[Binance 2022-01-21 09:01:43.328574] End trading
+[Binance 2022-01-22 09:01:02.506792] Start trading...
+[Binance 2022-01-22 09:01:05.268733] Cancled all orders
+[Binance 2022-01-22 09:01:36.119543] target coins: ['DYDX/USDT', 'ATOM/USDT', 'FTM/USDT', 'NEAR/USDT']
+[Binance 2022-01-22 09:01:36.677428] target_amount: 306.9962256555
+[Binance 2022-01-22 09:01:37.129734] DYDX/USDT-mom7: 0.07926988265971324
+[Binance 2022-01-22 09:01:37.558602] DYDX/USDT-mom20: -0.02105014191106895
+[Binance 2022-01-22 09:01:37.983425] DYDX/USDT-leverage: 0
+[Binance 2022-01-22 09:01:38.414705] ATOM/USDT-mom7: -0.14479089334323186
+[Binance 2022-01-22 09:01:38.841750] ATOM/USDT-mom20: -0.04845948401663055
+[Binance 2022-01-22 09:01:39.267840] ATOM/USDT-leverage: 0
+[Binance 2022-01-22 09:01:39.708342] FTM/USDT-mom7: -0.23194482012442522
+[Binance 2022-01-22 09:01:40.138673] FTM/USDT-mom20: -0.11960313154019075
+[Binance 2022-01-22 09:01:40.565222] FTM/USDT-leverage: 0
+[Binance 2022-01-22 09:01:40.992191] NEAR/USDT-mom7: -0.34546517504136987
+[Binance 2022-01-22 09:01:41.429046] NEAR/USDT-mom20: -0.12907904278462654
+[Binance 2022-01-22 09:01:41.867328] NEAR/USDT-leverage: 0
+[Binance 2022-01-22 09:01:42.290782] End trading
+[Binance 2022-01-23 09:01:03.017147] Start trading...
+[Binance 2022-01-23 09:01:04.957593] Cancled all orders
+[Binance 2022-01-23 09:01:34.658590] target coins: ['ATOM/USDT', 'NEAR/USDT', 'FTM/USDT', 'ADA/USDT']
+[Binance 2022-01-23 09:01:35.205004] target_amount: 306.9962256555
+[Binance 2022-01-23 09:01:35.627763] ATOM/USDT-mom7: -0.2521856945651619
+[Binance 2022-01-23 09:01:36.195655] ATOM/USDT-mom20: -0.17587897227856664
+[Binance 2022-01-23 09:01:36.622099] ATOM/USDT-leverage: 0
+[Binance 2022-01-23 09:01:37.116902] NEAR/USDT-mom7: -0.4086021505376344
+[Binance 2022-01-23 09:01:37.545431] NEAR/USDT-mom20: -0.20768674564770007
+[Binance 2022-01-23 09:01:37.969360] NEAR/USDT-leverage: 1
+{'symbol': 'NEARUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-23 09:01:38.799089] {'info': {'orderId': '6615568502', 'symbol': 'NEARUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcud499be1cd0b04ee5ceec52', 'price': '0', 'avgPrice': '11.3849', 'origQty': '27', 'executedQty': '27', 'cumQty': '27', 'cumQuote': '307.3910', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1642896098757'}, 'id': '6615568502', 'clientOrderId': 'x-xcKtGhcud499be1cd0b04ee5ceec52', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEAR/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 11.3849, 'stopPrice': None, 'amount': 27.0, 'cost': 307.391, 'average': 11.3849, 'filled': 27.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-23 09:01:39.223532] FTM/USDT-mom7: -0.34532374100719426
+[Binance 2022-01-23 09:01:39.644727] FTM/USDT-mom20: -0.20885490038237073
+[Binance 2022-01-23 09:01:40.072856] FTM/USDT-leverage: 0
+[Binance 2022-01-23 09:01:40.496551] ADA/USDT-mom7: -0.1710546693510919
+[Binance 2022-01-23 09:01:40.924382] ADA/USDT-mom20: -0.22252886919892512
+[Binance 2022-01-23 09:01:41.343630] ADA/USDT-leverage: 0
+[Binance 2022-01-23 09:01:41.768413] End trading
+[Binance 2022-01-24 09:01:02.241966] Start trading...
+[Binance 2022-01-24 09:01:04.416906] Cancled all orders
+[Binance 2022-01-24 09:01:34.829074] target coins: ['ATOM/USDT', 'ADA/USDT', 'DOGE/USDT', 'FTM/USDT']
+[Binance 2022-01-24 09:01:35.370734] target_amount: 308.73916925775
+[Binance 2022-01-24 09:01:35.833513] ATOM/USDT-mom7: -0.20723714364286366
+[Binance 2022-01-24 09:01:36.273017] ATOM/USDT-mom20: -0.11817787861021173
+[Binance 2022-01-24 09:01:36.715784] ATOM/USDT-leverage: 0
+[Binance 2022-01-24 09:01:37.138347] ADA/USDT-mom7: -0.20326125487415822
+[Binance 2022-01-24 09:01:37.582965] ADA/USDT-mom20: -0.1483782964534709
+[Binance 2022-01-24 09:01:37.993828] ADA/USDT-leverage: 0
+[Binance 2022-01-24 09:01:38.413312] DOGE/USDT-mom7: -0.1976329350472846
+[Binance 2022-01-24 09:01:38.840747] DOGE/USDT-mom20: -0.16760662671836446
+[Binance 2022-01-24 09:01:39.449693] DOGE/USDT-leverage: 0
+[Binance 2022-01-24 09:01:39.860838] FTM/USDT-mom7: -0.31230531950282764
+[Binance 2022-01-24 09:01:40.270082] FTM/USDT-mom20: -0.2062550176271423
+[Binance 2022-01-24 09:01:40.701424] FTM/USDT-leverage: 0
+[Binance 2022-01-24 09:01:41.132002] End trading
+[Binance 2022-01-25 09:01:02.259237] Start trading...
+[Binance 2022-01-25 09:01:04.010551] Cancled all orders
+[Binance 2022-01-25 09:01:34.512716] target coins: ['ATOM/USDT', 'DOGE/USDT', 'ADA/USDT', 'BTC/USDT']
+[Binance 2022-01-25 09:01:35.065962] target_amount: 308.73916925775
+[Binance 2022-01-25 09:01:35.501266] ATOM/USDT-mom7: -0.07953760773381753
+[Binance 2022-01-25 09:01:35.921369] ATOM/USDT-mom20: -0.14518810564316928
+[Binance 2022-01-25 09:01:36.357295] ATOM/USDT-leverage: 0
+[Binance 2022-01-25 09:01:36.804812] DOGE/USDT-mom7: -0.19716743723298413
+[Binance 2022-01-25 09:01:37.271119] DOGE/USDT-mom20: -0.18514998514998518
+[Binance 2022-01-25 09:01:37.715491] DOGE/USDT-leverage: 0
+[Binance 2022-01-25 09:01:38.143629] ADA/USDT-mom7: -0.3341458841177575
+[Binance 2022-01-25 09:01:38.579140] ADA/USDT-mom20: -0.18635912319560072
+[Binance 2022-01-25 09:01:39.001610] ADA/USDT-leverage: 0
+[Binance 2022-01-25 09:01:39.460308] BTC/USDT-mom7: -0.13106945742565618
+[Binance 2022-01-25 09:01:39.893026] BTC/USDT-mom20: -0.20040202105799657
+[Binance 2022-01-25 09:01:40.314987] BTC/USDT-leverage: 0
+[Binance 2022-01-25 09:01:40.735147] End trading
+[Binance 2022-01-26 09:01:02.504392] Start trading...
+[Binance 2022-01-26 09:01:04.139884] Cancled all orders
+[Binance 2022-01-26 09:01:33.881005] target coins: ['ATOM/USDT', 'DOGE/USDT', 'BTC/USDT', 'ADA/USDT']
+[Binance 2022-01-26 09:01:34.418142] target_amount: 308.73916925775
+[Binance 2022-01-26 09:01:34.839956] ATOM/USDT-mom7: -0.06204389108315241
+[Binance 2022-01-26 09:01:35.262697] ATOM/USDT-mom20: -0.07209212058481049
+[Binance 2022-01-26 09:01:35.706682] ATOM/USDT-leverage: 0
+[Binance 2022-01-26 09:01:36.126246] DOGE/USDT-mom7: -0.1353497393623469
+[Binance 2022-01-26 09:01:36.558210] DOGE/USDT-mom20: -0.10209605337697496
+[Binance 2022-01-26 09:01:36.978515] DOGE/USDT-leverage: 0
+[Binance 2022-01-26 09:01:37.397940] BTC/USDT-mom7: -0.12762467765044672
+[Binance 2022-01-26 09:01:38.032644] BTC/USDT-mom20: -0.14940528569938202
+[Binance 2022-01-26 09:01:38.454743] BTC/USDT-leverage: 0
+[Binance 2022-01-26 09:01:38.877783] ADA/USDT-mom7: -0.2855182822254235
+[Binance 2022-01-26 09:01:39.297675] ADA/USDT-mom20: -0.15304545824184754
+[Binance 2022-01-26 09:01:39.723285] ADA/USDT-leverage: 0
+[Binance 2022-01-26 09:01:40.147358] End trading
+[Binance 2022-01-27 09:01:02.928363] Start trading...
+[Binance 2022-01-27 09:01:04.723936] Cancled all orders
+[Binance 2022-01-27 09:01:36.273428] target coins: ['DOGE/USDT', 'BTC/USDT', 'ADA/USDT', 'ATOM/USDT']
+[Binance 2022-01-27 09:01:36.817107] target_amount: 308.73916925775
+[Binance 2022-01-27 09:01:37.243395] DOGE/USDT-mom7: -0.11410351659237247
+[Binance 2022-01-27 09:01:37.661078] DOGE/USDT-mom20: -0.10501626219664749
+[Binance 2022-01-27 09:01:38.071485] DOGE/USDT-leverage: 0
+[Binance 2022-01-27 09:01:38.499401] BTC/USDT-mom7: -0.11691566711612132
+[Binance 2022-01-27 09:01:38.975997] BTC/USDT-mom20: -0.14606728271418695
+[Binance 2022-01-27 09:01:39.450048] BTC/USDT-leverage: 0
+[Binance 2022-01-27 09:01:40.003483] ADA/USDT-mom7: -0.19366434509099076
+[Binance 2022-01-27 09:01:40.416562] ADA/USDT-mom20: -0.15803878636221455
+[Binance 2022-01-27 09:01:40.834897] ADA/USDT-leverage: 0
+[Binance 2022-01-27 09:01:41.268240] ATOM/USDT-mom7: -0.12637496283884206
+[Binance 2022-01-27 09:01:41.700481] ATOM/USDT-mom20: -0.19276296074318236
+[Binance 2022-01-27 09:01:42.117827] ATOM/USDT-leverage: 0
+[Binance 2022-01-27 09:01:42.541636] End trading
+[Binance 2022-01-28 09:01:04.244219] Start trading...
+[Binance 2022-01-28 09:01:05.973431] Cancled all orders
+[Binance 2022-01-28 09:01:36.352328] target coins: ['DOGE/USDT', 'BTC/USDT', 'BNB/USDT', 'ADA/USDT']
+[Binance 2022-01-29 09:01:02.061203] Start trading...
+[Binance 2022-01-29 09:01:03.947073] Cancled all orders
+[Binance 2022-01-29 09:01:33.333726] target coins: ['DOGE/USDT', 'FTM/USDT', 'BTC/USDT', 'BNB/USDT']
+[Binance 2022-01-29 09:01:33.921381] target_amount: 308.73916925775
+[Binance 2022-01-29 09:01:34.378247] DOGE/USDT-mom7: -0.003805765029247903
+[Binance 2022-01-29 09:01:34.837530] DOGE/USDT-mom20: -0.0635351795415396
+[Binance 2022-01-29 09:01:35.287533] DOGE/USDT-leverage: 0
+[Binance 2022-01-29 09:01:35.819119] FTM/USDT-mom7: -0.06546046839232253
+[Binance 2022-01-29 09:01:36.286941] FTM/USDT-mom20: -0.07090025821698977
+[Binance 2022-01-29 09:01:36.750959] FTM/USDT-leverage: 0
+[Binance 2022-01-29 09:01:37.252804] BTC/USDT-mom7: 0.034871539489122756
+[Binance 2022-01-29 09:01:37.704947] BTC/USDT-mom20: -0.09575501852449332
+[Binance 2022-01-29 09:01:38.161467] BTC/USDT-leverage: 0
+[Binance 2022-01-29 09:01:38.613608] BNB/USDT-mom7: 0.005918085355997554
+[Binance 2022-01-29 09:01:39.067632] BNB/USDT-mom20: -0.10184129053283364
+[Binance 2022-01-29 09:01:39.529798] BNB/USDT-leverage: 0
+[Binance 2022-01-29 09:01:39.979166] End trading
+[Binance 2022-01-30 09:01:02.340143] Start trading...
+[Binance 2022-01-30 09:01:04.540217] Cancled all orders
+[Binance 2022-01-30 09:01:33.999439] target coins: ['PEOPLE/USDT', 'DOGE/USDT', 'BTC/USDT', 'ADA/USDT']
+[Binance 2022-01-30 09:01:34.553631] target_amount: 308.73916925775
+[Binance 2022-01-30 09:01:34.992493] PEOPLE/USDT-mom7: 1.4136097820308349
+[Binance 2022-01-30 09:01:35.432013] PEOPLE/USDT-mom20: 0.010910710309508001
+[Binance 2022-01-30 09:01:35.874101] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-30 09:01:36.755944] {'info': {'orderId': '332470310', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua649aa1e717939552832ae', 'price': '0', 'avgPrice': '0.08948', 'origQty': '3449', 'executedQty': '3449', 'cumQty': '3449', 'cumQuote': '308.60116', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1643500896727'}, 'id': '332470310', 'clientOrderId': 'x-xcKtGhcua649aa1e717939552832ae', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.08948, 'stopPrice': None, 'amount': 3449.0, 'cost': 308.60116, 'average': 0.08948, 'filled': 3449.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-30 09:01:37.198983] DOGE/USDT-mom7: 0.07323118521856678
+[Binance 2022-01-30 09:01:37.641970] DOGE/USDT-mom20: -0.050059832469086615
+[Binance 2022-01-30 09:01:38.079281] DOGE/USDT-leverage: 0
+[Binance 2022-01-30 09:01:38.529363] BTC/USDT-mom7: 0.08864010765977248
+[Binance 2022-01-30 09:01:39.060095] BTC/USDT-mom20: -0.08843732631928052
+[Binance 2022-01-30 09:01:39.491818] BTC/USDT-leverage: 0
+[Binance 2022-01-30 09:01:39.925973] ADA/USDT-mom7: -0.011022886501634781
+[Binance 2022-01-30 09:01:40.363001] ADA/USDT-mom20: -0.09512820512820509
+[Binance 2022-01-30 09:01:40.805601] ADA/USDT-leverage: 0
+[Binance 2022-01-30 09:01:41.286272] End trading
+[Binance 2022-01-31 09:01:02.247937] Start trading...
+[Binance 2022-01-31 09:01:04.396318] Cancled all orders
+[Binance 2022-01-31 09:01:33.758107] target coins: ['PEOPLE/USDT', 'ANT/USDT', 'ADA/USDT', 'FTM/USDT']
+[Binance 2022-01-31 09:01:34.369734] target_amount: 300.05788231800005
+[Binance 2022-01-31 09:01:34.827328] PEOPLE/USDT-mom7: 1.064102564102564
+[Binance 2022-01-31 09:01:35.305856] PEOPLE/USDT-mom20: 0.0032454887706088566
+[Binance 2022-01-31 09:01:35.819526] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-01-31 09:01:36.620091] {'info': {'orderId': '361556297', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuc9d56c078d68fd03633dd7', 'price': '0', 'avgPrice': '0.07826', 'origQty': '3835', 'executedQty': '3835', 'cumQty': '3835', 'cumQuote': '300.13648', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1643587296595'}, 'id': '361556297', 'clientOrderId': 'x-xcKtGhcuc9d56c078d68fd03633dd7', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.07826, 'stopPrice': None, 'amount': 3835.0, 'cost': 300.13648, 'average': 0.07826, 'filled': 3835.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-01-31 09:01:37.096737] ANT/USDT-mom7: 0.4618815035039288
+[Binance 2022-01-31 09:01:37.560606] ANT/USDT-mom20: -0.07485553017067592
+[Binance 2022-01-31 09:01:38.027635] ANT/USDT-leverage: 0
+[Binance 2022-01-31 09:01:38.521933] ADA/USDT-mom7: -0.07964050542801203
+[Binance 2022-01-31 09:01:38.985525] ADA/USDT-mom20: -0.07849251603706349
+[Binance 2022-01-31 09:01:39.444155] ADA/USDT-leverage: 0
+[Binance 2022-01-31 09:01:39.900381] FTM/USDT-mom7: -0.10980650835532094
+[Binance 2022-01-31 09:01:40.356286] FTM/USDT-mom20: -0.08921983262845302
+[Binance 2022-01-31 09:01:40.807952] FTM/USDT-leverage: 0
+[Binance 2022-01-31 09:01:41.292903] End trading
+[Binance 2022-02-01 09:01:02.561743] Start trading...
+[Binance 2022-02-01 09:01:05.712240] Cancled all orders
+[Binance 2022-02-01 09:01:34.934782] target coins: ['PEOPLE/USDT', 'MANA/USDT', 'DOGE/USDT', 'BTC/USDT']
+[Binance 2022-02-01 09:01:35.466802] target_amount: 316.2595230585
+[Binance 2022-02-01 09:01:35.897179] PEOPLE/USDT-mom7: 1.59584110903759
+[Binance 2022-02-01 09:01:36.339396] PEOPLE/USDT-mom20: 0.26356086166623405
+[Binance 2022-02-01 09:01:36.758310] PEOPLE/USDT-leverage: 2
+{'symbol': 'PEOPLEUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-02-01 09:01:37.545694] {'info': {'orderId': '385767667', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4b9ac143fb2fbfe8342a22', 'price': '0', 'avgPrice': '0.09682', 'origQty': '6536', 'executedQty': '6536', 'cumQty': '6536', 'cumQuote': '632.81552', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1643673697515'}, 'id': '385767667', 'clientOrderId': 'x-xcKtGhcu4b9ac143fb2fbfe8342a22', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.09682, 'stopPrice': None, 'amount': 6536.0, 'cost': 632.81552, 'average': 0.09682, 'filled': 6536.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-01 09:01:37.967555] MANA/USDT-mom7: 0.3538483712885558
+[Binance 2022-02-01 09:01:38.400287] MANA/USDT-mom20: -0.03658244726315436
+[Binance 2022-02-01 09:01:38.836511] MANA/USDT-leverage: 0
+[Binance 2022-02-01 09:01:39.256975] DOGE/USDT-mom7: 0.031345677212421624
+[Binance 2022-02-01 09:01:39.674305] DOGE/USDT-mom20: -0.0795055302537411
+[Binance 2022-02-01 09:01:40.101543] DOGE/USDT-leverage: 0
+[Binance 2022-02-01 09:01:40.530899] BTC/USDT-mom7: 0.048862553280083126
+[Binance 2022-02-01 09:01:40.945203] BTC/USDT-mom20: -0.09980262609401067
+[Binance 2022-02-01 09:01:41.377951] BTC/USDT-leverage: 0
+[Binance 2022-02-01 09:01:41.809692] End trading
+[Binance 2022-02-02 09:01:02.075623] Start trading...
+[Binance 2022-02-02 09:01:04.005826] Cancled all orders
+[Binance 2022-02-02 09:01:34.159248] target coins: ['PEOPLE/USDT', 'BTC/USDT', 'MANA/USDT', 'ADA/USDT']
+[Binance 2022-02-02 09:01:34.738593] target_amount: 300.92653845
+[Binance 2022-02-02 09:01:35.169276] PEOPLE/USDT-mom7: 1.1492760858711932
+[Binance 2022-02-02 09:01:35.609069] PEOPLE/USDT-mom20: 0.05012806439809736
+[Binance 2022-02-02 09:01:36.036556] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-02 09:01:36.968448] {'info': {'orderId': '406118481', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua0908551334c9079016146', 'price': '0', 'avgPrice': '0.08648', 'origQty': '3479', 'executedQty': '3479', 'cumQty': '3479', 'cumQuote': '300.86658', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1643760097028'}, 'id': '406118481', 'clientOrderId': 'x-xcKtGhcua0908551334c9079016146', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.08648, 'stopPrice': None, 'amount': 3479.0, 'cost': 300.86658, 'average': 0.08648, 'filled': 3479.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-02 09:01:37.400287] BTC/USDT-mom7: 0.04727995091819898
+[Binance 2022-02-02 09:01:37.841538] BTC/USDT-mom20: -0.11850785493036575
+[Binance 2022-02-02 09:01:38.272869] BTC/USDT-leverage: 0
+[Binance 2022-02-02 09:01:38.709587] MANA/USDT-mom7: 0.27656130997715156
+[Binance 2022-02-02 09:01:39.136962] MANA/USDT-mom20: -0.13041504539559018
+[Binance 2022-02-02 09:01:39.579979] MANA/USDT-leverage: 0
+[Binance 2022-02-02 09:01:40.032942] ADA/USDT-mom7: 0.05098415746519436
+[Binance 2022-02-02 09:01:40.478189] ADA/USDT-mom20: -0.16582837982014936
+[Binance 2022-02-02 09:01:40.905237] ADA/USDT-leverage: 0
+[Binance 2022-02-02 09:01:41.340219] End trading
+[Binance 2022-02-03 09:01:02.377311] Start trading...
+[Binance 2022-02-03 09:01:04.545394] Cancled all orders
+[Binance 2022-02-03 09:01:34.570122] target coins: ['PEOPLE/USDT', 'XTZ/USDT', 'MANA/USDT', 'BTC/USDT']
+[Binance 2022-02-03 09:01:35.149601] target_amount: 294.77631282975
+[Binance 2022-02-03 09:01:35.578734] PEOPLE/USDT-mom7: 0.7937885361954782
+[Binance 2022-02-03 09:01:35.997045] PEOPLE/USDT-mom20: -0.009582650359349522
+[Binance 2022-02-03 09:01:36.415049] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-03 09:01:37.216366] {'info': {'orderId': '427883307', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcud44f2c16db0248d58df285', 'price': '0', 'avgPrice': '0.07899', 'origQty': '3734', 'executedQty': '3734', 'cumQty': '3734', 'cumQuote': '294.94866', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1643846497240'}, 'id': '427883307', 'clientOrderId': 'x-xcKtGhcud44f2c16db0248d58df285', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.07899, 'stopPrice': None, 'amount': 3734.0, 'cost': 294.94866, 'average': 0.07899, 'filled': 3734.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-03 09:01:37.632885] XTZ/USDT-mom7: 0.2732518669382212
+[Binance 2022-02-03 09:01:38.048516] XTZ/USDT-mom20: -0.08889968423609426
+[Binance 2022-02-03 09:01:38.464498] XTZ/USDT-leverage: 0
+[Binance 2022-02-03 09:01:38.880027] MANA/USDT-mom7: 0.17676767676767674
+[Binance 2022-02-03 09:01:39.297691] MANA/USDT-mom20: -0.12363699102829546
+[Binance 2022-02-03 09:01:39.710581] MANA/USDT-leverage: 0
+[Binance 2022-02-03 09:01:40.124683] BTC/USDT-mom7: 0.0028433625289942394
+[Binance 2022-02-03 09:01:40.538216] BTC/USDT-mom20: -0.13265264379447
+[Binance 2022-02-03 09:01:40.958121] BTC/USDT-leverage: 0
+[Binance 2022-02-03 09:01:41.374322] End trading
+[Binance 2022-02-04 09:01:02.042429] Start trading...
+[Binance 2022-02-04 09:01:04.455778] Cancled all orders
+[Binance 2022-02-04 09:01:34.556119] target coins: ['PEOPLE/USDT', 'MANA/USDT', 'XTZ/USDT', 'BTC/USDT']
+[Binance 2022-02-04 09:01:35.152937] target_amount: 293.58414446849997
+[Binance 2022-02-04 09:01:35.612459] PEOPLE/USDT-mom7: 0.4334993543626637
+[Binance 2022-02-04 09:01:36.053856] PEOPLE/USDT-mom20: -0.015955426111181427
+[Binance 2022-02-04 09:01:36.587667] PEOPLE/USDT-leverage: 0
+[Binance 2022-02-04 09:01:37.109577] MANA/USDT-mom7: 0.1903746167177709
+[Binance 2022-02-04 09:01:37.720153] MANA/USDT-mom20: -0.09408502147519361
+[Binance 2022-02-04 09:01:38.158708] MANA/USDT-leverage: 0
+[Binance 2022-02-04 09:01:39.303729] XTZ/USDT-mom7: 0.3216132368148915
+[Binance 2022-02-04 09:01:39.752069] XTZ/USDT-mom20: -0.10566829951014692
+[Binance 2022-02-04 09:01:40.191466] XTZ/USDT-leverage: 0
+[Binance 2022-02-04 09:01:40.634253] BTC/USDT-mom7: 0.004278365786000931
+[Binance 2022-02-04 09:01:41.076633] BTC/USDT-mom20: -0.1336482166421947
+[Binance 2022-02-04 09:01:41.514006] BTC/USDT-leverage: 0
+[Binance 2022-02-04 09:01:41.951795] End trading
+[Binance 2022-02-05 09:01:04.202325] Start trading...
+[Binance 2022-02-05 09:01:06.121808] Cancled all orders
+[Binance 2022-02-05 09:01:35.481024] target coins: ['PEOPLE/USDT', 'BTC/USDT', 'MANA/USDT', 'ETH/USDT']
+[Binance 2022-02-05 09:01:36.038364] target_amount: 348.706122759
+[Binance 2022-02-05 09:01:36.474448] PEOPLE/USDT-mom7: 0.4072637517630466
+[Binance 2022-02-05 09:01:36.909423] PEOPLE/USDT-mom20: 0.0563790365272631
+[Binance 2022-02-05 09:01:37.342032] PEOPLE/USDT-leverage: 0
+[Binance 2022-02-05 09:01:37.772947] BTC/USDT-mom7: 0.10223282393641167
+[Binance 2022-02-05 09:01:38.241210] BTC/USDT-mom20: -0.03530280927715975
+[Binance 2022-02-05 09:01:38.686858] BTC/USDT-leverage: 0
+[Binance 2022-02-05 09:01:39.124677] MANA/USDT-mom7: 0.2331094429079416
+[Binance 2022-02-05 09:01:39.558180] MANA/USDT-mom20: -0.06028570472717545
+[Binance 2022-02-05 09:01:39.992571] MANA/USDT-leverage: 0
+[Binance 2022-02-05 09:01:40.424857] ETH/USDT-mom7: 0.17705458177042782
+[Binance 2022-02-05 09:01:40.899985] ETH/USDT-mom20: -0.09939682014410134
+[Binance 2022-02-05 09:01:41.335536] ETH/USDT-leverage: 0
+[Binance 2022-02-05 09:01:41.790427] End trading
+[Binance 2022-02-06 09:01:02.624841] Start trading...
+[Binance 2022-02-06 09:01:04.344672] Cancled all orders
+[Binance 2022-02-06 09:01:34.364829] target coins: ['PEOPLE/USDT', 'MANA/USDT', 'BTC/USDT', 'ETH/USDT']
+[Binance 2022-02-06 09:01:34.896238] target_amount: 348.706122759
+[Binance 2022-02-06 09:01:35.315866] PEOPLE/USDT-mom7: 0.19955947136563873
+[Binance 2022-02-06 09:01:35.740561] PEOPLE/USDT-mom20: 0.3615
+[Binance 2022-02-06 09:01:36.165637] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-06 09:01:37.055484] {'info': {'orderId': '494237113', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue3179b2cb0d389e1d3c45c', 'price': '0', 'avgPrice': '0.10888', 'origQty': '3201', 'executedQty': '3201', 'cumQty': '3201', 'cumQuote': '348.52488', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644105697149'}, 'id': '494237113', 'clientOrderId': 'x-xcKtGhcue3179b2cb0d389e1d3c45c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.10888, 'stopPrice': None, 'amount': 3201.0, 'cost': 348.52488, 'average': 0.10888, 'filled': 3201.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-06 09:01:37.478727] MANA/USDT-mom7: 0.271414700046439
+[Binance 2022-02-06 09:01:37.901594] MANA/USDT-mom20: -0.03372156447524618
+[Binance 2022-02-06 09:01:38.329703] MANA/USDT-leverage: 0
+[Binance 2022-02-06 09:01:38.751047] BTC/USDT-mom7: 0.08452632122507962
+[Binance 2022-02-06 09:01:39.378387] BTC/USDT-mom20: -0.039153371081632304
+[Binance 2022-02-06 09:01:39.792977] BTC/USDT-leverage: 0
+[Binance 2022-02-06 09:01:40.210468] ETH/USDT-mom7: 0.15833057685946603
+[Binance 2022-02-06 09:01:40.631552] ETH/USDT-mom20: -0.09980600749068139
+[Binance 2022-02-06 09:01:41.051319] ETH/USDT-leverage: 0
+[Binance 2022-02-06 09:01:41.493438] End trading
+[Binance 2022-02-07 09:01:02.160036] Start trading...
+[Binance 2022-02-07 09:01:04.292953] Cancled all orders
+[Binance 2022-02-07 09:01:33.666853] target coins: ['PEOPLE/USDT', 'MANA/USDT', 'GALA/USDT', 'SAND/USDT']
+[Binance 2022-02-07 09:01:34.212295] target_amount: 337.4519179095
+[Binance 2022-02-07 09:01:34.635011] PEOPLE/USDT-mom7: 0.20173395445134565
+[Binance 2022-02-07 09:01:35.049228] PEOPLE/USDT-mom20: 0.3740198254179612
+[Binance 2022-02-07 09:01:35.469382] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-07 09:01:36.479790] {'info': {'orderId': '514095374', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu73692f3fa364431c84eb84', 'price': '0', 'avgPrice': '0.09326', 'origQty': '3617', 'executedQty': '3617', 'cumQty': '3617', 'cumQuote': '337.32142', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644192096473'}, 'id': '514095374', 'clientOrderId': 'x-xcKtGhcu73692f3fa364431c84eb84', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.09326, 'stopPrice': None, 'amount': 3617.0, 'cost': 337.32142, 'average': 0.09326, 'filled': 3617.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-07 09:01:37.094058] MANA/USDT-mom7: 0.31853420716112524
+[Binance 2022-02-07 09:01:37.545288] MANA/USDT-mom20: 0.13728801875086183
+[Binance 2022-02-07 09:01:37.969576] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-07 09:01:38.845904] {'info': {'orderId': '4251939675', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua0c2e080db3c96d5197a57', 'price': '0', 'avgPrice': '3.2991', 'origQty': '102', 'executedQty': '102', 'cumQty': '102', 'cumQuote': '336.5082', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644192098831'}, 'id': '4251939675', 'clientOrderId': 'x-xcKtGhcua0c2e080db3c96d5197a57', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.2991, 'stopPrice': None, 'amount': 102.0, 'cost': 336.5082, 'average': 3.2991, 'filled': 102.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-07 09:01:39.285541] GALA/USDT-mom7: 0.6888560418096394
+[Binance 2022-02-07 09:01:39.702439] GALA/USDT-mom20: 0.051365473725722095
+[Binance 2022-02-07 09:01:40.118445] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-07 09:01:40.891253] {'info': {'orderId': '2883847468', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf7f743ac9ee11e50c6bfe8', 'price': '0', 'avgPrice': '0.31921', 'origQty': '1057', 'executedQty': '1057', 'cumQty': '1057', 'cumQuote': '337.40497', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644192100881'}, 'id': '2883847468', 'clientOrderId': 'x-xcKtGhcuf7f743ac9ee11e50c6bfe8', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.31921, 'stopPrice': None, 'amount': 1057.0, 'cost': 337.40497, 'average': 0.31921, 'filled': 1057.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-07 09:01:41.309285] SAND/USDT-mom7: 0.20580440656828103
+[Binance 2022-02-07 09:01:41.909276] SAND/USDT-mom20: 0.00871587549991321
+[Binance 2022-02-07 09:01:42.323564] SAND/USDT-leverage: 0
+[Binance 2022-02-07 09:01:42.736723] End trading
+[Binance 2022-02-08 09:01:02.234355] Start trading...
+[Binance 2022-02-08 09:01:05.429799] Cancled all orders
+[Binance 2022-02-08 09:01:35.804177] target coins: ['PEOPLE/USDT', 'GALA/USDT', '1000SHIB/USDT', 'MANA/USDT']
+[Binance 2022-02-08 09:01:36.491712] target_amount: 341.415475443
+[Binance 2022-02-08 09:01:36.943964] PEOPLE/USDT-mom7: -0.07486905617746745
+[Binance 2022-02-08 09:01:37.388116] PEOPLE/USDT-mom20: 0.42802790107799615
+[Binance 2022-02-08 09:01:37.825758] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-08 09:01:38.714471] {'info': {'orderId': '534487755', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua94c3e8e45d4c0cae8b779', 'price': '0', 'avgPrice': '0.09019', 'origQty': '3786', 'executedQty': '3786', 'cumQty': '3786', 'cumQuote': '341.45934', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644278498759'}, 'id': '534487755', 'clientOrderId': 'x-xcKtGhcua94c3e8e45d4c0cae8b779', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.09019, 'stopPrice': None, 'amount': 3786.0, 'cost': 341.45934, 'average': 0.09019, 'filled': 3786.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-08 09:01:39.222252] GALA/USDT-mom7: 0.7585805995046251
+[Binance 2022-02-08 09:01:39.659350] GALA/USDT-mom20: 0.16001467106798697
+[Binance 2022-02-08 09:01:40.119487] GALA/USDT-leverage: 2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-08 09:01:40.923908] {'info': {'orderId': '2940791747', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf216c4f64de41acbeac077', 'price': '0', 'avgPrice': '0.34835', 'origQty': '1960', 'executedQty': '1960', 'cumQty': '1960', 'cumQuote': '682.76600', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644278500968'}, 'id': '2940791747', 'clientOrderId': 'x-xcKtGhcuf216c4f64de41acbeac077', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.34835, 'stopPrice': None, 'amount': 1960.0, 'cost': 682.766, 'average': 0.34835, 'filled': 1960.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-08 09:01:41.369347] 1000SHIB/USDT-mom7: 0.5189973861090368
+[Binance 2022-02-08 09:01:41.826980] 1000SHIB/USDT-mom20: 0.16001283239466754
+[Binance 2022-02-08 09:01:42.267056] 1000SHIB/USDT-leverage: 2
+{'symbol': '1000SHIBUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-09 09:01:02.505223] Start trading...
+[Binance 2022-02-09 09:01:04.993406] Cancled all orders
+[Binance 2022-02-09 09:01:34.499008] target coins: ['PEOPLE/USDT', 'GALA/USDT', 'MANA/USDT', 'XRP/USDT']
+[Binance 2022-02-09 09:01:35.067449] target_amount: 347.39769824325003
+[Binance 2022-02-09 09:01:35.508819] PEOPLE/USDT-mom7: -0.07328687572590008
+[Binance 2022-02-09 09:01:35.991965] PEOPLE/USDT-mom20: 0.38861816916115566
+[Binance 2022-02-09 09:01:36.439918] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-09 09:01:37.284585] {'info': {'orderId': '554050574', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu9d7ebb4cf3e5d76e959a5a', 'price': '0', 'avgPrice': '0.08002', 'origQty': '4340', 'executedQty': '4340', 'cumQty': '4340', 'cumQuote': '347.29954', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644364897266'}, 'id': '554050574', 'clientOrderId': 'x-xcKtGhcu9d7ebb4cf3e5d76e959a5a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.08002, 'stopPrice': None, 'amount': 4340.0, 'cost': 347.29954, 'average': 0.08002, 'filled': 4340.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-09 09:01:37.725575] GALA/USDT-mom7: 0.8534163908896244
+[Binance 2022-02-09 09:01:38.165369] GALA/USDT-mom20: 0.37066762641713163
+[Binance 2022-02-09 09:01:38.677578] GALA/USDT-leverage: 2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-09 09:01:39.447557] {'info': {'orderId': '2989414650', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcucbf2e2005a77b5bcdd83d8', 'price': '0', 'avgPrice': '0.38724', 'origQty': '1795', 'executedQty': '1795', 'cumQty': '1795', 'cumQuote': '695.08965', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644364899428'}, 'id': '2989414650', 'clientOrderId': 'x-xcKtGhcucbf2e2005a77b5bcdd83d8', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.38724, 'stopPrice': None, 'amount': 1795.0, 'cost': 695.08965, 'average': 0.38724, 'filled': 1795.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-09 09:01:39.897634] MANA/USDT-mom7: 0.29278842568424196
+[Binance 2022-02-09 09:01:40.338429] MANA/USDT-mom20: 0.2699168528625325
+[Binance 2022-02-09 09:01:40.814630] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-09 09:01:41.655214] {'info': {'orderId': '4305290135', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue38ba907afea8e31416f57', 'price': '0', 'avgPrice': '3.4730', 'origQty': '100', 'executedQty': '100', 'cumQty': '100', 'cumQuote': '347.3000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644364901634'}, 'id': '4305290135', 'clientOrderId': 'x-xcKtGhcue38ba907afea8e31416f57', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.473, 'stopPrice': None, 'amount': 100.0, 'cost': 347.3, 'average': 3.473, 'filled': 100.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-09 09:01:42.109222] XRP/USDT-mom7: 0.39410828025477695
+[Binance 2022-02-09 09:01:42.547735] XRP/USDT-mom20: 0.1864751321317251
+[Binance 2022-02-09 09:01:43.015821] XRP/USDT-leverage: 1
+{'symbol': 'XRPUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-09 09:01:43.898120] {'info': {'orderId': '19497103755', 'symbol': 'XRPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu742a52489e362bfe52f501', 'price': '0', 'avgPrice': '0.87830', 'origQty': '395', 'executedQty': '395', 'cumQty': '395', 'cumQuote': '346.92850', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644364903875'}, 'id': '19497103755', 'clientOrderId': 'x-xcKtGhcu742a52489e362bfe52f501', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'XRP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.8783, 'stopPrice': None, 'amount': 395.0, 'cost': 346.9285, 'average': 0.8783, 'filled': 395.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-09 09:01:44.345104] End trading
+[Binance 2022-02-10 09:01:02.724401] Start trading...
+[Binance 2022-02-10 09:01:05.755325] Cancled all orders
+[Binance 2022-02-10 09:01:35.855561] target coins: ['PEOPLE/USDT', 'GALA/USDT', 'KEEP/USDT', 'MANA/USDT']
+[Binance 2022-02-10 09:01:36.402598] target_amount: 336.501610506
+[Binance 2022-02-10 09:01:36.843138] PEOPLE/USDT-mom7: 0.09586250795671558
+[Binance 2022-02-10 09:01:37.261137] PEOPLE/USDT-mom20: 0.6290688872066618
+[Binance 2022-02-10 09:01:37.675879] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-10 09:01:38.605947] {'info': {'orderId': '570861872', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcudce52491930451fa068ce7', 'price': '0', 'avgPrice': '0.08631', 'origQty': '3899', 'executedQty': '3899', 'cumQty': '3899', 'cumQuote': '336.52269', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644451298708'}, 'id': '570861872', 'clientOrderId': 'x-xcKtGhcudce52491930451fa068ce7', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.08631, 'stopPrice': None, 'amount': 3899.0, 'cost': 336.52269, 'average': 0.08631, 'filled': 3899.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-10 09:01:39.021043] GALA/USDT-mom7: 0.9230397422126745
+[Binance 2022-02-10 09:01:39.470906] GALA/USDT-mom20: 0.37028816348398463
+[Binance 2022-02-10 09:01:39.908286] GALA/USDT-leverage: 2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-10 09:01:40.702400] {'info': {'orderId': '3036379719', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcubdaa85be84a4e57643a811', 'price': '0', 'avgPrice': '0.35591', 'origQty': '1891', 'executedQty': '1891', 'cumQty': '1891', 'cumQuote': '673.02581', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644451300806'}, 'id': '3036379719', 'clientOrderId': 'x-xcKtGhcubdaa85be84a4e57643a811', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.35591, 'stopPrice': None, 'amount': 1891.0, 'cost': 673.02581, 'average': 0.35591, 'filled': 1891.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-10 09:01:41.181893] KEEP/USDT-mom7: 0.754066985645933
+[Binance 2022-02-10 09:01:41.601199] KEEP/USDT-mom20: 0.29198237885462547
+[Binance 2022-02-10 09:01:42.022390] KEEP/USDT-leverage: 2
+{'symbol': 'KEEPUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-02-10 09:01:42.894525] {'info': {'orderId': '784801655', 'symbol': 'KEEPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5163349e8f50634ca40bc', 'price': '0', 'avgPrice': '0.7277', 'origQty': '925', 'executedQty': '925', 'cumQty': '925', 'cumQuote': '673.1469', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644451302998'}, 'id': '784801655', 'clientOrderId': 'x-xcKtGhcu5163349e8f50634ca40bc', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'KEEP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.7277, 'stopPrice': None, 'amount': 925.0, 'cost': 673.1469, 'average': 0.7277, 'filled': 925.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-10 09:01:43.309879] MANA/USDT-mom7: 0.3160215773516557
+[Binance 2022-02-10 09:01:43.727529] MANA/USDT-mom20: 0.2706432481751825
+[Binance 2022-02-10 09:01:44.142472] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-10 09:01:44.985764] {'info': {'orderId': '4331168793', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu2042bf9764b162b9bda854', 'price': '0', 'avgPrice': '3.3306', 'origQty': '101', 'executedQty': '101', 'cumQty': '101', 'cumQuote': '336.3906', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644451305088'}, 'id': '4331168793', 'clientOrderId': 'x-xcKtGhcu2042bf9764b162b9bda854', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.3306, 'stopPrice': None, 'amount': 101.0, 'cost': 336.3906, 'average': 3.3306, 'filled': 101.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-10 09:01:45.400480] End trading
+[Binance 2022-02-11 09:01:02.256321] Start trading...
+[Binance 2022-02-11 09:01:05.274597] Cancled all orders
+[Binance 2022-02-11 09:01:35.246785] target coins: ['PEOPLE/USDT', 'GALA/USDT', 'MANA/USDT', '1000SHIB/USDT']
+[Binance 2022-02-11 09:01:35.790104] target_amount: 296.1611322435
+[Binance 2022-02-11 09:01:36.218971] PEOPLE/USDT-mom7: -0.04233689357869002
+[Binance 2022-02-11 09:01:36.631002] PEOPLE/USDT-mom20: 0.7880826525708795
+[Binance 2022-02-11 09:01:37.089600] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-11 09:01:37.930761] {'info': {'orderId': '588936889', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu36b41ef97e91c2b0cf6ff9', 'price': '0', 'avgPrice': '0.07396', 'origQty': '4003', 'executedQty': '4003', 'cumQty': '4003', 'cumQuote': '296.06188', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644537697924'}, 'id': '588936889', 'clientOrderId': 'x-xcKtGhcu36b41ef97e91c2b0cf6ff9', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.07396, 'stopPrice': None, 'amount': 4003.0, 'cost': 296.06188, 'average': 0.07396, 'filled': 4003.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-11 09:01:38.397520] GALA/USDT-mom7: 0.748196440976861
+[Binance 2022-02-11 09:01:38.824812] GALA/USDT-mom20: 0.5178397438871618
+[Binance 2022-02-11 09:01:39.276823] GALA/USDT-leverage: 2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-11 09:01:40.184611] {'info': {'orderId': '3079825165', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8d4cf18466344ef88caa51', 'price': '0', 'avgPrice': '0.32646', 'origQty': '1814', 'executedQty': '1814', 'cumQty': '1814', 'cumQuote': '592.19844', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644537700177'}, 'id': '3079825165', 'clientOrderId': 'x-xcKtGhcu8d4cf18466344ef88caa51', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.32646, 'stopPrice': None, 'amount': 1814.0, 'cost': 592.19844, 'average': 0.32646, 'filled': 1814.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-11 09:01:40.609292] MANA/USDT-mom7: 0.1704931496621496
+[Binance 2022-02-11 09:01:41.024099] MANA/USDT-mom20: 0.4141259245895725
+[Binance 2022-02-11 09:01:41.440418] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-11 09:01:42.337102] {'info': {'orderId': '4355919737', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcud59df80c83d70f23e2179', 'price': '0', 'avgPrice': '3.1304', 'origQty': '95', 'executedQty': '95', 'cumQty': '95', 'cumQuote': '297.3880', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644537702328'}, 'id': '4355919737', 'clientOrderId': 'x-xcKtGhcud59df80c83d70f23e2179', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.1304, 'stopPrice': None, 'amount': 95.0, 'cost': 297.388, 'average': 3.1304, 'filled': 95.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-11 09:01:42.768952] 1000SHIB/USDT-mom7: 0.4859209257473481
+[Binance 2022-02-11 09:01:43.183712] 1000SHIB/USDT-mom20: 0.3874482261840448
+[Binance 2022-02-11 09:01:43.611445] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-12 09:01:02.789624] Start trading...
+[Binance 2022-02-12 09:01:05.546070] Cancled all orders
+[Binance 2022-02-12 09:01:35.065278] target coins: ['PEOPLE/USDT', 'GALA/USDT', 'EGLD/USDT', 'MANA/USDT']
+[Binance 2022-02-12 09:01:35.670564] target_amount: 274.5370043235
+[Binance 2022-02-12 09:01:36.126050] PEOPLE/USDT-mom7: -0.18103232272613384
+[Binance 2022-02-12 09:01:36.580432] PEOPLE/USDT-mom20: 0.737639553429027
+[Binance 2022-02-12 09:01:37.039965] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-12 09:01:37.872718] {'info': {'orderId': '605521187', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue1dbbd80bb3bd16b0c340c', 'price': '0', 'avgPrice': '0.06528', 'origQty': '4204', 'executedQty': '4204', 'cumQty': '4204', 'cumQuote': '274.42463', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644624097975'}, 'id': '605521187', 'clientOrderId': 'x-xcKtGhcue1dbbd80bb3bd16b0c340c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.06528, 'stopPrice': None, 'amount': 4204.0, 'cost': 274.42463, 'average': 0.06528, 'filled': 4204.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-12 09:01:38.330621] GALA/USDT-mom7: 0.5180041662533479
+[Binance 2022-02-12 09:01:38.782034] GALA/USDT-mom20: 0.6889796368853816
+[Binance 2022-02-12 09:01:39.233800] GALA/USDT-leverage: 2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-02-12 09:01:40.099218] {'info': {'orderId': '3120124410', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8215b672d3e451d1886e0a', 'price': '0', 'avgPrice': '0.30607', 'origQty': '1793', 'executedQty': '1793', 'cumQty': '1793', 'cumQuote': '548.78766', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644624100201'}, 'id': '3120124410', 'clientOrderId': 'x-xcKtGhcu8215b672d3e451d1886e0a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.30607, 'stopPrice': None, 'amount': 1793.0, 'cost': 548.78766, 'average': 0.30607, 'filled': 1793.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-12 09:01:40.567178] EGLD/USDT-mom7: 0.26443057722308894
+[Binance 2022-02-12 09:01:41.034185] EGLD/USDT-mom20: 0.5525580652885306
+[Binance 2022-02-12 09:01:41.486550] EGLD/USDT-leverage: 1
+{'symbol': 'EGLDUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-12 09:01:42.307864] {'info': {'orderId': '2977193177', 'symbol': 'EGLDUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu2feffa5a7fd126ba641e73', 'price': '0', 'avgPrice': '194.2593', 'origQty': '1.4', 'executedQty': '1.4', 'cumQty': '1.4', 'cumQuote': '271.9630', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644624102411'}, 'id': '2977193177', 'clientOrderId': 'x-xcKtGhcu2feffa5a7fd126ba641e73', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'EGLD/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 194.2593, 'stopPrice': None, 'amount': 1.4, 'cost': 271.963, 'average': 194.2593, 'filled': 1.4, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-12 09:01:42.759795] MANA/USDT-mom7: 0.03841361387019826
+[Binance 2022-02-12 09:01:43.214819] MANA/USDT-mom20: 0.4329648734954557
+[Binance 2022-02-12 09:01:43.662552] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-12 09:01:44.548264] {'info': {'orderId': '4380473543', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu2db924cf41ed4c4c631bc4', 'price': '0', 'avgPrice': '2.9098', 'origQty': '94', 'executedQty': '94', 'cumQty': '94', 'cumQuote': '273.5212', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644624104652'}, 'id': '4380473543', 'clientOrderId': 'x-xcKtGhcu2db924cf41ed4c4c631bc4', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.9098, 'stopPrice': None, 'amount': 94.0, 'cost': 273.5212, 'average': 2.9098, 'filled': 94.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-12 09:01:44.998507] End trading
+[Binance 2022-02-13 09:01:02.577390] Start trading...
+[Binance 2022-02-13 09:01:05.565216] Cancled all orders
+[Binance 2022-02-13 09:01:35.765910] target coins: ['PEOPLE/USDT', 'GALA/USDT', 'EGLD/USDT', 'THETA/USDT']
+[Binance 2022-02-13 09:01:36.309804] target_amount: 280.20166120125
+[Binance 2022-02-13 09:01:36.733842] PEOPLE/USDT-mom7: -0.37320969518912966
+[Binance 2022-02-13 09:01:37.148195] PEOPLE/USDT-mom20: 0.8234508547008546
+[Binance 2022-02-13 09:01:37.564537] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-13 09:01:38.371079] {'info': {'orderId': '622259207', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuc8817823f7f18f6c975c69', 'price': '0', 'avgPrice': '0.06810', 'origQty': '4115', 'executedQty': '4115', 'cumQty': '4115', 'cumQuote': '280.23150', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644710498371'}, 'id': '622259207', 'clientOrderId': 'x-xcKtGhcuc8817823f7f18f6c975c69', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.0681, 'stopPrice': None, 'amount': 4115.0, 'cost': 280.2315, 'average': 0.0681, 'filled': 4115.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-13 09:01:38.788781] GALA/USDT-mom7: 0.057891675505525875
+[Binance 2022-02-13 09:01:39.240683] GALA/USDT-mom20: 0.5772585828699689
+[Binance 2022-02-13 09:01:39.703193] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-13 09:01:40.483348] {'info': {'orderId': '3160482894', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu83c7e25bb892d500d7f50c', 'price': '0', 'avgPrice': '0.30950', 'origQty': '905', 'executedQty': '905', 'cumQty': '905', 'cumQuote': '280.09525', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644710500484'}, 'id': '3160482894', 'clientOrderId': 'x-xcKtGhcu83c7e25bb892d500d7f50c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.3095, 'stopPrice': None, 'amount': 905.0, 'cost': 280.09525, 'average': 0.3095, 'filled': 905.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-13 09:01:40.904047] EGLD/USDT-mom7: 0.2486590994137458
+[Binance 2022-02-13 09:01:41.325468] EGLD/USDT-mom20: 0.49365860937033734
+[Binance 2022-02-13 09:01:41.745220] EGLD/USDT-leverage: 1
+{'symbol': 'EGLDUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-13 09:01:42.605833] {'info': {'orderId': '2990165559', 'symbol': 'EGLDUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu61aab0cc439b1bc3595a6c', 'price': '0', 'avgPrice': '199.6700', 'origQty': '1.4', 'executedQty': '1.4', 'cumQty': '1.4', 'cumQuote': '279.5380', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644710502603'}, 'id': '2990165559', 'clientOrderId': 'x-xcKtGhcu61aab0cc439b1bc3595a6c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'EGLD/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 199.67, 'stopPrice': None, 'amount': 1.4, 'cost': 279.538, 'average': 199.67, 'filled': 1.4, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-13 09:01:43.028840] THETA/USDT-mom7: 0.1929555895865237
+[Binance 2022-02-13 09:01:43.441632] THETA/USDT-mom20: 0.4005753326141675
+[Binance 2022-02-13 09:01:43.865274] THETA/USDT-leverage: 1
+{'symbol': 'THETAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-13 09:01:44.714913] {'info': {'orderId': '8409304195', 'symbol': 'THETAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4bd34c7c087c4512252e90', 'price': '0', 'avgPrice': '3.89400', 'origQty': '72', 'executedQty': '72', 'cumQty': '72', 'cumQuote': '280.36800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644710504715'}, 'id': '8409304195', 'clientOrderId': 'x-xcKtGhcu4bd34c7c087c4512252e90', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'THETA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.894, 'stopPrice': None, 'amount': 72.0, 'cost': 280.368, 'average': 3.894, 'filled': 72.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-13 09:01:45.140723] End trading
+[Binance 2022-02-14 09:01:02.293218] Start trading...
+[Binance 2022-02-14 09:01:05.485945] Cancled all orders
+[Binance 2022-02-14 09:01:35.786377] target coins: ['PEOPLE/USDT', 'GALA/USDT', '1000SHIB/USDT', 'SAND/USDT']
+[Binance 2022-02-14 09:01:36.345398] target_amount: 260.97684055425003
+[Binance 2022-02-14 09:01:36.776406] PEOPLE/USDT-mom7: -0.3266932270916334
+[Binance 2022-02-14 09:01:37.211011] PEOPLE/USDT-mom20: 0.6670221274326846
+[Binance 2022-02-14 09:01:37.652110] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-14 09:01:38.536765] {'info': {'orderId': '635805922', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5e3d69dd2ac4d74ed79035', 'price': '0', 'avgPrice': '0.06261', 'origQty': '4164', 'executedQty': '4164', 'cumQty': '4164', 'cumQuote': '260.69651', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644796898513'}, 'id': '635805922', 'clientOrderId': 'x-xcKtGhcu5e3d69dd2ac4d74ed79035', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.06261, 'stopPrice': None, 'amount': 4164.0, 'cost': 260.69651, 'average': 0.06261, 'filled': 4164.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-14 09:01:38.970515] GALA/USDT-mom7: -0.12337459364841212
+[Binance 2022-02-14 09:01:39.409331] GALA/USDT-mom20: 0.516765819361817
+[Binance 2022-02-14 09:01:39.856338] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-14 09:01:40.738780] {'info': {'orderId': '3195360719', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5419706a2da4b9acba1f70', 'price': '0', 'avgPrice': '0.28138', 'origQty': '927', 'executedQty': '927', 'cumQty': '927', 'cumQuote': '260.83926', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644796900714'}, 'id': '3195360719', 'clientOrderId': 'x-xcKtGhcu5419706a2da4b9acba1f70', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.28138, 'stopPrice': None, 'amount': 927.0, 'cost': 260.83926, 'average': 0.28138, 'filled': 927.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-14 09:01:41.201549] 1000SHIB/USDT-mom7: 0.05730538291372583
+[Binance 2022-02-14 09:01:41.645374] 1000SHIB/USDT-mom20: 0.421335850837857
+[Binance 2022-02-14 09:01:42.074772] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-15 09:01:02.764223] Start trading...
+[Binance 2022-02-15 09:01:05.058540] Cancled all orders
+[Binance 2022-02-15 09:01:35.358877] target coins: ['PEOPLE/USDT', 'GALA/USDT', '1000SHIB/USDT', 'MANA/USDT']
+[Binance 2022-02-15 09:01:35.907043] target_amount: 269.25701372550003
+[Binance 2022-02-15 09:01:36.339554] PEOPLE/USDT-mom7: -0.23801065719360556
+[Binance 2022-02-15 09:01:36.765712] PEOPLE/USDT-mom20: 0.7134298552171745
+[Binance 2022-02-15 09:01:37.233764] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-15 09:01:38.039280] {'info': {'orderId': '650991752', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu952b98e0709c8f519fd641', 'price': '0', 'avgPrice': '0.06861', 'origQty': '3923', 'executedQty': '3923', 'cumQty': '3923', 'cumQuote': '269.17510', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644883298099'}, 'id': '650991752', 'clientOrderId': 'x-xcKtGhcu952b98e0709c8f519fd641', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.06861, 'stopPrice': None, 'amount': 3923.0, 'cost': 269.1751, 'average': 0.06861, 'filled': 3923.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-15 09:01:38.454462] GALA/USDT-mom7: -0.1531762000574878
+[Binance 2022-02-15 09:01:38.922776] GALA/USDT-mom20: 0.5759602011340537
+[Binance 2022-02-15 09:01:39.347731] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-15 09:01:40.195397] {'info': {'orderId': '3230110430', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf3416205bd609dc9082726', 'price': '0', 'avgPrice': '0.29465', 'origQty': '914', 'executedQty': '914', 'cumQty': '914', 'cumQuote': '269.30603', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644883300257'}, 'id': '3230110430', 'clientOrderId': 'x-xcKtGhcuf3416205bd609dc9082726', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.29465, 'stopPrice': None, 'amount': 914.0, 'cost': 269.30603, 'average': 0.29465, 'filled': 914.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-15 09:01:40.655529] 1000SHIB/USDT-mom7: -0.09169406631226389
+[Binance 2022-02-15 09:01:41.126985] 1000SHIB/USDT-mom20: 0.40703541507996954
+[Binance 2022-02-15 09:01:41.539010] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-16 09:01:02.711845] Start trading...
+[Binance 2022-02-16 09:01:05.219513] Cancled all orders
+[Binance 2022-02-16 09:01:35.134641] target coins: ['GALA/USDT', 'PEOPLE/USDT', 'MANA/USDT', '1000SHIB/USDT']
+[Binance 2022-02-16 09:01:35.729724] target_amount: 285.048969993
+[Binance 2022-02-16 09:01:36.164385] GALA/USDT-mom7: -0.06506669467492916
+[Binance 2022-02-16 09:01:36.583931] GALA/USDT-mom20: 0.6948781416603199
+[Binance 2022-02-16 09:01:37.014825] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-16 09:01:37.933995] {'info': {'orderId': '3276408391', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuef2163931ba78400712923', 'price': '0', 'avgPrice': '0.35357', 'origQty': '806', 'executedQty': '806', 'cumQty': '806', 'cumQuote': '284.97742', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644969697910'}, 'id': '3276408391', 'clientOrderId': 'x-xcKtGhcuef2163931ba78400712923', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.35357, 'stopPrice': None, 'amount': 806.0, 'cost': 284.97742, 'average': 0.35357, 'filled': 806.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-16 09:01:38.359651] PEOPLE/USDT-mom7: -0.08660233111918786
+[Binance 2022-02-16 09:01:38.795619] PEOPLE/USDT-mom20: 0.664306919387988
+[Binance 2022-02-16 09:01:39.216731] PEOPLE/USDT-leverage: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-16 09:01:39.992055] {'info': {'orderId': '661921098', 'symbol': 'PEOPLEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu1f920b0fde06f29fd33ce1', 'price': '0', 'avgPrice': '0.07272', 'origQty': '3921', 'executedQty': '3921', 'cumQty': '3921', 'cumQuote': '285.13512', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644969699967'}, 'id': '661921098', 'clientOrderId': 'x-xcKtGhcu1f920b0fde06f29fd33ce1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'PEOPLE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.07272, 'stopPrice': None, 'amount': 3921.0, 'cost': 285.13512, 'average': 0.07272, 'filled': 3921.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-16 09:01:40.417518] MANA/USDT-mom7: -0.03813094894721664
+[Binance 2022-02-16 09:01:40.837138] MANA/USDT-mom20: 0.5451765360022242
+[Binance 2022-02-16 09:01:41.258503] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-16 09:01:42.179167] {'info': {'orderId': '4467047612', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu6816a3d43be2f07bc570d2', 'price': '0', 'avgPrice': '3.3140', 'origQty': '86', 'executedQty': '86', 'cumQty': '86', 'cumQuote': '285.0040', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1644969702141'}, 'id': '4467047612', 'clientOrderId': 'x-xcKtGhcu6816a3d43be2f07bc570d2', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.314, 'stopPrice': None, 'amount': 86.0, 'cost': 285.004, 'average': 3.314, 'filled': 86.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-16 09:01:42.605202] 1000SHIB/USDT-mom7: 0.008686385946783838
+[Binance 2022-02-16 09:01:43.024651] 1000SHIB/USDT-mom20: 0.48126896813353576
+[Binance 2022-02-16 09:01:43.444630] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-17 09:01:02.399306] Start trading...
+[Binance 2022-02-17 09:01:05.221928] Cancled all orders
+[Binance 2022-02-17 09:01:34.184415] target coins: ['GALA/USDT', 'AVAX/USDT', '1000SHIB/USDT', 'MANA/USDT']
+[Binance 2022-02-17 09:01:34.727743] target_amount: 277.11535389525
+[Binance 2022-02-17 09:01:35.151922] GALA/USDT-mom7: -0.07330968804982264
+[Binance 2022-02-17 09:01:35.604721] GALA/USDT-mom20: 0.7637803646414715
+[Binance 2022-02-17 09:01:36.049251] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-17 09:01:36.821737] {'info': {'orderId': '3313593256', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue399f59384c0af0f1f03b9', 'price': '0', 'avgPrice': '0.33240', 'origQty': '834', 'executedQty': '834', 'cumQty': '834', 'cumQuote': '277.22160', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645056096869'}, 'id': '3313593256', 'clientOrderId': 'x-xcKtGhcue399f59384c0af0f1f03b9', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.3324, 'stopPrice': None, 'amount': 834.0, 'cost': 277.2216, 'average': 0.3324, 'filled': 834.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-17 09:01:37.247936] AVAX/USDT-mom7: 0.058803912850155696
+[Binance 2022-02-17 09:01:37.670102] AVAX/USDT-mom20: 0.4730900092793072
+[Binance 2022-02-17 09:01:38.090665] AVAX/USDT-leverage: 1
+{'symbol': 'AVAXUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-17 09:01:38.866464] {'info': {'orderId': '7285182581', 'symbol': 'AVAXUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu7fb7c281b17b809a41a0ee', 'price': '0', 'avgPrice': '95.6300', 'origQty': '2', 'executedQty': '2', 'cumQty': '2', 'cumQuote': '191.2600', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645056098913'}, 'id': '7285182581', 'clientOrderId': 'x-xcKtGhcu7fb7c281b17b809a41a0ee', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'AVAX/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 95.63, 'stopPrice': None, 'amount': 2.0, 'cost': 191.26, 'average': 95.63, 'filled': 2.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-17 09:01:39.312833] 1000SHIB/USDT-mom7: -0.061384335154826844
+[Binance 2022-02-17 09:01:39.740110] 1000SHIB/USDT-mom20: 0.4550331780319074
+[Binance 2022-02-17 09:01:40.170767] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-18 09:01:02.302149] Start trading...
+[Binance 2022-02-18 09:01:04.703466] Cancled all orders
+[Binance 2022-02-18 09:01:34.083892] target coins: ['GALA/USDT', 'MANA/USDT', '1000SHIB/USDT', 'AVAX/USDT']
+[Binance 2022-02-18 09:01:34.644452] target_amount: 267.82146679725
+[Binance 2022-02-18 09:01:35.060909] GALA/USDT-mom7: -0.07797884697682943
+[Binance 2022-02-18 09:01:35.481194] GALA/USDT-mom20: 0.587108655616943
+[Binance 2022-02-18 09:01:35.938068] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-18 09:01:36.730733] {'info': {'orderId': '3352173448', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu1f206b7842a131de79b625', 'price': '0', 'avgPrice': '0.30088', 'origQty': '890', 'executedQty': '890', 'cumQty': '890', 'cumQuote': '267.78197', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645142496717'}, 'id': '3352173448', 'clientOrderId': 'x-xcKtGhcu1f206b7842a131de79b625', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.30088, 'stopPrice': None, 'amount': 890.0, 'cost': 267.78197, 'average': 0.30088, 'filled': 890.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-18 09:01:37.156068] MANA/USDT-mom7: -0.01884926963066925
+[Binance 2022-02-18 09:01:37.570937] MANA/USDT-mom20: 0.3504982659467053
+[Binance 2022-02-18 09:01:37.987956] MANA/USDT-leverage: 1
+{'symbol': 'MANAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-18 09:01:38.806462] {'info': {'orderId': '4520863108', 'symbol': 'MANAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu110eb5db3e5d95c8a0104e', 'price': '0', 'avgPrice': '3.0699', 'origQty': '87', 'executedQty': '87', 'cumQty': '87', 'cumQuote': '267.0813', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645142498791'}, 'id': '4520863108', 'clientOrderId': 'x-xcKtGhcu110eb5db3e5d95c8a0104e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'MANA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.0699, 'stopPrice': None, 'amount': 87.0, 'cost': 267.0813, 'average': 3.0699, 'filled': 87.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-18 09:01:39.467273] 1000SHIB/USDT-mom7: -0.08501525082743853
+[Binance 2022-02-18 09:01:39.884118] 1000SHIB/USDT-mom20: 0.3295926065635609
+[Binance 2022-02-18 09:01:40.299545] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-19 09:01:03.582321] Start trading...
+[Binance 2022-02-19 09:01:05.842283] Cancled all orders
+[Binance 2022-02-19 09:01:34.992044] target coins: ['GALA/USDT', 'NEO/USDT', '1000SHIB/USDT', 'XRP/USDT']
+[Binance 2022-02-19 09:01:35.528892] target_amount: 263.18082196125
+[Binance 2022-02-19 09:01:35.947672] GALA/USDT-mom7: -0.0538783245115337
+[Binance 2022-02-19 09:01:36.371957] GALA/USDT-mom20: 0.5065293168929816
+[Binance 2022-02-19 09:01:36.787140] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-19 09:01:37.557076] {'info': {'orderId': '3386783366', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8aa0f5df607cd4060b6e74', 'price': '0', 'avgPrice': '0.28938', 'origQty': '910', 'executedQty': '910', 'cumQty': '910', 'cumQuote': '263.33580', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645228897605'}, 'id': '3386783366', 'clientOrderId': 'x-xcKtGhcu8aa0f5df607cd4060b6e74', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.28938, 'stopPrice': None, 'amount': 910.0, 'cost': 263.3358, 'average': 0.28938, 'filled': 910.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-19 09:01:37.976299] NEO/USDT-mom7: 0.17911053034740673
+[Binance 2022-02-19 09:01:38.396596] NEO/USDT-mom20: 0.35368061662614453
+[Binance 2022-02-19 09:01:38.810267] NEO/USDT-leverage: 1
+{'symbol': 'NEOUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-19 09:01:39.654205] {'info': {'orderId': '4295376624', 'symbol': 'NEOUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu3b693808b32f4ccc5de791', 'price': '0', 'avgPrice': '26.27200', 'origQty': '10.03', 'executedQty': '10.03', 'cumQty': '10.03', 'cumQuote': '263.50816', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645228899700'}, 'id': '4295376624', 'clientOrderId': 'x-xcKtGhcu3b693808b32f4ccc5de791', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'NEO/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 26.272, 'stopPrice': None, 'amount': 10.03, 'cost': 263.50816, 'average': 26.272, 'filled': 10.03, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-19 09:01:40.085512] 1000SHIB/USDT-mom7: -0.020855130083002067
+[Binance 2022-02-19 09:01:40.503138] 1000SHIB/USDT-mom20: 0.29579544930078006
+[Binance 2022-02-19 09:01:41.231319] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-20 09:01:02.525587] Start trading...
+[Binance 2022-02-20 09:01:04.957429] Cancled all orders
+[Binance 2022-02-20 09:01:33.805102] target coins: ['GALA/USDT', 'BAND/USDT', 'XRP/USDT', '1000SHIB/USDT']
+[Binance 2022-02-20 09:01:34.424159] target_amount: 258.46545966750006
+[Binance 2022-02-20 09:01:34.877077] GALA/USDT-mom7: -0.08962126847569458
+[Binance 2022-02-20 09:01:35.329465] GALA/USDT-mom20: 0.48593147864646585
+[Binance 2022-02-20 09:01:35.797526] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-20 09:01:36.668518] {'info': {'orderId': '3419524456', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu9ca026ab1b1115e86167f5', 'price': '0', 'avgPrice': '0.28175', 'origQty': '917', 'executedQty': '917', 'cumQty': '917', 'cumQuote': '258.36409', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645315296664'}, 'id': '3419524456', 'clientOrderId': 'x-xcKtGhcu9ca026ab1b1115e86167f5', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.28175, 'stopPrice': None, 'amount': 917.0, 'cost': 258.36409, 'average': 0.28175, 'filled': 917.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-20 09:01:37.130447] BAND/USDT-mom7: 0.15564631598713707
+[Binance 2022-02-20 09:01:37.614122] BAND/USDT-mom20: 0.43188692415076774
+[Binance 2022-02-20 09:01:38.052027] BAND/USDT-leverage: 1
+{'symbol': 'BANDUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-20 09:01:38.861110] {'info': {'orderId': '8295257918', 'symbol': 'BANDUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu45f24dc8df538535857432', 'price': '0', 'avgPrice': '4.91447', 'origQty': '52.6', 'executedQty': '52.6', 'cumQty': '52.6', 'cumQuote': '258.50133', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645315298843'}, 'id': '8295257918', 'clientOrderId': 'x-xcKtGhcu45f24dc8df538535857432', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'BAND/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 4.91447, 'stopPrice': None, 'amount': 52.6, 'cost': 258.50133, 'average': 4.91447, 'filled': 52.6, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-20 09:01:39.304044] XRP/USDT-mom7: -0.0008513743614692701
+[Binance 2022-02-20 09:01:39.754124] XRP/USDT-mom20: 0.36688851913477544
+[Binance 2022-02-20 09:01:40.253893] XRP/USDT-leverage: 1
+{'symbol': 'XRPUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-20 09:01:41.196280] {'info': {'orderId': '19742971775', 'symbol': 'XRPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcud65c5ac26840b598ecbc1', 'price': '0', 'avgPrice': '0.82180', 'origQty': '315', 'executedQty': '315', 'cumQty': '315', 'cumQuote': '258.86700', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645315301190'}, 'id': '19742971775', 'clientOrderId': 'x-xcKtGhcud65c5ac26840b598ecbc1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'XRP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.8218, 'stopPrice': None, 'amount': 315.0, 'cost': 258.867, 'average': 0.8218, 'filled': 315.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-20 09:01:41.660512] 1000SHIB/USDT-mom7: -0.05751544269045986
+[Binance 2022-02-20 09:01:42.104251] 1000SHIB/USDT-mom20: 0.30377403275575593
+[Binance 2022-02-20 09:01:42.553075] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-21 09:01:01.948795] Start trading...
+[Binance 2022-02-21 09:01:04.704252] Cancled all orders
+[Binance 2022-02-21 09:01:33.741863] target coins: ['GALA/USDT', 'XRP/USDT', '1000SHIB/USDT', 'AVAX/USDT']
+[Binance 2022-02-21 09:01:34.262913] target_amount: 242.76185551125002
+[Binance 2022-02-21 09:01:34.670848] GALA/USDT-mom7: -0.10818327687644849
+[Binance 2022-02-21 09:01:35.078953] GALA/USDT-mom20: 0.2642673002072486
+[Binance 2022-02-21 09:01:35.485125] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-21 09:01:36.277298] {'info': {'orderId': '3459109435', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub9b011921378c15e90960e', 'price': '0', 'avgPrice': '0.25046', 'origQty': '969', 'executedQty': '969', 'cumQty': '969', 'cumQuote': '242.69574', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645401696303'}, 'id': '3459109435', 'clientOrderId': 'x-xcKtGhcub9b011921378c15e90960e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.25046, 'stopPrice': None, 'amount': 969.0, 'cost': 242.69574, 'average': 0.25046, 'filled': 969.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-21 09:01:36.700448] XRP/USDT-mom7: -0.03564774562166197
+[Binance 2022-02-21 09:01:37.108366] XRP/USDT-mom20: 0.2577352988822291
+[Binance 2022-02-21 09:01:37.513436] XRP/USDT-leverage: 1
+{'symbol': 'XRPUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-21 09:01:38.270094] {'info': {'orderId': '19766186295', 'symbol': 'XRPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu20ef7321aa652436659969', 'price': '0', 'avgPrice': '0.77600', 'origQty': '313', 'executedQty': '313', 'cumQty': '313', 'cumQuote': '242.88800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645401698296'}, 'id': '19766186295', 'clientOrderId': 'x-xcKtGhcu20ef7321aa652436659969', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'XRP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.776, 'stopPrice': None, 'amount': 313.0, 'cost': 242.888, 'average': 0.776, 'filled': 313.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-21 09:01:38.693201] 1000SHIB/USDT-mom7: -0.15422935139982064
+[Binance 2022-02-21 09:01:39.166092] 1000SHIB/USDT-mom20: 0.1887135922330098
+[Binance 2022-02-21 09:01:39.586088] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-22 09:01:02.526601] Start trading...
+[Binance 2022-02-22 09:01:05.140907] Cancled all orders
+[Binance 2022-02-22 09:01:34.289848] target coins: ['XRP/USDT', '1000SHIB/USDT', 'GALA/USDT', 'LUNA/USDT']
+[Binance 2022-02-22 09:01:34.843966] target_amount: 232.09242741675
+[Binance 2022-02-22 09:01:35.301475] XRP/USDT-mom7: -0.12414137629574115
+[Binance 2022-02-22 09:01:35.755271] XRP/USDT-mom20: 0.11671974522292998
+[Binance 2022-02-22 09:01:36.184333] XRP/USDT-leverage: 1
+{'symbol': 'XRPUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-22 09:01:36.993897] {'info': {'orderId': '19791869039', 'symbol': 'XRPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu1fb721b6e6e7f9e47e6abf', 'price': '0', 'avgPrice': '0.70520', 'origQty': '329', 'executedQty': '329', 'cumQty': '329', 'cumQuote': '232.01080', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645488097071'}, 'id': '19791869039', 'clientOrderId': 'x-xcKtGhcu1fb721b6e6e7f9e47e6abf', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'XRP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.7052, 'stopPrice': None, 'amount': 329.0, 'cost': 232.0108, 'average': 0.7052, 'filled': 329.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-22 09:01:37.436943] 1000SHIB/USDT-mom7: -0.18701579891065323
+[Binance 2022-02-22 09:01:37.895622] 1000SHIB/USDT-mom20: 0.10879896645595898
+[Binance 2022-02-22 09:01:38.341311] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-23 09:01:02.081576] Start trading...
+[Binance 2022-02-23 09:01:04.200358] Cancled all orders
+[Binance 2022-02-23 09:01:34.580590] target coins: ['GALA/USDT', '1000SHIB/USDT', 'XRP/USDT', 'LUNA/USDT']
+[Binance 2022-02-23 09:01:35.147995] target_amount: 233.23657763925002
+[Binance 2022-02-23 09:01:35.646365] GALA/USDT-mom7: -0.31988990619558505
+[Binance 2022-02-23 09:01:36.090452] GALA/USDT-mom20: 0.3005370569280343
+[Binance 2022-02-23 09:01:36.527016] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-23 09:01:37.344525] {'info': {'orderId': '3561582717', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu30ea3630320bedc84f365e', 'price': '0', 'avgPrice': '0.24153', 'origQty': '966', 'executedQty': '966', 'cumQty': '966', 'cumQuote': '233.31798', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645574497318'}, 'id': '3561582717', 'clientOrderId': 'x-xcKtGhcu30ea3630320bedc84f365e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.24153, 'stopPrice': None, 'amount': 966.0, 'cost': 233.31798, 'average': 0.24153, 'filled': 966.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-23 09:01:38.123255] 1000SHIB/USDT-mom7: -0.20171591382014922
+[Binance 2022-02-23 09:01:38.563229] 1000SHIB/USDT-mom20: 0.21077931536780778
+[Binance 2022-02-23 09:01:39.021099] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-24 09:01:02.608085] Start trading...
+[Binance 2022-02-24 09:01:04.797132] Cancled all orders
+[Binance 2022-02-24 09:01:34.599393] target coins: ['1000SHIB/USDT', 'LUNA/USDT', 'GALA/USDT', 'XRP/USDT']
+[Binance 2022-02-24 09:01:35.130091] target_amount: 227.89706348250002
+[Binance 2022-02-24 09:01:35.552567] 1000SHIB/USDT-mom7: -0.19648748301960026
+[Binance 2022-02-24 09:01:35.977567] 1000SHIB/USDT-mom20: 0.1978302796528447
+[Binance 2022-02-24 09:01:36.440360] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-25 09:01:02.361068] Start trading...
+[Binance 2022-02-25 09:01:04.317765] Cancled all orders
+[Binance 2022-02-25 09:01:33.569558] target coins: ['LUNA/USDT', 'GALA/USDT', '1000SHIB/USDT', 'XRP/USDT']
+[Binance 2022-02-25 09:01:34.129068] target_amount: 227.89706348250002
+[Binance 2022-02-25 09:01:34.572576] LUNA/USDT-mom7: 0.29487026424705515
+[Binance 2022-02-25 09:01:35.006578] LUNA/USDT-mom20: 0.2069924881758324
+[Binance 2022-02-25 09:01:35.442206] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-25 09:01:36.297448] {'info': {'orderId': '6608786034', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu2956b62c5a22163186ef9a', 'price': '0', 'avgPrice': '64.8360', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '194.5080', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645747296282'}, 'id': '6608786034', 'clientOrderId': 'x-xcKtGhcu2956b62c5a22163186ef9a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 64.836, 'stopPrice': None, 'amount': 3.0, 'cost': 194.508, 'average': 64.836, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-25 09:01:36.743130] GALA/USDT-mom7: -0.24609621058913245
+[Binance 2022-02-25 09:01:37.182529] GALA/USDT-mom20: 0.12786429917666897
+[Binance 2022-02-25 09:01:37.611770] GALA/USDT-leverage: 1
+{'symbol': 'GALAUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-25 09:01:38.476384] {'info': {'orderId': '3659612484', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu9d360369f6541d7a6326e3', 'price': '0', 'avgPrice': '0.22729', 'origQty': '1003', 'executedQty': '1003', 'cumQty': '1003', 'cumQuote': '227.97187', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645747298460'}, 'id': '3659612484', 'clientOrderId': 'x-xcKtGhcu9d360369f6541d7a6326e3', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.22729, 'stopPrice': None, 'amount': 1003.0, 'cost': 227.97187, 'average': 0.22729, 'filled': 1003.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-25 09:01:38.945141] 1000SHIB/USDT-mom7: -0.15554294630824883
+[Binance 2022-02-25 09:01:39.374920] 1000SHIB/USDT-mom20: 0.07275757985313323
+[Binance 2022-02-25 09:01:39.816722] 1000SHIB/USDT-leverage: 0
+[Binance 2022-02-25 09:01:40.252098] XRP/USDT-mom7: -0.09401041666666672
+[Binance 2022-02-25 09:01:40.683149] XRP/USDT-mom20: 0.06147978642257819
+[Binance 2022-02-25 09:01:41.134779] XRP/USDT-leverage: 0
+[Binance 2022-02-25 09:01:41.569036] End trading
+[Binance 2022-02-26 09:01:02.473443] Start trading...
+[Binance 2022-02-26 09:01:04.972225] Cancled all orders
+[Binance 2022-02-26 09:01:34.020354] target coins: ['LUNA/USDT', 'XRP/USDT', '1000SHIB/USDT', 'AVAX/USDT']
+[Binance 2022-02-26 09:01:34.597138] target_amount: 240.64180113375
+[Binance 2022-02-26 09:01:35.050736] LUNA/USDT-mom7: 0.4431202814340489
+[Binance 2022-02-26 09:01:35.504159] LUNA/USDT-mom20: 0.31984310606608357
+[Binance 2022-02-26 09:01:35.955705] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-26 09:01:36.822690] {'info': {'orderId': '6669188318', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu36788dbc09146f4685155a', 'price': '0', 'avgPrice': '73.1270', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '219.3810', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645833696812'}, 'id': '6669188318', 'clientOrderId': 'x-xcKtGhcu36788dbc09146f4685155a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 73.127, 'stopPrice': None, 'amount': 3.0, 'cost': 219.381, 'average': 73.127, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-26 09:01:37.273369] XRP/USDT-mom7: -0.017740906190172333
+[Binance 2022-02-26 09:01:37.725688] XRP/USDT-mom20: 0.15677138133172996
+[Binance 2022-02-26 09:01:38.179012] XRP/USDT-leverage: 1
+{'symbol': 'XRPUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-26 09:01:39.061170] {'info': {'orderId': '19887475986', 'symbol': 'XRPUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu61a88a05201e481a0b4008', 'price': '0', 'avgPrice': '0.76816', 'origQty': '313', 'executedQty': '313', 'cumQty': '313', 'cumQuote': '240.43357', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645833699048'}, 'id': '19887475986', 'clientOrderId': 'x-xcKtGhcu61a88a05201e481a0b4008', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'XRP/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 0.76816, 'stopPrice': None, 'amount': 313.0, 'cost': 240.43357, 'average': 0.76816, 'filled': 313.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-26 09:01:39.562042] 1000SHIB/USDT-mom7: -0.11497364296908398
+[Binance 2022-02-26 09:01:40.048864] 1000SHIB/USDT-mom20: 0.10519058844460255
+[Binance 2022-02-26 09:01:40.584433] 1000SHIB/USDT-leverage: 1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-27 09:01:02.727401] Start trading...
+[Binance 2022-02-27 09:01:05.211609] Cancled all orders
+[Binance 2022-02-27 09:01:34.256529] target coins: ['LUNA/USDT', 'WAVES/USDT', 'XRP/USDT', 'AVAX/USDT']
+[Binance 2022-02-27 09:01:34.794213] target_amount: 242.64647437275
+[Binance 2022-02-27 09:01:35.219688] LUNA/USDT-mom7: 0.5470568409365768
+[Binance 2022-02-27 09:01:35.750610] LUNA/USDT-mom20: 0.3919868707410182
+[Binance 2022-02-27 09:01:36.170403] LUNA/USDT-leverage: 2
+{'symbol': 'LUNAUSDT', 'leverage': '2', 'maxNotionalValue': '15000000'}
+[Binance 2022-02-27 09:01:36.944514] {'info': {'orderId': '6720037424', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuaa7075a24d9d30ce6652c', 'price': '0', 'avgPrice': '77.8700', 'origQty': '6', 'executedQty': '6', 'cumQty': '6', 'cumQuote': '467.2200', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645920097002'}, 'id': '6720037424', 'clientOrderId': 'x-xcKtGhcuaa7075a24d9d30ce6652c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 77.87, 'stopPrice': None, 'amount': 6.0, 'cost': 467.22, 'average': 77.87, 'filled': 6.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-27 09:01:37.414601] WAVES/USDT-mom7: 0.2660740128178623
+[Binance 2022-02-27 09:01:37.829883] WAVES/USDT-mom20: 0.1603979156797726
+[Binance 2022-02-27 09:01:38.251415] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-02-27 09:01:39.005741] {'info': {'orderId': '5223041001', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu7348bbfaa1df12352e24a6', 'price': '0', 'avgPrice': '12.21300', 'origQty': '19.8', 'executedQty': '19.8', 'cumQty': '19.8', 'cumQuote': '241.81740', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1645920099061'}, 'id': '5223041001', 'clientOrderId': 'x-xcKtGhcu7348bbfaa1df12352e24a6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 12.213, 'stopPrice': None, 'amount': 19.8, 'cost': 241.8174, 'average': 12.213, 'filled': 19.8, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-27 09:01:39.432574] XRP/USDT-mom7: -0.08642726719415711
+[Binance 2022-02-27 09:01:39.852949] XRP/USDT-mom20: 0.09963369963369956
+[Binance 2022-02-27 09:01:40.271778] XRP/USDT-leverage: 0
+[Binance 2022-02-27 09:01:40.692585] AVAX/USDT-mom7: -0.03766035071201604
+[Binance 2022-02-27 09:01:41.281399] AVAX/USDT-mom20: 0.036375158428390245
+[Binance 2022-02-27 09:01:41.714606] AVAX/USDT-leverage: 0
+[Binance 2022-02-27 09:01:42.128683] End trading
+[Binance 2022-02-28 09:01:03.838065] Start trading...
+[Binance 2022-02-28 09:01:06.147285] Cancled all orders
+[Binance 2022-02-28 09:01:35.846787] target coins: ['LUNA/USDT', 'WAVES/USDT', 'AVAX/USDT', 'XRP/USDT']
+[Binance 2022-02-28 09:01:36.408612] target_amount: 230.78828036475002
+[Binance 2022-02-28 09:01:36.848317] LUNA/USDT-mom7: 0.47065863404937214
+[Binance 2022-02-28 09:01:37.285792] LUNA/USDT-mom20: 0.22051074861538975
+[Binance 2022-02-28 09:01:37.732009] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-02-28 09:01:38.925743] {'info': {'orderId': '6774077132', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub08930342af55409a59782', 'price': '0', 'avgPrice': '72.3960', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '217.1880', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646006498884'}, 'id': '6774077132', 'clientOrderId': 'x-xcKtGhcub08930342af55409a59782', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 72.396, 'stopPrice': None, 'amount': 3.0, 'cost': 217.188, 'average': 72.396, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-02-28 09:01:39.383012] WAVES/USDT-mom7: 0.19940062078561485
+[Binance 2022-02-28 09:01:39.818403] WAVES/USDT-mom20: 0.011919812172656644
+[Binance 2022-02-28 09:01:40.255015] WAVES/USDT-leverage: 0
+[Binance 2022-02-28 09:01:40.692012] AVAX/USDT-mom7: -0.029506923773780266
+[Binance 2022-02-28 09:01:41.127626] AVAX/USDT-mom20: -0.09835277143200681
+[Binance 2022-02-28 09:01:41.560387] AVAX/USDT-leverage: 0
+[Binance 2022-02-28 09:01:41.995610] XRP/USDT-mom7: -0.07148377125193199
+[Binance 2022-02-28 09:01:42.431905] XRP/USDT-mom20: -0.13217768147345613
+[Binance 2022-02-28 09:01:42.866493] XRP/USDT-leverage: 0
+[Binance 2022-02-28 09:01:43.300074] End trading
+[Binance 2022-03-01 09:01:03.228873] Start trading...
+[Binance 2022-03-01 09:01:06.305705] Cancled all orders
+[Binance 2022-03-01 09:01:36.465110] target coins: ['LUNA/USDT', 'WAVES/USDT', 'ATOM/USDT', 'BTC/USDT']
+[Binance 2022-03-01 09:01:37.021775] target_amount: 243.39479399100003
+[Binance 2022-03-01 09:01:37.446091] LUNA/USDT-mom7: 0.8226907871091411
+[Binance 2022-03-01 09:01:37.866544] LUNA/USDT-mom20: 0.5949818283477776
+[Binance 2022-03-01 09:01:38.298703] LUNA/USDT-leverage: 2
+{'symbol': 'LUNAUSDT', 'leverage': '2', 'maxNotionalValue': '15000000'}
+[Binance 2022-03-01 09:01:39.126758] {'info': {'orderId': '6837160371', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu3d75f55d0040c80355fea1', 'price': '0', 'avgPrice': '91.6400', 'origQty': '5', 'executedQty': '5', 'cumQty': '5', 'cumQuote': '458.2000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646092899088'}, 'id': '6837160371', 'clientOrderId': 'x-xcKtGhcu3d75f55d0040c80355fea1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 91.64, 'stopPrice': None, 'amount': 5.0, 'cost': 458.2, 'average': 91.64, 'filled': 5.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-01 09:01:39.557977] WAVES/USDT-mom7: 0.9042091687184899
+[Binance 2022-03-01 09:01:39.980158] WAVES/USDT-mom20: 0.5451431833317478
+[Binance 2022-03-01 09:01:40.494917] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-01 09:01:41.714079] {'info': {'orderId': '5249179428', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu84d6576eda0cc61d63baf', 'price': '0', 'avgPrice': '16.28800', 'origQty': '29.8', 'executedQty': '29.8', 'cumQty': '29.8', 'cumQuote': '485.38240', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646092901676'}, 'id': '5249179428', 'clientOrderId': 'x-xcKtGhcu84d6576eda0cc61d63baf', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 16.288, 'stopPrice': None, 'amount': 29.8, 'cost': 485.3824, 'average': 16.288, 'filled': 29.8, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-01 09:01:42.141570] ATOM/USDT-mom7: 0.31792587612404416
+[Binance 2022-03-01 09:01:42.571323] ATOM/USDT-mom20: 0.03272966743496871
+[Binance 2022-03-01 09:01:42.997039] ATOM/USDT-leverage: 0
+[Binance 2022-03-01 09:01:43.436359] BTC/USDT-mom7: 0.16678022191940817
+[Binance 2022-03-01 09:01:43.864580] BTC/USDT-mom20: -0.019685122543334998
+[Binance 2022-03-01 09:01:44.295259] BTC/USDT-leverage: 0
+[Binance 2022-03-01 09:01:44.713737] End trading
+[Binance 2022-03-02 09:01:03.616091] Start trading...
+[Binance 2022-03-02 09:01:05.776425] Cancled all orders
+[Binance 2022-03-02 09:01:36.005393] target coins: ['LUNA/USDT', 'WAVES/USDT', 'RUNE/USDT', 'ATOM/USDT']
+[Binance 2022-03-02 09:01:36.566252] target_amount: 305.71784473275
+[Binance 2022-03-02 09:01:37.003389] LUNA/USDT-mom7: 0.638586161497952
+[Binance 2022-03-02 09:01:37.430795] LUNA/USDT-mom20: 0.5583708676069076
+[Binance 2022-03-02 09:01:38.576580] LUNA/USDT-leverage: 2
+{'symbol': 'LUNAUSDT', 'leverage': '2', 'maxNotionalValue': '15000000'}
+[Binance 2022-03-02 09:01:39.410209] {'info': {'orderId': '6899598250', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue0d2a0123c0d5bcb88430a', 'price': '0', 'avgPrice': '89.1683', 'origQty': '6', 'executedQty': '6', 'cumQty': '6', 'cumQuote': '535.0100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646179299464'}, 'id': '6899598250', 'clientOrderId': 'x-xcKtGhcue0d2a0123c0d5bcb88430a', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 89.1683, 'stopPrice': None, 'amount': 6.0, 'cost': 535.01, 'average': 89.1683, 'filled': 6.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-02 09:01:39.841095] WAVES/USDT-mom7: 0.9487036209208762
+[Binance 2022-03-02 09:01:40.270868] WAVES/USDT-mom20: 0.45417396380618813
+[Binance 2022-03-02 09:01:40.699661] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-02 09:01:41.484210] {'info': {'orderId': '5277117048', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcudeab1ffd9a9cdfb96b65a6', 'price': '0', 'avgPrice': '17.36500', 'origQty': '35.2', 'executedQty': '35.2', 'cumQty': '35.2', 'cumQuote': '611.24800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646179301537'}, 'id': '5277117048', 'clientOrderId': 'x-xcKtGhcudeab1ffd9a9cdfb96b65a6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.365, 'stopPrice': None, 'amount': 35.2, 'cost': 611.248, 'average': 17.365, 'filled': 35.2, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-02 09:01:41.934603] RUNE/USDT-mom7: 0.5126373626373627
+[Binance 2022-03-02 09:01:42.366466] RUNE/USDT-mom20: 0.12115658725310541
+[Binance 2022-03-02 09:01:42.806758] RUNE/USDT-leverage: 2
+{'symbol': 'RUNEUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-02 09:01:43.647051] {'info': {'orderId': '3375989983', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8879224aaa5521b0b98b22', 'price': '0', 'avgPrice': '5.4490', 'origQty': '112', 'executedQty': '112', 'cumQty': '112', 'cumQuote': '610.2880', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646179303698'}, 'id': '3375989983', 'clientOrderId': 'x-xcKtGhcu8879224aaa5521b0b98b22', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.449, 'stopPrice': None, 'amount': 112.0, 'cost': 610.288, 'average': 5.449, 'filled': 112.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-02 09:01:44.087765] ATOM/USDT-mom7: 0.2557876905702992
+[Binance 2022-03-02 09:01:44.815221] ATOM/USDT-mom20: 0.00750711881957026
+[Binance 2022-03-02 09:01:45.239959] ATOM/USDT-leverage: 0
+[Binance 2022-03-02 09:01:45.674947] End trading
+[Binance 2022-03-03 09:01:02.094390] Start trading...
+[Binance 2022-03-03 09:01:05.013673] Cancled all orders
+[Binance 2022-03-03 09:01:34.056825] target coins: ['LUNA/USDT', 'WAVES/USDT', 'KNC/USDT', 'RUNE/USDT']
+[Binance 2022-03-03 09:01:34.605905] target_amount: 312.2438096295
+[Binance 2022-03-03 09:01:35.032807] LUNA/USDT-mom7: 0.5490495701235893
+[Binance 2022-03-03 09:01:35.465891] LUNA/USDT-mom20: 0.7676624446701286
+[Binance 2022-03-03 09:01:35.913305] LUNA/USDT-leverage: 2
+{'symbol': 'LUNAUSDT', 'leverage': '2', 'maxNotionalValue': '15000000'}
+[Binance 2022-03-03 09:01:36.702335] {'info': {'orderId': '6958357714', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu9176b866c2a90388d73efa', 'price': '0', 'avgPrice': '92.3000', 'origQty': '6', 'executedQty': '6', 'cumQty': '6', 'cumQuote': '553.8000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646265696678'}, 'id': '6958357714', 'clientOrderId': 'x-xcKtGhcu9176b866c2a90388d73efa', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 92.3, 'stopPrice': None, 'amount': 6.0, 'cost': 553.8, 'average': 92.3, 'filled': 6.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-03 09:01:37.138561] WAVES/USDT-mom7: 0.9287485178398192
+[Binance 2022-03-03 09:01:37.562361] WAVES/USDT-mom20: 0.6334672265838963
+[Binance 2022-03-03 09:01:37.997715] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-03 09:01:38.879357] {'info': {'orderId': '5298492046', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub4bb645c1c82f7a43a9e07', 'price': '0', 'avgPrice': '17.88044', 'origQty': '34.9', 'executedQty': '34.9', 'cumQty': '34.9', 'cumQuote': '624.02720', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646265698850'}, 'id': '5298492046', 'clientOrderId': 'x-xcKtGhcub4bb645c1c82f7a43a9e07', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.88044, 'stopPrice': None, 'amount': 34.9, 'cost': 624.0272, 'average': 17.88044, 'filled': 34.9, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-03 09:01:39.312550] KNC/USDT-mom7: 0.6080139372822301
+[Binance 2022-03-03 09:01:39.742607] KNC/USDT-mom20: 0.4799572421165153
+[Binance 2022-03-03 09:01:40.195929] KNC/USDT-leverage: 2
+{'symbol': 'KNCUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-03 09:01:41.193015] {'info': {'orderId': '4291345673', 'symbol': 'KNCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu79e2533175faf55a71083', 'price': '0', 'avgPrice': '2.79600', 'origQty': '223', 'executedQty': '223', 'cumQty': '223', 'cumQuote': '623.50800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646265701165'}, 'id': '4291345673', 'clientOrderId': 'x-xcKtGhcu79e2533175faf55a71083', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'KNC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.796, 'stopPrice': None, 'amount': 223.0, 'cost': 623.508, 'average': 2.796, 'filled': 223.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-03 09:01:41.623932] RUNE/USDT-mom7: 0.563704342824274
+[Binance 2022-03-03 09:01:42.064762] RUNE/USDT-mom20: 0.20128148475475044
+[Binance 2022-03-03 09:01:42.496250] RUNE/USDT-leverage: 2
+{'symbol': 'RUNEUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-03 09:01:43.257987] {'info': {'orderId': '3388836266', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu62510b2b82d845414ca3a2', 'price': '0', 'avgPrice': '5.4450', 'origQty': '114', 'executedQty': '114', 'cumQty': '114', 'cumQuote': '620.7300', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646265703232'}, 'id': '3388836266', 'clientOrderId': 'x-xcKtGhcu62510b2b82d845414ca3a2', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.445, 'stopPrice': None, 'amount': 114.0, 'cost': 620.73, 'average': 5.445, 'filled': 114.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-03 09:01:43.690487] End trading
+[Binance 2022-03-04 09:01:02.581520] Start trading...
+[Binance 2022-03-04 09:01:06.228880] Cancled all orders
+[Binance 2022-03-04 09:01:36.019447] target coins: ['WAVES/USDT', 'LUNA/USDT', 'KNC/USDT', 'RUNE/USDT']
+[Binance 2022-03-04 09:01:36.573004] target_amount: 308.84148197325
+[Binance 2022-03-04 09:01:37.002327] WAVES/USDT-mom7: 0.9218815623687526
+[Binance 2022-03-04 09:01:37.428022] WAVES/USDT-mom20: 0.8654708520179372
+[Binance 2022-03-04 09:01:38.631144] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-04 09:01:39.589684] {'info': {'orderId': '5320103421', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu22900a12ab88590b2d7834', 'price': '0', 'avgPrice': '18.49905', 'origQty': '33.3', 'executedQty': '33.3', 'cumQty': '33.3', 'cumQuote': '616.01840', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646352099525'}, 'id': '5320103421', 'clientOrderId': 'x-xcKtGhcu22900a12ab88590b2d7834', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 18.49905, 'stopPrice': None, 'amount': 33.3, 'cost': 616.0184, 'average': 18.49905, 'filled': 33.3, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-04 09:01:40.019210] LUNA/USDT-mom7: 0.3894275835574337
+[Binance 2022-03-04 09:01:40.449377] LUNA/USDT-mom20: 0.7962690718372537
+[Binance 2022-03-04 09:01:40.881474] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-04 09:01:41.712222] {'info': {'orderId': '7012181696', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcufd8c70c6168781229baaf1', 'price': '0', 'avgPrice': '90.2400', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '270.7200', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646352101647'}, 'id': '7012181696', 'clientOrderId': 'x-xcKtGhcufd8c70c6168781229baaf1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 90.24, 'stopPrice': None, 'amount': 3.0, 'cost': 270.72, 'average': 90.24, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-04 09:01:42.149048] KNC/USDT-mom7: 0.5309050772626931
+[Binance 2022-03-04 09:01:42.580300] KNC/USDT-mom20: 0.45235602094240845
+[Binance 2022-03-04 09:01:43.012064] KNC/USDT-leverage: 2
+{'symbol': 'KNCUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-04 09:01:43.879390] {'info': {'orderId': '4299263096', 'symbol': 'KNCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua93bfedfc241f51fd5c871', 'price': '0', 'avgPrice': '2.77080', 'origQty': '223', 'executedQty': '223', 'cumQty': '223', 'cumQuote': '617.88800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646352103815'}, 'id': '4299263096', 'clientOrderId': 'x-xcKtGhcua93bfedfc241f51fd5c871', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'KNC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 2.7708, 'stopPrice': None, 'amount': 223.0, 'cost': 617.888, 'average': 2.7708, 'filled': 223.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-04 09:01:44.310907] RUNE/USDT-mom7: 0.5378831694621167
+[Binance 2022-03-04 09:01:44.741371] RUNE/USDT-mom20: 0.29960899315738027
+[Binance 2022-03-04 09:01:45.198631] RUNE/USDT-leverage: 2
+{'symbol': 'RUNEUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-04 09:01:46.029816] {'info': {'orderId': '3400672479', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu85d2e11f447ff216f2fa70', 'price': '0', 'avgPrice': '5.3190', 'origQty': '116', 'executedQty': '116', 'cumQty': '116', 'cumQuote': '617.0040', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646352105964'}, 'id': '3400672479', 'clientOrderId': 'x-xcKtGhcu85d2e11f447ff216f2fa70', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.319, 'stopPrice': None, 'amount': 116.0, 'cost': 617.004, 'average': 5.319, 'filled': 116.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-04 09:01:46.477139] End trading
+[Binance 2022-03-05 09:01:03.675821] Start trading...
+[Binance 2022-03-05 09:01:06.507898] Cancled all orders
+[Binance 2022-03-05 09:01:36.275532] target coins: ['WAVES/USDT', 'LUNA/USDT', 'RUNE/USDT', 'ATOM/USDT']
+[Binance 2022-03-05 09:01:36.864643] target_amount: 286.77106556775
+[Binance 2022-03-05 09:01:37.309396] WAVES/USDT-mom7: 0.7422230652503794
+[Binance 2022-03-05 09:01:37.992949] WAVES/USDT-mom20: 0.9284064665127022
+[Binance 2022-03-05 09:01:38.416242] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-05 09:01:39.334203] {'info': {'orderId': '5348619758', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuea3e64658afa5ef7e98b63', 'price': '0', 'avgPrice': '18.49565', 'origQty': '31', 'executedQty': '31', 'cumQty': '31', 'cumQuote': '573.36520', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646438499234'}, 'id': '5348619758', 'clientOrderId': 'x-xcKtGhcuea3e64658afa5ef7e98b63', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 18.49565, 'stopPrice': None, 'amount': 31.0, 'cost': 573.3652, 'average': 18.49565, 'filled': 31.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-05 09:01:39.760910] LUNA/USDT-mom7: 0.14208630630383873
+[Binance 2022-03-05 09:01:40.192148] LUNA/USDT-mom20: 0.6000076744498379
+[Binance 2022-03-05 09:01:40.617598] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-05 09:01:41.385922] {'info': {'orderId': '7071713160', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuef0c0351be5ad4a23a8eb3', 'price': '0', 'avgPrice': '83.1443', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '249.4330', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646438501287'}, 'id': '7071713160', 'clientOrderId': 'x-xcKtGhcuef0c0351be5ad4a23a8eb3', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 83.1443, 'stopPrice': None, 'amount': 3.0, 'cost': 249.433, 'average': 83.1443, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-05 09:01:41.810600] RUNE/USDT-mom7: 0.43453355155482826
+[Binance 2022-03-05 09:01:42.235393] RUNE/USDT-mom20: 0.2946824224519941
+[Binance 2022-03-05 09:01:42.660488] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-05 09:01:43.523314] {'info': {'orderId': '3414830020', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcue0653763d1e4a31ce944c1', 'price': '0', 'avgPrice': '5.2040', 'origQty': '55', 'executedQty': '55', 'cumQty': '55', 'cumQuote': '286.2200', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646438503424'}, 'id': '3414830020', 'clientOrderId': 'x-xcKtGhcue0653763d1e4a31ce944c1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.204, 'stopPrice': None, 'amount': 55.0, 'cost': 286.22, 'average': 5.204, 'filled': 55.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-05 09:01:43.953937] ATOM/USDT-mom7: 0.11757584650940968
+[Binance 2022-03-05 09:01:44.384563] ATOM/USDT-mom20: 0.12700233065739336
+[Binance 2022-03-05 09:01:44.810099] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-05 09:01:45.645981] {'info': {'orderId': '10617448435', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu8bd3d4fa280a8a1879bf6d', 'price': '0', 'avgPrice': '30.36700', 'origQty': '9.44', 'executedQty': '9.44', 'cumQty': '9.44', 'cumQuote': '286.66448', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646438505544'}, 'id': '10617448435', 'clientOrderId': 'x-xcKtGhcu8bd3d4fa280a8a1879bf6d', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 30.367, 'stopPrice': None, 'amount': 9.44, 'cost': 286.66448, 'average': 30.367, 'filled': 9.44, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-05 09:01:46.076118] End trading
+[Binance 2022-03-06 09:01:01.941851] Start trading...
+[Binance 2022-03-06 09:01:06.325787] Cancled all orders
+[Binance 2022-03-06 09:01:37.695164] target coins: ['WAVES/USDT', 'LUNA/USDT', 'RUNE/USDT', 'ATOM/USDT']
+[Binance 2022-03-06 09:01:38.268160] target_amount: 276.08758402275
+[Binance 2022-03-06 09:01:38.702466] WAVES/USDT-mom7: 0.40578053559764865
+[Binance 2022-03-06 09:01:39.136094] WAVES/USDT-mom20: 0.8365866666666667
+[Binance 2022-03-06 09:01:39.579335] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-06 09:01:40.497628] {'info': {'orderId': '5367629153', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuceef7020b23d91a4c1ebd', 'price': '0', 'avgPrice': '17.15200', 'origQty': '16.1', 'executedQty': '16.1', 'cumQty': '16.1', 'cumQuote': '276.14720', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646524900482'}, 'id': '5367629153', 'clientOrderId': 'x-xcKtGhcuceef7020b23d91a4c1ebd', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.152, 'stopPrice': None, 'amount': 16.1, 'cost': 276.1472, 'average': 17.152, 'filled': 16.1, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-06 09:01:40.942561] LUNA/USDT-mom7: 0.12093756407627637
+[Binance 2022-03-06 09:01:41.391809] LUNA/USDT-mom20: 0.6944132346673898
+[Binance 2022-03-06 09:01:41.823842] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-06 09:01:42.626557] {'info': {'orderId': '7120013978', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcub591517146b59eb856dd28', 'price': '0', 'avgPrice': '87.5200', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '262.5600', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646524902610'}, 'id': '7120013978', 'clientOrderId': 'x-xcKtGhcub591517146b59eb856dd28', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 87.52, 'stopPrice': None, 'amount': 3.0, 'cost': 262.56, 'average': 87.52, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-06 09:01:43.059684] RUNE/USDT-mom7: 0.25373134328358216
+[Binance 2022-03-06 09:01:43.492609] RUNE/USDT-mom20: 0.22330097087378642
+[Binance 2022-03-06 09:01:43.925535] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-06 09:01:44.791027] {'info': {'orderId': '3423969552', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuea8b38be57ef1cace60fca', 'price': '0', 'avgPrice': '4.7700', 'origQty': '57', 'executedQty': '57', 'cumQty': '57', 'cumQuote': '271.8900', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646524904774'}, 'id': '3423969552', 'clientOrderId': 'x-xcKtGhcuea8b38be57ef1cace60fca', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 4.77, 'stopPrice': None, 'amount': 57.0, 'cost': 271.89, 'average': 4.77, 'filled': 57.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-06 09:01:45.228400] ATOM/USDT-mom7: 0.031824114044774636
+[Binance 2022-03-06 09:01:45.663304] ATOM/USDT-mom20: 0.17903028449066988
+[Binance 2022-03-06 09:01:46.095092] ATOM/USDT-leverage: 1
+{'symbol': 'ATOMUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-06 09:01:46.885994] {'info': {'orderId': '10643470701', 'symbol': 'ATOMUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu23e2f3d3bad4e5b47f1b0c', 'price': '0', 'avgPrice': '30.78500', 'origQty': '8.97', 'executedQty': '8.97', 'cumQty': '8.97', 'cumQuote': '276.14145', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646524906871'}, 'id': '10643470701', 'clientOrderId': 'x-xcKtGhcu23e2f3d3bad4e5b47f1b0c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ATOM/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 30.785, 'stopPrice': None, 'amount': 8.97, 'cost': 276.14145, 'average': 30.785, 'filled': 8.97, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-06 09:01:48.201573] End trading
+[Binance 2022-03-07 09:01:02.645226] Start trading...
+[Binance 2022-03-07 09:01:05.754630] Cancled all orders
+[Binance 2022-03-07 09:01:35.636758] target coins: ['WAVES/USDT', 'LUNA/USDT', 'RUNE/USDT', 'ATOM/USDT']
+[Binance 2022-03-07 09:01:36.195078] target_amount: 266.97600905625
+[Binance 2022-03-07 09:01:36.629848] WAVES/USDT-mom7: 0.5876316259146886
+[Binance 2022-03-07 09:01:37.061515] WAVES/USDT-mom20: 0.9074729280583254
+[Binance 2022-03-07 09:01:37.497699] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-07 09:01:38.315773] {'info': {'orderId': '5388941829', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4ec7f1629bef42a6385f13', 'price': '0', 'avgPrice': '17.75300', 'origQty': '30', 'executedQty': '30', 'cumQty': '30', 'cumQuote': '532.59000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646611298453'}, 'id': '5388941829', 'clientOrderId': 'x-xcKtGhcu4ec7f1629bef42a6385f13', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 17.753, 'stopPrice': None, 'amount': 30.0, 'cost': 532.59, 'average': 17.753, 'filled': 30.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-07 09:01:38.752769] LUNA/USDT-mom7: 0.09279744007061887
+[Binance 2022-03-07 09:01:39.184081] LUNA/USDT-mom20: 0.4731968539075139
+[Binance 2022-03-07 09:01:39.611743] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-07 09:01:40.453240] {'info': {'orderId': '7166940756', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu38927ba8150acc40176efa', 'price': '0', 'avgPrice': '79.3500', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '238.0500', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646611300593'}, 'id': '7166940756', 'clientOrderId': 'x-xcKtGhcu38927ba8150acc40176efa', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 79.35, 'stopPrice': None, 'amount': 3.0, 'cost': 238.05, 'average': 79.35, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-07 09:01:40.893073] RUNE/USDT-mom7: 0.34953970080552355
+[Binance 2022-03-07 09:01:41.326859] RUNE/USDT-mom20: 0.1421962503043583
+[Binance 2022-03-07 09:01:41.752870] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-07 09:01:42.520948] {'info': {'orderId': '3432907943', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu920e80da54796811b9603c', 'price': '0', 'avgPrice': '4.7270', 'origQty': '56', 'executedQty': '56', 'cumQty': '56', 'cumQuote': '264.7120', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646611302659'}, 'id': '3432907943', 'clientOrderId': 'x-xcKtGhcu920e80da54796811b9603c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 4.727, 'stopPrice': None, 'amount': 56.0, 'cost': 264.712, 'average': 4.727, 'filled': 56.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-07 09:01:42.957437] ATOM/USDT-mom7: 0.051882031921653575
+[Binance 2022-03-07 09:01:43.389002] ATOM/USDT-mom20: 0.037341492185196036
+[Binance 2022-03-07 09:01:43.818976] ATOM/USDT-leverage: 0
+[Binance 2022-03-07 09:01:44.255691] End trading
+[Binance 2022-03-08 09:01:02.887283] Start trading...
+[Binance 2022-03-08 09:01:05.593251] Cancled all orders
+[Binance 2022-03-08 09:01:34.768748] target coins: ['WAVES/USDT', 'LUNA/USDT', 'ATOM/USDT', 'BNB/USDT']
+[Binance 2022-03-08 09:01:35.320722] target_amount: 293.32841241150004
+[Binance 2022-03-08 09:01:35.749494] WAVES/USDT-mom7: 0.38587525398682343
+[Binance 2022-03-08 09:01:36.186935] WAVES/USDT-mom20: 1.1698640701822038
+[Binance 2022-03-08 09:01:36.610743] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-08 09:01:37.413373] {'info': {'orderId': '5421203320', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu59e241a14024a0cc20ae6e', 'price': '0', 'avgPrice': '22.53100', 'origQty': '13', 'executedQty': '13', 'cumQty': '13', 'cumQuote': '292.90300', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646697697390'}, 'id': '5421203320', 'clientOrderId': 'x-xcKtGhcu59e241a14024a0cc20ae6e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 22.531, 'stopPrice': None, 'amount': 13.0, 'cost': 292.903, 'average': 22.531, 'filled': 13.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-08 09:01:37.846599] LUNA/USDT-mom7: -0.1485473905613251
+[Binance 2022-03-08 09:01:38.357016] LUNA/USDT-mom20: 0.3681634952208278
+[Binance 2022-03-08 09:01:38.792475] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-08 09:01:39.569328] {'info': {'orderId': '7221796356', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu64bfe0ca3e799aa6767a9d', 'price': '0', 'avgPrice': '78.1060', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '234.3180', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646697699546'}, 'id': '7221796356', 'clientOrderId': 'x-xcKtGhcu64bfe0ca3e799aa6767a9d', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 78.106, 'stopPrice': None, 'amount': 3.0, 'cost': 234.318, 'average': 78.106, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-08 09:01:40.020272] ATOM/USDT-mom7: -0.09839306210942488
+[Binance 2022-03-08 09:01:40.443152] ATOM/USDT-mom20: -0.023785687161252463
+[Binance 2022-03-08 09:01:40.871335] ATOM/USDT-leverage: 0
+[Binance 2022-03-08 09:01:41.289724] BNB/USDT-mom7: -0.03886219974715551
+[Binance 2022-03-08 09:01:41.709583] BNB/USDT-mom20: -0.1202323643769672
+[Binance 2022-03-08 09:01:42.141046] BNB/USDT-leverage: 0
+[Binance 2022-03-08 09:01:42.621434] End trading
+[Binance 2022-03-09 09:01:02.469045] Start trading...
+[Binance 2022-03-09 09:01:04.865299] Cancled all orders
+[Binance 2022-03-09 09:01:34.304805] target coins: ['WAVES/USDT', 'LUNA/USDT', 'KNC/USDT', 'ZEC/USDT']
+[Binance 2022-03-09 09:01:34.852391] target_amount: 297.46478222325
+[Binance 2022-03-09 09:01:35.289257] WAVES/USDT-mom7: 0.2799793542467166
+[Binance 2022-03-09 09:01:35.718411] WAVES/USDT-mom20: 1.1155450236966822
+[Binance 2022-03-09 09:01:36.147272] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-09 09:01:36.941824] {'info': {'orderId': '5451313766', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcuf9e05af305c1b67bdf1bcc', 'price': '0', 'avgPrice': '22.27700', 'origQty': '13.3', 'executedQty': '13.3', 'cumQty': '13.3', 'cumQuote': '296.28410', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646784099106'}, 'id': '5451313766', 'clientOrderId': 'x-xcKtGhcuf9e05af305c1b67bdf1bcc', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 22.277, 'stopPrice': None, 'amount': 13.3, 'cost': 296.2841, 'average': 22.277, 'filled': 13.3, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-09 09:01:37.373263] LUNA/USDT-mom7: -0.04876633449018541
+[Binance 2022-03-09 09:01:37.801640] LUNA/USDT-mom20: 0.5217531018477194
+[Binance 2022-03-09 09:01:38.225041] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-09 09:01:38.998018] {'info': {'orderId': '7275744319', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcua97a93243d59f3977e64c1', 'price': '0', 'avgPrice': '85.3610', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '256.0830', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646784101160'}, 'id': '7275744319', 'clientOrderId': 'x-xcKtGhcua97a93243d59f3977e64c1', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 85.361, 'stopPrice': None, 'amount': 3.0, 'cost': 256.083, 'average': 85.361, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-09 09:01:39.430118] KNC/USDT-mom7: 0.19027237354085616
+[Binance 2022-03-09 09:01:39.857780] KNC/USDT-mom20: 0.33931698774080576
+[Binance 2022-03-09 09:01:40.284362] KNC/USDT-leverage: 1
+{'symbol': 'KNCUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-09 09:01:41.047852] {'info': {'orderId': '4339871473', 'symbol': 'KNCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu2370ed1ee2404c78d0878e', 'price': '0', 'avgPrice': '3.07700', 'origQty': '96', 'executedQty': '96', 'cumQty': '96', 'cumQuote': '295.39200', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646784103211'}, 'id': '4339871473', 'clientOrderId': 'x-xcKtGhcu2370ed1ee2404c78d0878e', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'KNC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.077, 'stopPrice': None, 'amount': 96.0, 'cost': 295.392, 'average': 3.077, 'filled': 96.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-09 09:01:41.475541] ZEC/USDT-mom7: 0.16363942145980487
+[Binance 2022-03-09 09:01:41.903768] ZEC/USDT-mom20: 0.10368479821343117
+[Binance 2022-03-09 09:01:42.342503] ZEC/USDT-leverage: 1
+{'symbol': 'ZECUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-09 09:01:43.155986] {'info': {'orderId': '12539399445', 'symbol': 'ZECUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu62f7cd202b726da723e922', 'price': '0', 'avgPrice': '138.34000', 'origQty': '2.150', 'executedQty': '2.150', 'cumQty': '2.150', 'cumQuote': '297.43100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646784105320'}, 'id': '12539399445', 'clientOrderId': 'x-xcKtGhcu62f7cd202b726da723e922', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ZEC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 138.34, 'stopPrice': None, 'amount': 2.15, 'cost': 297.431, 'average': 138.34, 'filled': 2.15, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-09 09:01:43.584584] End trading
+[Binance 2022-03-10 09:01:02.450114] Start trading...
+[Binance 2022-03-10 09:01:05.459933] Cancled all orders
+[Binance 2022-03-10 09:01:36.765921] target coins: ['WAVES/USDT', 'LUNA/USDT', 'KNC/USDT', 'RUNE/USDT']
+[Binance 2022-03-10 09:01:37.313439] target_amount: 327.85766024400004
+[Binance 2022-03-10 09:01:37.740835] WAVES/USDT-mom7: 0.5876040909853014
+[Binance 2022-03-10 09:01:38.165167] WAVES/USDT-mom20: 1.8647640177490923
+[Binance 2022-03-10 09:01:38.591585] WAVES/USDT-leverage: 2
+{'symbol': 'WAVESUSDT', 'leverage': '2', 'maxNotionalValue': '1000000'}
+[Binance 2022-03-10 09:01:39.409675] {'info': {'orderId': '5487176375', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4a324dabaffd2876617d72', 'price': '0', 'avgPrice': '28.36033', 'origQty': '23.1', 'executedQty': '23.1', 'cumQty': '23.1', 'cumQuote': '655.12370', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646870499482'}, 'id': '5487176375', 'clientOrderId': 'x-xcKtGhcu4a324dabaffd2876617d72', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 28.36033, 'stopPrice': None, 'amount': 23.1, 'cost': 655.1237, 'average': 28.36033, 'filled': 23.1, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-10 09:01:39.832799] LUNA/USDT-mom7: 0.07481923923294563
+[Binance 2022-03-10 09:01:40.261886] LUNA/USDT-mom20: 0.9729186564788284
+[Binance 2022-03-10 09:01:40.680003] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-10 09:01:41.441825] {'info': {'orderId': '7343345587', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu64b59111a902f7096f271b', 'price': '0', 'avgPrice': '99.2230', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '297.6690', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646870501517'}, 'id': '7343345587', 'clientOrderId': 'x-xcKtGhcu64b59111a902f7096f271b', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 99.223, 'stopPrice': None, 'amount': 3.0, 'cost': 297.669, 'average': 99.223, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-10 09:01:41.881258] KNC/USDT-mom7: 0.12062116287468402
+[Binance 2022-03-10 09:01:42.308237] KNC/USDT-mom20: 0.36455584872471425
+[Binance 2022-03-10 09:01:42.729540] KNC/USDT-leverage: 1
+{'symbol': 'KNCUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-10 09:01:43.510389] {'info': {'orderId': '4350453763', 'symbol': 'KNCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu72f35f72c736d5379bc80f', 'price': '0', 'avgPrice': '3.15000', 'origQty': '104', 'executedQty': '104', 'cumQty': '104', 'cumQuote': '327.60000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646870503586'}, 'id': '4350453763', 'clientOrderId': 'x-xcKtGhcu72f35f72c736d5379bc80f', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'KNC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 3.15, 'stopPrice': None, 'amount': 104.0, 'cost': 327.6, 'average': 3.15, 'filled': 104.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-10 09:01:43.936876] RUNE/USDT-mom7: 0.008092698179142835
+[Binance 2022-03-10 09:01:44.368457] RUNE/USDT-mom20: 0.31976884180110776
+[Binance 2022-03-10 09:01:44.790038] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-10 09:01:45.603377] {'info': {'orderId': '3459355911', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu93cf9c5c6e1482fbd86b8d', 'price': '0', 'avgPrice': '5.4430', 'origQty': '60', 'executedQty': '60', 'cumQty': '60', 'cumQuote': '326.5800', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646870505678'}, 'id': '3459355911', 'clientOrderId': 'x-xcKtGhcu93cf9c5c6e1482fbd86b8d', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.443, 'stopPrice': None, 'amount': 60.0, 'cost': 326.58, 'average': 5.443, 'filled': 60.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-10 09:01:46.094322] End trading
+[Binance 2022-03-11 09:01:02.805448] Start trading...
+[Binance 2022-03-11 09:01:05.702379] Cancled all orders
+[Binance 2022-03-11 09:01:36.708605] target coins: ['WAVES/USDT', 'LUNA/USDT', 'ZEC/USDT', 'RUNE/USDT']
+[Binance 2022-03-11 09:01:37.348396] target_amount: 313.05801492675
+[Binance 2022-03-11 09:01:37.790660] WAVES/USDT-mom7: 0.4899475524475525
+[Binance 2022-03-11 09:01:38.238359] WAVES/USDT-mom20: 1.722299860251547
+[Binance 2022-03-11 09:01:38.678155] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-11 09:01:39.762950] {'info': {'orderId': '5527558583', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4268e5c6cfc051e01facda', 'price': '0', 'avgPrice': '27.14900', 'origQty': '11.5', 'executedQty': '11.5', 'cumQty': '11.5', 'cumQuote': '312.21350', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646956899958'}, 'id': '5527558583', 'clientOrderId': 'x-xcKtGhcu4268e5c6cfc051e01facda', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 27.149, 'stopPrice': None, 'amount': 11.5, 'cost': 312.2135, 'average': 27.149, 'filled': 11.5, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-11 09:01:40.203307] LUNA/USDT-mom7: 0.11829633807801627
+[Binance 2022-03-11 09:01:40.654350] LUNA/USDT-mom20: 0.9983596189572711
+[Binance 2022-03-11 09:01:41.095189] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-11 09:01:41.895769] {'info': {'orderId': '7414672867', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu6d2ee3d009994deb3da6e6', 'price': '0', 'avgPrice': '100.7923', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '302.3770', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646956902091'}, 'id': '7414672867', 'clientOrderId': 'x-xcKtGhcu6d2ee3d009994deb3da6e6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 100.7923, 'stopPrice': None, 'amount': 3.0, 'cost': 302.377, 'average': 100.7923, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-11 09:01:42.343836] ZEC/USDT-mom7: 0.21817336021088554
+[Binance 2022-03-11 09:01:42.790830] ZEC/USDT-mom20: 0.4423941981088772
+[Binance 2022-03-11 09:01:43.234881] ZEC/USDT-leverage: 1
+{'symbol': 'ZECUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-11 09:01:44.055514] {'info': {'orderId': '12562571962', 'symbol': 'ZECUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu81bf03c2337eccaaaa2072', 'price': '0', 'avgPrice': '156.61000', 'origQty': '2', 'executedQty': '2', 'cumQty': '2', 'cumQuote': '313.22000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646956904251'}, 'id': '12562571962', 'clientOrderId': 'x-xcKtGhcu81bf03c2337eccaaaa2072', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ZEC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 156.61, 'stopPrice': None, 'amount': 2.0, 'cost': 313.22, 'average': 156.61, 'filled': 2.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-11 09:01:44.494949] RUNE/USDT-mom7: 0.0024445280180520478
+[Binance 2022-03-11 09:01:44.943540] RUNE/USDT-mom20: 0.32086223984142737
+[Binance 2022-03-11 09:01:45.382019] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-11 09:01:46.234108] {'info': {'orderId': '3473970114', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu661880ecd9c9cc31b2f3e6', 'price': '0', 'avgPrice': '5.3210', 'origQty': '58', 'executedQty': '58', 'cumQty': '58', 'cumQuote': '308.6190', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1646956906431'}, 'id': '3473970114', 'clientOrderId': 'x-xcKtGhcu661880ecd9c9cc31b2f3e6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.321, 'stopPrice': None, 'amount': 58.0, 'cost': 308.619, 'average': 5.321, 'filled': 58.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-11 09:01:46.680091] End trading
+[Binance 2022-03-12 09:01:02.345943] Start trading...
+[Binance 2022-03-12 09:01:05.478842] Cancled all orders
+[Binance 2022-03-12 09:01:35.771001] target coins: ['WAVES/USDT', 'LUNA/USDT', 'RUNE/USDT', 'ZEC/USDT']
+[Binance 2022-03-12 09:01:36.316955] target_amount: 303.090960798
+[Binance 2022-03-12 09:01:36.743492] WAVES/USDT-mom7: 0.3799129014697876
+[Binance 2022-03-12 09:01:37.176110] WAVES/USDT-mom20: 1.6203225139549309
+[Binance 2022-03-12 09:01:37.603588] WAVES/USDT-leverage: 1
+{'symbol': 'WAVESUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-12 09:01:38.452942] {'info': {'orderId': '5555998043', 'symbol': 'WAVESUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu18fef8d7743e08496beea6', 'price': '0', 'avgPrice': '25.28441', 'origQty': '11.9', 'executedQty': '11.9', 'cumQty': '11.9', 'cumQuote': '300.88450', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1647043298510'}, 'id': '5555998043', 'clientOrderId': 'x-xcKtGhcu18fef8d7743e08496beea6', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'WAVES/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 25.28441, 'stopPrice': None, 'amount': 11.9, 'cost': 300.8845, 'average': 25.28441, 'filled': 11.9, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-12 09:01:38.888789] LUNA/USDT-mom7: 0.05968055255773784
+[Binance 2022-03-12 09:01:39.324919] LUNA/USDT-mom20: 0.7520371141378694
+[Binance 2022-03-12 09:01:39.755839] LUNA/USDT-leverage: 1
+{'symbol': 'LUNAUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-03-12 09:01:40.503662] {'info': {'orderId': '7488254863', 'symbol': 'LUNAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu257c89dd25b9ea915f8b4c', 'price': '0', 'avgPrice': '88.6910', 'origQty': '3', 'executedQty': '3', 'cumQty': '3', 'cumQuote': '266.0730', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1647043300560'}, 'id': '7488254863', 'clientOrderId': 'x-xcKtGhcu257c89dd25b9ea915f8b4c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'LUNA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 88.691, 'stopPrice': None, 'amount': 3.0, 'cost': 266.073, 'average': 88.691, 'filled': 3.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-12 09:01:41.092267] RUNE/USDT-mom7: 0.07834189009317359
+[Binance 2022-03-12 09:01:41.544424] RUNE/USDT-mom20: 0.41139870582379306
+[Binance 2022-03-12 09:01:41.977809] RUNE/USDT-leverage: 1
+{'symbol': 'RUNEUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-12 09:01:42.814705] {'info': {'orderId': '3495992663', 'symbol': 'RUNEUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu3601f99acc15854fd3a64c', 'price': '0', 'avgPrice': '5.6850', 'origQty': '53', 'executedQty': '53', 'cumQty': '53', 'cumQuote': '301.3050', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1647043302872'}, 'id': '3495992663', 'clientOrderId': 'x-xcKtGhcu3601f99acc15854fd3a64c', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'RUNE/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 5.685, 'stopPrice': None, 'amount': 53.0, 'cost': 301.305, 'average': 5.685, 'filled': 53.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-12 09:01:43.259437] ZEC/USDT-mom7: 0.3121416959014288
+[Binance 2022-03-12 09:01:43.689655] ZEC/USDT-mom20: 0.36870760442699024
+[Binance 2022-03-12 09:01:44.264307] ZEC/USDT-leverage: 1
+{'symbol': 'ZECUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-03-12 09:01:45.062392] {'info': {'orderId': '12580247764', 'symbol': 'ZECUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu5c60580eaae28dc7162ecf', 'price': '0', 'avgPrice': '153.60000', 'origQty': '1.973', 'executedQty': '1.973', 'cumQty': '1.973', 'cumQuote': '303.05280', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1647043305121'}, 'id': '12580247764', 'clientOrderId': 'x-xcKtGhcu5c60580eaae28dc7162ecf', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ZEC/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'buy', 'price': 153.6, 'stopPrice': None, 'amount': 1.973, 'cost': 303.0528, 'average': 153.6, 'filled': 1.973, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-03-12 09:01:45.531051] End trading
