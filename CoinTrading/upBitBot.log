@@ -1,0 +1,162 @@
+[Upbit 2021-12-26 09:01:04.351617] Start trading...
+[Upbit 2021-12-26 09:01:58.856259] mom > 0.75: []
+[Upbit 2021-12-26 09:01:59.413190] 0.3 < mom < 0.75: ['KRW-SAND']
+[Upbit 2021-12-26 09:01:59.888992] -0.55 < mom < -0.25: []
+[Upbit 2021-12-26 09:02:00.357546] mom < -0.55: []
+[Upbit 2021-12-26 09:03:21.621361] target amount: 81814.7919457044
+['KRW-SAND']
+[Upbit 2021-12-26 09:03:22.376970] {'uuid': 'ca2821f0-7c79-4df0-a2b5-8960123d867c', 'side': 'bid', 'ord_type': 'price', 'price': '16362.0', 'state': 'wait', 'market': 'KRW-SAND', 'created_at': '2021-12-26T09:03:21+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.181', 'remaining_fee': '8.181', 'paid_fee': '0.0', 'locked': '16370.181', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2021-12-26 09:03:22.845357] End trading
+[Upbit 2021-12-27 09:01:02.228630] Start trading...
+[Upbit 2021-12-27 09:01:56.719043] mom > 0.75: []
+[Upbit 2021-12-27 09:01:57.200685] 0.3 < mom < 0.75: ['KRW-ATOM', 'KRW-SAND']
+[Upbit 2021-12-27 09:01:57.671995] -0.55 < mom < -0.25: []
+[Upbit 2021-12-27 09:01:58.131852] mom < -0.55: []
+[Upbit 2021-12-27 09:03:17.469639] target amount: 81775.65288589199
+['KRW-ATOM']
+[Upbit 2021-12-27 09:03:18.643276] {'uuid': '6e44db43-d50f-4cb3-9af3-f7c88e050e9e', 'side': 'bid', 'ord_type': 'price', 'price': '16355.0', 'state': 'wait', 'market': 'KRW-ATOM', 'created_at': '2021-12-27T09:03:18+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.1775', 'remaining_fee': '8.1775', 'paid_fee': '0.0', 'locked': '16363.1775', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2021-12-27 09:03:19.108606] End trading
+[Upbit 2021-12-28 09:01:02.035337] Start trading...
+[Upbit 2021-12-29 09:01:06.274182] Start trading...
+[Upbit 2021-12-30 09:02:02.239498] Start trading...
+[Upbit 2021-12-30 09:02:54.309408] mom > 0.75: []
+[Upbit 2021-12-30 09:02:54.780585] 0.3 < mom < 0.75: ['KRW-IOTA']
+[Upbit 2021-12-30 09:02:55.245338] -0.55 < mom < -0.25: []
+[Upbit 2021-12-30 09:02:55.722361] mom < -0.55: []
+[Upbit 2021-12-30 09:04:12.902126] target amount: 81294.99450790501
+['KRW-IOTA']
+[Upbit 2021-12-30 09:04:13.636217] {'uuid': '9f93f6ab-0963-4788-a49d-218e197a31fb', 'side': 'bid', 'ord_type': 'price', 'price': '16258.0', 'state': 'wait', 'market': 'KRW-IOTA', 'created_at': '2021-12-30T09:04:13+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.129', 'remaining_fee': '8.129', 'paid_fee': '0.0', 'locked': '16266.129', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2021-12-30 09:04:14.103775] End trading
+[Upbit 2021-12-31 09:02:02.981979] Start trading...
+[Upbit 2021-12-31 09:02:55.214988] mom > 0.75: []
+[Upbit 2021-12-31 09:02:55.670711] 0.3 < mom < 0.75: []
+[Upbit 2021-12-31 09:02:56.128344] -0.55 < mom < -0.25: []
+[Upbit 2021-12-31 09:02:56.586550] mom < -0.55: []
+[Upbit 2021-12-31 09:03:11.124472] {'uuid': 'e93f0bc8-fbc6-481e-b84a-e7891e742918', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-IOTA', 'created_at': '2021-12-31T09:03:10+09:00', 'volume': '9.03222222', 'remaining_volume': '9.03222222', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '9.03222222', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2021-12-31 09:04:15.208273] target amount: 81186.4439064306
+[]
+[Upbit 2021-12-31 09:04:15.672965] End trading
+[Upbit 2022-01-01 09:02:02.430260] Start trading...
+[Upbit 2022-01-01 09:02:58.464322] mom > 0.75: []
+[Upbit 2022-01-01 09:02:58.932614] 0.3 < mom < 0.75: ['KRW-SXP']
+[Upbit 2022-01-01 09:02:59.401473] -0.55 < mom < -0.25: []
+[Upbit 2022-01-01 09:02:59.861008] mom < -0.55: []
+[Upbit 2022-01-01 09:04:20.286589] target amount: 81186.4439064306
+['KRW-SXP']
+[Upbit 2022-01-01 09:04:20.996940] {'uuid': '910cebd5-af16-4a58-a261-3cfc38c126d2', 'side': 'bid', 'ord_type': 'price', 'price': '16237.0', 'state': 'wait', 'market': 'KRW-SXP', 'created_at': '2022-01-01T09:04:20+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.1185', 'remaining_fee': '8.1185', 'paid_fee': '0.0', 'locked': '16245.1185', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-01 09:04:21.488983] End trading
+[Upbit 2022-01-02 09:02:02.872760] Start trading...
+[Upbit 2022-01-02 09:02:58.388076] mom > 0.75: []
+[Upbit 2022-01-02 09:02:58.947560] 0.3 < mom < 0.75: ['KRW-ATOM', 'KRW-SXP']
+[Upbit 2022-01-02 09:02:59.509931] -0.55 < mom < -0.25: []
+[Upbit 2022-01-02 09:03:00.072197] mom < -0.55: []
+[Upbit 2022-01-02 09:04:20.874420] target amount: 81529.1680850244
+['KRW-ATOM']
+[Upbit 2022-01-02 09:04:22.090654] {'uuid': '2afbc315-6d05-44ba-9f30-75ec010b5590', 'side': 'bid', 'ord_type': 'price', 'price': '16305.0', 'state': 'wait', 'market': 'KRW-ATOM', 'created_at': '2022-01-02T09:04:21+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.1525', 'remaining_fee': '8.1525', 'paid_fee': '0.0', 'locked': '16313.1525', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-02 09:04:22.639226] End trading
+[Upbit 2022-01-03 09:02:02.941943] Start trading...
+[Upbit 2022-01-03 09:03:01.968581] mom > 0.75: []
+[Upbit 2022-01-03 09:03:02.432159] 0.3 < mom < 0.75: ['KRW-POWR']
+[Upbit 2022-01-03 09:03:02.891103] -0.55 < mom < -0.25: []
+[Upbit 2022-01-03 09:03:03.350322] mom < -0.55: []
+[Upbit 2022-01-03 09:03:26.412134] {'uuid': 'df5104a1-c049-4572-bfef-05194f3cc9a5', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-ATOM', 'created_at': '2022-01-03T09:03:25+09:00', 'volume': '0.36305945', 'remaining_volume': '0.36305945', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '0.36305945', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-03 09:03:35.716940] {'uuid': '6dee8628-fec2-433a-894b-124de55b702c', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-SXP', 'created_at': '2022-01-03T09:03:35+09:00', 'volume': '6.48183632', 'remaining_volume': '6.48183632', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '6.48183632', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-03 09:04:28.560232] target amount: 81120.5723057508
+['KRW-POWR']
+[Upbit 2022-01-03 09:04:29.280532] {'uuid': '4ec1d1fe-16df-481a-aa98-6c858caaee32', 'side': 'bid', 'ord_type': 'price', 'price': '16224.0', 'state': 'wait', 'market': 'KRW-POWR', 'created_at': '2022-01-03T09:04:28+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.112', 'remaining_fee': '8.112', 'paid_fee': '0.0', 'locked': '16232.112', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-03 09:04:29.746160] End trading
+[Upbit 2022-01-04 09:02:02.717839] Start trading...
+[Upbit 2022-01-04 09:02:59.954705] mom > 0.75: []
+[Upbit 2022-01-04 09:03:00.428305] 0.3 < mom < 0.75: ['KRW-POWR', 'KRW-ATOM']
+[Upbit 2022-01-04 09:03:00.905732] -0.55 < mom < -0.25: []
+[Upbit 2022-01-04 09:03:01.393791] mom < -0.55: []
+[Upbit 2022-01-04 09:04:22.454620] target amount: 80489.52898791661
+['KRW-ATOM']
+[Upbit 2022-01-04 09:04:23.737319] {'uuid': 'ce024753-1d45-4cd8-a26a-8556d1e9514f', 'side': 'bid', 'ord_type': 'price', 'price': '16097.0', 'state': 'wait', 'market': 'KRW-ATOM', 'created_at': '2022-01-04T09:04:23+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.0485', 'remaining_fee': '8.0485', 'paid_fee': '0.0', 'locked': '16105.0485', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-04 09:04:24.214152] End trading
+[Upbit 2022-01-05 09:02:02.221833] Start trading...
+[Upbit 2022-01-05 09:02:59.759035] mom > 0.75: []
+[Upbit 2022-01-05 09:03:00.210426] 0.3 < mom < 0.75: ['KRW-ATOM', 'KRW-POWR']
+[Upbit 2022-01-05 09:03:00.683809] -0.55 < mom < -0.25: []
+[Upbit 2022-01-05 09:03:01.131746] mom < -0.55: []
+[Upbit 2022-01-05 09:04:23.458258] target amount: 80643.415366332
+[]
+[Upbit 2022-01-05 09:04:24.668503] End trading
+[Upbit 2022-01-06 09:02:02.461790] Start trading...
+[Upbit 2022-01-06 09:02:52.389989] mom > 0.75: []
+[Upbit 2022-01-06 09:02:52.846811] 0.3 < mom < 0.75: ['KRW-ATOM']
+[Upbit 2022-01-06 09:02:53.304453] -0.55 < mom < -0.25: []
+[Upbit 2022-01-06 09:02:53.773700] mom < -0.55: []
+[Upbit 2022-01-06 09:03:03.573152] {'uuid': '59058e68-a97e-4d81-8e86-71c603491280', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-POWR', 'created_at': '2022-01-06T09:03:03+09:00', 'volume': '16.42105263', 'remaining_volume': '16.42105263', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '16.42105263', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-06 09:04:22.516983] target amount: 80298.3500324982
+[]
+[Upbit 2022-01-06 09:04:23.390510] End trading
+[Upbit 2022-01-07 09:02:02.608301] Start trading...
+[Upbit 2022-01-07 09:02:57.916462] mom > 0.75: []
+[Upbit 2022-01-07 09:02:58.386147] 0.3 < mom < 0.75: ['KRW-ATOM']
+[Upbit 2022-01-07 09:02:58.841883] -0.55 < mom < -0.25: []
+[Upbit 2022-01-07 09:02:59.296709] mom < -0.55: []
+[Upbit 2022-01-07 09:04:22.062462] target amount: 80439.3768436542
+[]
+[Upbit 2022-01-07 09:04:22.879436] End trading
+[Upbit 2022-01-08 09:02:02.704821] Start trading...
+[Upbit 2022-01-08 09:02:56.873468] mom > 0.75: []
+[Upbit 2022-01-08 09:02:57.329285] 0.3 < mom < 0.75: ['KRW-LINK', 'KRW-ATOM']
+[Upbit 2022-01-08 09:02:57.776792] -0.55 < mom < -0.25: []
+[Upbit 2022-01-08 09:02:58.235062] mom < -0.55: []
+[Upbit 2022-01-08 09:04:22.557301] target amount: 80292.2449757382
+['KRW-LINK']
+[Upbit 2022-01-08 09:04:23.588155] {'uuid': '5aa54765-6ba7-49de-a8c4-bbc89f5ab4b6', 'side': 'bid', 'ord_type': 'price', 'price': '16058.0', 'state': 'wait', 'market': 'KRW-LINK', 'created_at': '2022-01-08T09:04:23+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.029', 'remaining_fee': '8.029', 'paid_fee': '0.0', 'locked': '16066.029', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-08 09:04:24.038156] End trading
+[Upbit 2022-01-09 09:02:02.404572] Start trading...
+[Upbit 2022-01-09 09:02:59.693671] mom > 0.75: []
+[Upbit 2022-01-09 09:03:00.157371] 0.3 < mom < 0.75: ['KRW-LINK']
+[Upbit 2022-01-09 09:03:00.623130] -0.55 < mom < -0.25: []
+[Upbit 2022-01-09 09:03:01.084484] mom < -0.55: []
+[Upbit 2022-01-09 09:03:24.234984] {'uuid': '2d296851-acb1-4d04-a1a6-7bb2d3b14e4c', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-ATOM', 'created_at': '2022-01-09T09:03:23+09:00', 'volume': '0.33916982', 'remaining_volume': '0.33916982', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '0.33916982', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-09 09:04:31.759273] target amount: 80082.49141134
+[]
+[Upbit 2022-01-09 09:04:32.815312] End trading
+[Upbit 2022-01-10 09:02:02.528592] Start trading...
+[Upbit 2022-01-10 09:02:55.807383] mom > 0.75: []
+[Upbit 2022-01-10 09:02:56.264866] 0.3 < mom < 0.75: ['KRW-POWR', 'KRW-LINK']
+[Upbit 2022-01-10 09:02:56.718119] -0.55 < mom < -0.25: []
+[Upbit 2022-01-10 09:02:57.172659] mom < -0.55: []
+[Upbit 2022-01-10 09:04:24.146737] target amount: 80306.430529212
+['KRW-POWR']
+[Upbit 2022-01-10 09:04:25.255078] {'uuid': 'd57b63e9-d3cb-4e1c-89f0-b5f35efca569', 'side': 'bid', 'ord_type': 'price', 'price': '16061.0', 'state': 'wait', 'market': 'KRW-POWR', 'created_at': '2022-01-10T09:04:24+09:00', 'volume': None, 'remaining_volume': None, 'reserved_fee': '8.0305', 'remaining_fee': '8.0305', 'paid_fee': '0.0', 'locked': '16069.0305', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-10 09:04:25.708269] End trading
+[Upbit 2022-01-11 09:02:02.811846] Start trading...
+[Upbit 2022-01-11 09:02:57.554112] mom > 0.75: []
+[Upbit 2022-01-11 09:02:58.005235] 0.3 < mom < 0.75: ['KRW-POWR', 'KRW-LINK']
+[Upbit 2022-01-11 09:02:58.466290] -0.55 < mom < -0.25: []
+[Upbit 2022-01-11 09:02:58.972212] mom < -0.55: []
+[Upbit 2022-01-11 09:04:26.968575] target amount: 80274.2457492144
+[]
+[Upbit 2022-01-11 09:04:28.289166] End trading
+[Upbit 2022-01-12 09:02:02.360883] Start trading...
+[Upbit 2022-01-12 09:02:58.417236] mom > 0.75: []
+[Upbit 2022-01-12 09:02:58.871485] 0.3 < mom < 0.75: []
+[Upbit 2022-01-12 09:02:59.324455] -0.55 < mom < -0.25: []
+[Upbit 2022-01-12 09:02:59.787840] mom < -0.55: []
+[Upbit 2022-01-12 09:03:08.831260] {'uuid': '3377aba2-33ce-4e8a-a0a2-46e1106de192', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-POWR', 'created_at': '2022-01-12T09:03:08+09:00', 'volume': '20.10137672', 'remaining_volume': '20.10137672', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '20.10137672', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-12 09:03:27.938718] {'uuid': '15aa7a40-bf45-4a4b-b763-227a2edf52a6', 'side': 'ask', 'ord_type': 'market', 'price': None, 'state': 'wait', 'market': 'KRW-LINK', 'created_at': '2022-01-12T09:03:27+09:00', 'volume': '0.50165573', 'remaining_volume': '0.50165573', 'reserved_fee': '0.0', 'remaining_fee': '0.0', 'paid_fee': '0.0', 'locked': '0.50165573', 'executed_volume': '0.0', 'trades_count': 0}
+[Upbit 2022-01-12 09:04:23.872023] target amount: 80029.170683109
+[]
+[Upbit 2022-01-12 09:04:24.325175] End trading
+[Upbit 2022-01-13 09:02:03.122447] Start trading...
+[Upbit 2022-01-13 09:02:57.999712] mom > 0.75: []
+[Upbit 2022-01-13 09:02:58.453288] 0.3 < mom < 0.75: []
+[Upbit 2022-01-13 09:02:58.919399] -0.55 < mom < -0.25: []
+[Upbit 2022-01-13 09:02:59.372463] mom < -0.55: []
+[Upbit 2022-01-13 09:04:25.304625] target amount: 80029.170683109
+[]
+[Upbit 2022-01-13 09:04:25.823237] End trading
+[Upbit 2022-01-14 09:02:02.920907] Start trading...
+[Upbit 2022-01-14 09:02:57.252255] mom > 0.75: []
+[Upbit 2022-01-14 09:02:57.749172] 0.3 < mom < 0.75: []
+[Upbit 2022-01-14 09:02:58.217619] -0.55 < mom < -0.25: []
+[Upbit 2022-01-14 09:02:58.630623] mom < -0.55: []
+[Upbit 2022-01-14 09:04:23.017602] target amount: 80029.170683109
+[]
+[Upbit 2022-01-14 09:04:23.434032] End trading
