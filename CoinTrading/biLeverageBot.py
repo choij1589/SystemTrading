@@ -150,7 +150,7 @@ if __name__ == "__main__":
         values[f"{ticker}-UP"] = samples[ticker].iloc[-2]['value_up']
         values[f"{ticker}-DOWN"] = samples[ticker].iloc[-2]['value_down']
     res = dict(sorted(values.items(), key=(lambda x: x[1]), reverse=True)[:6])
-    trader.send_message(f"target coins: {res.keys()}")
+    trader.send_message(f"target coins: {list(res.keys())}")
 
     # Start trading
     target_amount = trader.get_total_balance()/len(res)*0.9
