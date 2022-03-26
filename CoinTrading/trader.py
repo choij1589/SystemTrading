@@ -98,3 +98,36 @@ class Trader(ccxt.binance):
 
         order = self.create_market_buy_order(ticker, quantity)
         return order
+
+    def sell_market_order(self, ticker, amount): # USDT
+        price = self.get_current_price(ticker)
+        quantity = amount/price
+
+        info = self.client.get_symbol_info(ticker.replace("/", ""))
+        # set precision
+        for f in info['filters']:
+            if f['filterType'] == "LOT_SIZE":
+                precision = float(f['stepSize'])
+                break
+        precision = int(round(-log(precision, 10), 0))
+        quantity = float(round(quantity, precision))
+
+        # check whether exceed minQty
+        minQty = float(info['filters'][2]['minQty'])
+        if quantity <= minQty:
+            return None
+
+        order = self.create_market_sell_order(ticker, quantity)
+        return order
+
+if __name__ == "__main__":
+    trader = Trader()
+    #trader.sell_market_order("ETCUSDT", 20)
+
+    positions = trader.fetch_balance()['info']['positions']
+    for pos in positions:
+        if float(pos['positionAmt']) != 0.:
+            ticker= f"{pos['symbol'][:-4]}/{pos['symbol'][-4:]}"
+            amount = float(pos['positionAmt'])
+            print(ticker, amount)
+            trader.create_market_buy_order(ticker, abs(amount))
