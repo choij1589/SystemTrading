@@ -68,7 +68,7 @@ def select_top21v_coins(bot):
         sample['noise'] = sample['noise'].rolling(15).mean()
         noise = sample.iloc[-2]['noise']
         if sample.iloc[-2]['noise'] > 0.7:
-            print(ticker, noise)
+            # print(ticker, noise)
             continue
 
         high, low, close = sample.iloc[-2]['high'], sample.iloc[-2]['low'], sample.iloc[-2]['close']
@@ -119,24 +119,22 @@ if __name__ == "__main__":
     bot = Trader()
     bot.log("Start trading...")
 
-    trial = 0
-    try:
-        cancel_all_positions(bot)
-        if trial == 0:
-            sleep(40)
+    cancel_all_positions(bot)
+    sleep(40)
 
-        top21v = select_top21v_coins(bot)
-        is_bull = is_bull_market(bot)
+    top21v = select_top21v_coins(bot)
+    is_bull = is_bull_market(bot)
     
-        if is_bull:
-            coins = sort_coins(bot, top21v)[:4]
-        else:
-            coins = sort_coins(bot, top21v)[-8:]
-    
-        # start trading
-        target_amount = bot.get_total_balance()/len(coins)*0.95
-        bot.log(f"target amoung: {target_amount:.3f}")
-        for coin in coins:
+    if is_bull:
+        coins = sort_coins(bot, top21v)[:4]
+    else:
+        coins = sort_coins(bot, top21v)[-8:]
+
+    # start trading
+    target_amount = bot.get_total_balance()/len(coins)*0.95
+    bot.log(f"target amount: {target_amount:.3f}")
+    for coin in coins:
+        try:
             lev = get_leverage(bot, coin, is_bull)
             bot.log(f"leverage for {coin}: {lev}")
             if lev == 0: 
@@ -149,14 +147,8 @@ if __name__ == "__main__":
                 order = bot.sell_market_order(coin, target_amount*abs(lev))
 
             bot.log(order)
+        except Exception as e:
+            print(e)
+            continue
 
-        bot.log("End trading")
-    except Exception as e:
-        bot.log(f"Exception occurred in trial {trial}")
-        trial += 1
-
-        if trial == 5:
-            bot.log("Maximum trial for today's trade")
-            exit()
-        sleep(20)
-        
+    bot.log("End trading")

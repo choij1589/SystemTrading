@@ -1,0 +1,13 @@
+[Binance 2022-04-24 09:00:02.848912] Start trading...
+[Binance 2022-04-24 09:00:06.882269] Cancelled all orders
+[Binance 2022-04-24 09:01:16.943866] target amoung: 127.385
+[Binance 2022-04-24 09:01:17.482863] leverage for BNB/USDT: -1
+{'symbol': 'BNBUSDT', 'leverage': '1', 'maxNotionalValue': '50000000'}
+[Binance 2022-04-24 09:01:18.356041] {'info': {'orderId': '38526706600', 'symbol': 'BNBUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu4e8da77c70ee55ff1b6bb2', 'price': '0', 'avgPrice': '401.09000', 'origQty': '0.31', 'executedQty': '0.31', 'cumQty': '0.31', 'cumQuote': '124.33790', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1650758478424'}, 'id': '38526706600', 'clientOrderId': 'x-xcKtGhcu4e8da77c70ee55ff1b6bb2', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'BNB/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'sell', 'price': 401.09, 'stopPrice': None, 'amount': 0.31, 'cost': 124.3379, 'average': 401.09, 'filled': 0.31, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-04-24 09:01:19.028586] leverage for ETH/USDT: -1
+{'symbol': 'ETHUSDT', 'leverage': '1', 'maxNotionalValue': '500000000'}
+[Binance 2022-04-24 09:01:19.860370] {'info': {'orderId': '8389765521221055030', 'symbol': 'ETHUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcud6418abe0058bff4094051', 'price': '0', 'avgPrice': '2933.26000', 'origQty': '0.043', 'executedQty': '0.043', 'cumQty': '0.043', 'cumQuote': '126.13018', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1650758479927'}, 'id': '8389765521221055030', 'clientOrderId': 'x-xcKtGhcud6418abe0058bff4094051', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'ETH/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'sell', 'price': 2933.26, 'stopPrice': None, 'amount': 0.043, 'cost': 126.13018, 'average': 2933.26, 'filled': 0.043, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-04-24 09:01:20.376991] leverage for 1000SHIB/USDT: -1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-04-24 09:01:21.102222] Exception occurred in trial 0
+[Binance 2022-04-24 09:01:21.554239] 'NoneType' object is not subscriptable

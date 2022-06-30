@@ -1,0 +1,3 @@
+[Binance 2022-04-20 09:00:02.894306] Start trading...
+[Binance 2022-04-20 09:00:04.289250] Exception occurred in trial 0
+[Binance 2022-04-20 09:00:04.721543] binance {"code":-1021,"msg":"Timestamp for this request is outside of the recvWindow."}

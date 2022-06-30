@@ -1,0 +1,3 @@
+[Binance 2022-04-15 09:00:02.671340] Start trading...
+[Binance 2022-04-15 09:00:04.130610] Exception occurred in trial 0
+[Binance 2022-04-15 09:00:04.644074] binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}

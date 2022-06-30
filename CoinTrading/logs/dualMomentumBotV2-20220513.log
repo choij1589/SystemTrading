@@ -1,0 +1,7 @@
+[Binance 2022-05-13 09:00:03.554303] Start trading...
+[Binance 2022-05-13 09:00:07.884578] Cancelled all orders
+[Binance 2022-05-13 09:01:15.932787] target amoung: 210.610
+[Binance 2022-05-13 09:01:16.491568] leverage for 1000SHIB/USDT: -1
+{'symbol': '1000SHIBUSDT', 'leverage': '1', 'maxNotionalValue': '30000000'}
+[Binance 2022-05-13 09:01:17.351618] Exception occurred in trial 0
+[Binance 2022-05-13 09:01:17.835493] 'NoneType' object is not subscriptable

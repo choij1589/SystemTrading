@@ -1,0 +1,10 @@
+[Binance 2022-05-11 09:00:03.684420] Start trading...
+[Binance 2022-05-11 09:00:07.667969] Cancelled all orders
+[Binance 2022-05-11 09:01:17.360314] target amoung: 165.334
+[Binance 2022-05-11 09:01:17.908532] leverage for GALA/USDT: -2
+{'symbol': 'GALAUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-05-11 09:01:18.762986] {'info': {'orderId': '5475174471', 'symbol': 'GALAUSDT', 'status': 'FILLED', 'clientOrderId': 'x-xcKtGhcu820bc99350299a0aa7d34b', 'price': '0', 'avgPrice': '0.10880', 'origQty': '3039', 'executedQty': '3039', 'cumQty': '3039', 'cumQuote': '330.64320', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': '1652227278739'}, 'id': '5475174471', 'clientOrderId': 'x-xcKtGhcu820bc99350299a0aa7d34b', 'timestamp': None, 'datetime': None, 'lastTradeTimestamp': None, 'symbol': 'GALA/USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'side': 'sell', 'price': 0.1088, 'stopPrice': None, 'amount': 3039.0, 'cost': 330.6432, 'average': 0.1088, 'filled': 3039.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': []}
+[Binance 2022-05-11 09:01:19.303869] leverage for 1000SHIB/USDT: -2
+{'symbol': '1000SHIBUSDT', 'leverage': '2', 'maxNotionalValue': '2000000'}
+[Binance 2022-05-11 09:01:20.070377] Exception occurred in trial 0
+[Binance 2022-05-11 09:01:20.533230] 'NoneType' object is not subscriptable

@@ -21,7 +21,7 @@ class Trader(ccxt.binance):
         super().__init__(config={
                 "apiKey": binance_api_key,
                 "secret": binance_secret_key,
-                "enableRateLimit": True,
+                #"enableRateLimit": True,
                 "options": {"defaultType": "future"}
         })
         self.client = binance.Client()          # To use python-binance functionality
@@ -104,6 +104,9 @@ class Trader(ccxt.binance):
         quantity = amount/price
 
         info = self.client.get_symbol_info(ticker.replace("/", ""))
+        if info == None:
+            return 0
+
         # set precision
         for f in info['filters']:
             if f['filterType'] == "LOT_SIZE":
