@@ -29,12 +29,15 @@ def cancel_all_positions(bot):
     for pos in positions:
         if float(pos['positionAmt']) != 0.:
             ticker= f"{pos['symbol'][:-4]}/{pos['symbol'][-4:]}"
-            amount = pos['positionAmt']
-            bot.create_market_sell_order(ticker, amount, params={"type": "future"})
+            amount = float(pos['positionAmt'])
+            if amount > 0.:
+                bot.create_market_sell_order(ticker, amount, params={"type": "future"})
+            else:
+                bot.create_market_buy_order(ticker, abs(amount), params={"type": "future"})
     bot.log("Cancelled all orders")
 
 
-def is_market_timing(bot):
+def is_bull_market(bot):
     btc = bot.get_sample("BTC/USDT", limit=55)
     eth = bot.get_sample("ETH/USDT", limit=55)
     btc['ema50'] = btc['close'].ewm(50).mean()
@@ -77,7 +80,7 @@ def select_top21v_coins(bot):
     top21v = dict(sorted(volumes.items(), key=(lambda x: x[1]), reverse=True)[:21])
     return list(top21v.keys())
 
-def select_top5m_coins(bot, top21v):
+def sort_coins(bot, top21v):
     values = dict()
     for ticker in top21v:
         sample = bot.get_sample(ticker, limit=25)
@@ -88,10 +91,11 @@ def select_top5m_coins(bot, top21v):
             continue
         sample['mom7'] = (sample['close'] - sample.shift(7)['close'])/sample.shift(7)['close']
         values[ticker] = sample.iloc[-2]['mom7']
-    values = dict(sorted(values.items(), key=(lambda x: x[1]), reverse=True)[:5])
+    values = dict(sorted(values.items(), key=(lambda x: x[1]), reverse=True))
     return list(values.keys())
 
-def get_leverage(bot, coin):
+
+def get_leverage(bot, coin, is_bull=True):
     sample = bot.get_sample(coin, limit=25)
     assert len(sample) == 25
     sample['mom7'] = sample['close']/sample.shift(7)['close']
@@ -101,38 +105,58 @@ def get_leverage(bot, coin):
     sample.dropna(inplace=True)
 
     lev = 0
-    if sample.iloc[-2]['mom7'] > 0.: lev += 1
-    if sample.iloc[-2]['mom20'] > 0.: lev += 1
-    if sample.iloc[-2]['ema7'] > sample.iloc[-2]['close']: lev -= 1
-    if sample.iloc[-2]['ema20'] > sample.iloc[-2]['close']: lev -= 1
+    if is_bull:
+        if sample.iloc[-2]['mom7'] > 0.: lev += 1
+        if sample.iloc[-2]['mom20'] > 0.: lev += 1
+        if sample.iloc[-2]['close'] > sample.iloc[-3]['close']: lev -= 1
+    else:
+        if sample.iloc[-2]['ema7'] > sample.iloc[-2]['close']: lev -= 1
+        if sample.iloc[-2]['ema20'] > sample.iloc[-2]['close']: lev -= 1
+        if sample.iloc[-2]['close'] < sample.iloc[-3]['close']: lev += 1
     return lev
 
 if __name__ == "__main__":
     bot = Trader()
     bot.log("Start trading...")
-    cancel_all_positions(bot)
-    sleep(60)
 
-    if not is_market_timing(bot):
-        bot.log("Not market timing, exit program...")
-        exit()
+    trial = 0
+    try:
+        cancel_all_positions(bot)
+        if trial == 0:
+            sleep(40)
 
-    top21v = select_top21v_coins(bot)
-    top5m = select_top5m_coins(bot, top21v)
+        top21v = select_top21v_coins(bot)
+        is_bull = is_bull_market(bot)
     
-    # start trading
-    target_amount = bot.get_total_balance()/5.*0.95
-    bot.log(f"target amoung: {target_amount:.3f}")
-    for coin in top5m:
-        lev = get_leverage(bot, coin)
-        bot.log(f"leverage for {coin}: {lev}")
-        if lev == 0: 
-            continue
+        if is_bull:
+            coins = sort_coins(bot, top21v)[:4]
+        else:
+            coins = sort_coins(bot, top21v)[-8:]
+    
+        # start trading
+        target_amount = bot.get_total_balance()/len(coins)*0.95
+        bot.log(f"target amoung: {target_amount:.3f}")
+        for coin in coins:
+            lev = get_leverage(bot, coin, is_bull)
+            bot.log(f"leverage for {coin}: {lev}")
+            if lev == 0: 
+                continue
 
-        bot.set_leverage(coin, lev)
-        order = bot.buy_market_order(coin, target_amount*lev)
+            bot.set_leverage(coin, abs(lev))
+            if lev > 0.:
+                order = bot.buy_market_order(coin, target_amount*lev)
+            else:
+                order = bot.sell_market_order(coin, target_amount*abs(lev))
 
-        bot.log(order)
+            bot.log(order)
 
-    bot.log("End trading")
+        bot.log("End trading")
+    except Exception as e:
+        bot.log(f"Exception occurred in trial {trial}")
+        trial += 1
+
+        if trial == 5:
+            bot.log("Maximum trial for today's trade")
+            exit()
+        sleep(20)
         

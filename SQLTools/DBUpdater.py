@@ -6,7 +6,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-from secrets import mysql_password, mysql_bridge_ip
+from secrets import mysql_password
 
 # get arguments
 parser = argparse.ArgumentParser()
@@ -20,7 +20,7 @@ args = parser.parse_args()
 class DBUpdater:
     def __init__(self, market):
         self.market = market
-        self.conn = pymysql.connect(host=mysql_bridge_ip, user='root', password=mysql_password,
+        self.conn = pymysql.connect(host='localhost', user='root', password=mysql_password,
                                     db=self.market, charset='utf8')
         with self.conn.cursor() as curs:
             sql = """
@@ -132,7 +132,7 @@ class KRXUpdater(DBUpdater):
             for page in range(1, pages + 1):
                 pg_url = '{}&page={}'.format(url, page)
                 pg_url = requests.get(pg_url, headers=headers).text
-                df = df.append(pd.read_html(pg_url, header=0)[0])
+                df = pd.concat([df, pd.read_html(pg_url, header=0)[0]])
                 tmnow = datetime.now().strftime('%Y-%m-%d %H:%M')
                 print('[{}] {} ({}) : {:04d}/{:04d} pages are downloading...'.
                       format(tmnow, company, symbol, page, pages), end="\r")
@@ -158,7 +158,7 @@ class ETFUpdater(DBUpdater):
         opt.add_argument('--no-sandbox')
         opt.add_argument('--disable-dev-shm-usage')
         self.driver = webdriver.Chrome(
-            r'/root/workspace/SystemTrading/MyPackages/chromedriver', options=opt)
+            r'/Users/choij/workspace/SystemTrading/MyPackages/chromedriver', options=opt)
         self.driver.implicitly_wait(3)
         super().__init__("ETF")
 
@@ -207,7 +207,7 @@ class ETFUpdater(DBUpdater):
             for page in range(1, pages + 1):
                 pg_url = '{}&page={}'.format(url, page)
                 pg_url = requests.get(pg_url, headers=headers).text
-                df = df.append(pd.read_html(pg_url, header=0)[0])
+                df = pd.concat([df, pd.read_html(pg_url, header=0)[0]])
                 tmnow = datetime.now().strftime('%Y-%m-%d %H:%M')
                 print('[{}] {} ({}) : {:04d}/{:04d} pages are downloading...'.
                       format(tmnow, company, symbol, page, pages), end="\r")

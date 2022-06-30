@@ -3,11 +3,11 @@ import pymysql
 from datetime import date, datetime, timedelta
 import re
 import matplotlib.dates as mdates
-from secrets import mysql_password, mysql_bridge_ip
+from secrets import mysql_password
 
 class MarketDB:
     def __init__(self, market):
-        self.conn = pymysql.connect(host=mysql_bridge_ip, user='root', password=mysql_password,
+        self.conn = pymysql.connect(host='localhost', user='root', password=mysql_password,
                                     db=market, charset='utf8')
         self.symbols = {}
         self.get_comp_info()
