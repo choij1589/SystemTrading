@@ -1,0 +1,16 @@
+[Binance 2022-08-02 09:00:02.345070] Start trading...
+[Binance 2022-08-02 09:00:04.247054] Cancelled all orders
+[Binance 2022-08-02 09:01:14.745604] target amount: 0.000
+[Binance 2022-08-02 09:01:15.439485] leverage for FIL/USDT: 2
+{'symbol': 'FILUSDT', 'leverage': '2', 'maxNotionalValue': '20000000'}
+[Binance 2022-08-02 09:01:16.429706] None
+[Binance 2022-08-02 09:01:16.991936] leverage for FLM/USDT: 1
+{'symbol': 'FLMUSDT', 'leverage': '1', 'maxNotionalValue': '10000000'}
+[Binance 2022-08-02 09:01:17.758742] None
+[Binance 2022-08-02 09:01:18.311790] leverage for PEOPLE/USDT: 1
+{'symbol': 'PEOPLEUSDT', 'leverage': '1', 'maxNotionalValue': '5000000'}
+[Binance 2022-08-02 09:01:19.072577] None
+[Binance 2022-08-02 09:01:19.628411] leverage for ETC/USDT: 2
+{'symbol': 'ETCUSDT', 'leverage': '2', 'maxNotionalValue': '20000000'}
+[Binance 2022-08-02 09:01:20.494630] None
+[Binance 2022-08-02 09:01:20.992026] End trading
