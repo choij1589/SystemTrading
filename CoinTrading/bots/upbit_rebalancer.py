@@ -77,9 +77,9 @@ class UpbitRebalancer:
         except FileNotFoundError:
             print(f"ERROR: Configuration file not found: {path}")
             if 'secrets' in path:
-                print("Please create upbit_secrets.yaml from the template:")
-                print("  cp CoinTrading/config/upbit_secrets.yaml.template CoinTrading/config/upbit_secrets.yaml")
-                print("  # Then edit upbit_secrets.yaml with your API keys")
+                print("Please create secrets.yaml from the template:")
+                print("  cp CoinTrading/config/secrets.yaml.template CoinTrading/config/secrets.yaml")
+                print("  # Then edit secrets.yaml with your API keys")
             sys.exit(1)
         except Exception as e:
             print(f"ERROR: Failed to load {path}: {e}")
@@ -123,18 +123,18 @@ class UpbitRebalancer:
     def _init_client(self):
         """Initialize Upbit client."""
         upbit_config = self.secrets['upbit']
-        access_key = upbit_config.get('access_key')
+        api_key = upbit_config.get('api_key')
         secret_key = upbit_config.get('secret_key')
 
-        if not access_key or not secret_key or 'YOUR_' in access_key:
-            logger.error("API keys not configured in upbit_secrets.yaml")
-            logger.error("Please update CoinTrading/config/upbit_secrets.yaml with your Upbit API keys")
+        if not api_key or not secret_key or 'your_' in api_key:
+            logger.error("API keys not configured in secrets.yaml")
+            logger.error("Please update CoinTrading/config/secrets.yaml with your Upbit API keys")
             sys.exit(1)
 
         cache_dir = self.config['upbit'].get('cache_dir', '.cache/upbit')
 
         self.client = UpbitClient(
-            access_key=access_key,
+            access_key=api_key,
             secret_key=secret_key,
             cache_dir=cache_dir
         )
@@ -361,7 +361,7 @@ def main():
     )
     parser.add_argument(
         '--secrets',
-        default='CoinTrading/config/upbit_secrets.yaml',
+        default='CoinTrading/config/secrets.yaml',
         help='Path to secrets file'
     )
 
