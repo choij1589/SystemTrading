@@ -64,9 +64,6 @@ logs/
 !*secrets.yaml.template
 !*secrets.yml.template
 
-# Upbit specific
-CoinTrading/config/upbit_secrets.yaml
-
 # Backup files
 *.bak
 *.backup
