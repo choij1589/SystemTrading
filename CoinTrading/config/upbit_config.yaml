@@ -1,0 +1,75 @@
+# Upbit Rebalancing Bot Configuration
+
+# Exchange Settings
+upbit:
+  market_type: spot
+  base_currency: KRW
+  cache_dir: .cache/upbit
+
+# Strategy Configuration
+strategy:
+  name: periodic_rebalance
+
+  # Target allocation (must sum to 1.0)
+  # Note: KRW-USDT is treated as a tradeable coin, not as cash
+  # Note: Only use coins available on Upbit KRW market (LTC not available, using XRP)
+  target_weights:
+    KRW-USDT: 0.2    # 20% USDT (as KRW-USDT coin)
+    KRW-BTC: 0.6     # 60% Bitcoin
+    KRW-ETH: 0.1     # 10% Ethereum
+    KRW-XRP: 0.1     # 10% Ripple (LTC not available on Upbit KRW)
+
+  # Rebalancing frequency (managed by crontab)
+  # This is just for reference - actual schedule is in crontab
+  rebalance_period_days: 7
+
+# Execution Settings
+execution:
+  # Trading mode
+  paper_trading: false     # Set to false for live trading (CAUTION!)
+  dry_run: false           # Set to true to log trades without executing
+
+  # Order size limits
+  min_order_krw: 5000      # Minimum order size (Upbit minimum is 5,000 KRW)
+
+  # Transaction costs
+  transaction_fee: 0.0005  # 0.05% per trade (Upbit maker/taker fee)
+
+# Logging
+logging:
+  level: INFO              # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+  # Log files
+  file: logs/upbit_rebalancer.log
+  max_bytes: 10485760      # 10MB per log file
+  backup_count: 5          # Keep 5 backup files
+
+  # Console output
+  console: true
+
+# Notifications (Optional - requires configuration in upbit_secrets.yaml)
+notifications:
+  enabled: false
+
+  # Email notifications
+  email:
+    enabled: false
+    on_rebalance: true     # Send email after each rebalance
+    on_error: true         # Send email on errors
+
+  # Telegram notifications
+  telegram:
+    enabled: false
+    on_rebalance: true     # Send message after each rebalance
+    on_error: true         # Send message on errors
+
+# Performance Tracking
+tracking:
+  # Save execution history
+  save_history: true
+  history_file: logs/rebalance_history.csv
+
+  # Save portfolio snapshots
+  save_snapshots: true
+  snapshot_file: logs/portfolio_snapshots.csv

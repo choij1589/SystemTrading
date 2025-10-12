@@ -1,0 +1,62 @@
+# Global Configuration for CoinTrading System
+
+# Data Settings
+data:
+  exchange: binance
+  market_type: futures  # 'spot' or 'futures'
+  interval: 1d
+  min_history_days: 200
+  cache_dir: .cache/ohlcv
+  cache_format: parquet  # 'parquet' or 'pickle'
+
+# API Settings
+api:
+  rate_limit: true
+  timeout: 30000  # milliseconds
+  retries: 3
+  # API keys should be in secrets.yaml (not committed to git)
+
+# Transaction Costs
+trading:
+  transaction_fee: 0.003  # 0.3% per trade (entry + exit = 2x 0.15%)
+  slippage: 0.0005  # 0.05% slippage estimate
+
+# Backtesting Settings
+backtesting:
+  rebalance_frequency: daily
+  initial_capital: 10000  # USDT
+  # Data split ratios
+  train_ratio: 0.60
+  validation_ratio: 0.20
+  test_ratio: 0.20
+
+# Execution Settings (Live Trading)
+execution:
+  # Trading mode
+  paper_trading: false # Set to false for live trading (CAUTION!)
+  dry_run: false  # Log trades without execution (extra safety)
+
+  # Rebalancing
+  rebalance_interval_hours: 24  # Hours between rebalances
+  check_interval_seconds: 60  # Seconds between checks
+
+  # Risk Limits
+  risk_limits:
+    max_leverage_per_coin: 2.0  # Maximum leverage for single coin
+    max_portfolio_leverage: 3.0  # Maximum total portfolio leverage
+    max_position_pct: 0.30  # Maximum 30% in one coin
+    max_daily_loss_pct: 0.10  # Stop trading if -10% in one day
+    max_drawdown_pct: 0.30  # Warning if -30% from peak
+    min_notional: 10.0  # Minimum order size (USDT)
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: logs/trading.log
+  console: true
+
+# Telegram Notifications (optional)
+notifications:
+  enabled: false
+  # Token and chat_id should be in secrets.yaml
