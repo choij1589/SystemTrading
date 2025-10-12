@@ -16,4 +16,5 @@ dependencies:
   - pip
   - pip:
     - python-binance
+    - pyupbit
     - mplfinance

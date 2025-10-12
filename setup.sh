@@ -1,3 +1,3 @@
 #!/bin/bash
-source /Users/choij/miniconda3/bin/activate
+source ~/.conda-activate
 conda activate systemtrading
