@@ -1,0 +1,37 @@
+# ETF Trading System Configuration
+
+# Investment Settings
+investment:
+  initial_capital: 4_200_000      # Initial investment: 4.2M KRW
+  monthly_deposit: 300_000        # Monthly deposit: 300K KRW
+  deposit_day: 1                  # Day of month for deposits (1-28)
+
+# Rebalancing Settings
+rebalancing:
+  frequency: "monthly"            # Options: "weekly", "monthly"
+  day_of_week: "Monday"          # For weekly rebalancing
+  day_of_month: 1                # For monthly rebalancing (1-28)
+  threshold: 0.05                # Rebalance if weight deviates by 5%
+
+# Transaction Costs
+transaction:
+  commission_rate: 0.00015       # 0.015% commission
+  tax_rate: 0.0023               # 0.23% tax (only for sell orders in Korea)
+  slippage: 0.0001               # 0.01% slippage
+
+# Backtesting Settings
+backtest:
+  start_date: "2020-01-01"
+  end_date: null                 # null = today
+  benchmark: "069500"            # KODEX 200 as benchmark
+
+# Risk Management
+risk:
+  max_position_size: 0.40        # Maximum 40% in single ETF
+  min_position_size: 0.05        # Minimum 5% position
+  cash_buffer: 0.02              # Keep 2% in cash
+
+# Data Settings
+data:
+  cache_dir: "data/cache"
+  update_daily: true
