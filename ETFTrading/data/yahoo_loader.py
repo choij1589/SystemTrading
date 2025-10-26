@@ -60,8 +60,23 @@ class YahooETFLoader:
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def _korean_to_yahoo_ticker(self, ticker: str) -> str:
-        """Convert Korean ticker to Yahoo ticker."""
-        return self.TICKER_MAP.get(ticker, f"{ticker}.KS")
+        """
+        Convert Korean ticker to Yahoo ticker.
+        US tickers are used as-is, Korean tickers get .KS suffix.
+        """
+        # If ticker is in the map, use the mapped value
+        if ticker in self.TICKER_MAP:
+            return self.TICKER_MAP[ticker]
+
+        # Check if it's a US ticker (contains letters or is a known US ETF)
+        # US tickers typically have letters (SPY, QQQ, etc.)
+        # Korean tickers are typically numeric (069500, etc.)
+        if any(c.isalpha() for c in ticker):
+            # US ticker - use as is
+            return ticker
+        else:
+            # Korean ticker - add .KS suffix
+            return f"{ticker}.KS"
 
     def load_single(
         self,
