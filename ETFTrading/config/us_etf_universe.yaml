@@ -1,0 +1,187 @@
+# US ETF Universe Definition
+# Format: ticker: {name, category, expense_ratio}
+
+# Broad Market Equity ETFs
+broad_equity:
+  "SPY":
+    name: "SPDR S&P 500 ETF"
+    category: "us_large_cap"
+    expense_ratio: 0.0945
+
+  "QQQ":
+    name: "Invesco QQQ Trust"
+    category: "us_tech"
+    expense_ratio: 0.20
+
+  "VTI":
+    name: "Vanguard Total Stock Market ETF"
+    category: "us_total_market"
+    expense_ratio: 0.03
+
+  "IWM":
+    name: "iShares Russell 2000 ETF"
+    category: "us_small_cap"
+    expense_ratio: 0.19
+
+# Bond ETFs
+bonds:
+  "TLT":
+    name: "iShares 20+ Year Treasury Bond ETF"
+    category: "long_term_treasury"
+    expense_ratio: 0.15
+
+  "IEF":
+    name: "iShares 7-10 Year Treasury Bond ETF"
+    category: "intermediate_treasury"
+    expense_ratio: 0.15
+
+  "AGG":
+    name: "iShares Core US Aggregate Bond ETF"
+    category: "aggregate_bond"
+    expense_ratio: 0.03
+
+  "BND":
+    name: "Vanguard Total Bond Market ETF"
+    category: "total_bond"
+    expense_ratio: 0.03
+
+# Commodity ETFs
+commodities:
+  "GLD":
+    name: "SPDR Gold Shares"
+    category: "gold"
+    expense_ratio: 0.40
+
+  "SLV":
+    name: "iShares Silver Trust"
+    category: "silver"
+    expense_ratio: 0.50
+
+  "DBC":
+    name: "Invesco DB Commodity Index Tracking Fund"
+    category: "commodities"
+    expense_ratio: 0.87
+
+# Sector ETFs (for momentum rotation)
+sectors:
+  "XLK":
+    name: "Technology Select Sector SPDR Fund"
+    category: "sector_tech"
+    expense_ratio: 0.10
+
+  "XLF":
+    name: "Financial Select Sector SPDR Fund"
+    category: "sector_finance"
+    expense_ratio: 0.10
+
+  "XLE":
+    name: "Energy Select Sector SPDR Fund"
+    category: "sector_energy"
+    expense_ratio: 0.10
+
+  "XLV":
+    name: "Health Care Select Sector SPDR Fund"
+    category: "sector_healthcare"
+    expense_ratio: 0.10
+
+  "XLI":
+    name: "Industrial Select Sector SPDR Fund"
+    category: "sector_industrial"
+    expense_ratio: 0.10
+
+  "XLY":
+    name: "Consumer Discretionary Select Sector SPDR Fund"
+    category: "sector_consumer_discretionary"
+    expense_ratio: 0.10
+
+  "XLP":
+    name: "Consumer Staples Select Sector SPDR Fund"
+    category: "sector_consumer_staples"
+    expense_ratio: 0.10
+
+  "XLU":
+    name: "Utilities Select Sector SPDR Fund"
+    category: "sector_utilities"
+    expense_ratio: 0.10
+
+  "XLRE":
+    name: "Real Estate Select Sector SPDR Fund"
+    category: "sector_real_estate"
+    expense_ratio: 0.10
+
+# Dividend ETFs
+dividend:
+  "VYM":
+    name: "Vanguard High Dividend Yield ETF"
+    category: "dividend_high_yield"
+    expense_ratio: 0.06
+
+  "SCHD":
+    name: "Schwab US Dividend Equity ETF"
+    category: "dividend_growth"
+    expense_ratio: 0.06
+
+  "SDY":
+    name: "SPDR S&P Dividend ETF"
+    category: "dividend_aristocrats"
+    expense_ratio: 0.35
+
+  "DVY":
+    name: "iShares Select Dividend ETF"
+    category: "dividend"
+    expense_ratio: 0.38
+
+# International ETFs
+international:
+  "EFA":
+    name: "iShares MSCI EAFE ETF"
+    category: "developed_markets"
+    expense_ratio: 0.32
+
+  "EEM":
+    name: "iShares MSCI Emerging Markets ETF"
+    category: "emerging_markets"
+    expense_ratio: 0.68
+
+  "VEA":
+    name: "Vanguard FTSE Developed Markets ETF"
+    category: "developed_markets"
+    expense_ratio: 0.05
+
+# Strategy-specific universe mappings
+strategy_universe:
+  # All-Weather Style Portfolio
+  global_asset_allocation:
+    - "SPY"    # US Large Cap Stocks (40%)
+    - "TLT"    # Long-term Treasuries (30%)
+    - "IEF"    # Intermediate Treasuries (15%)
+    - "GLD"    # Gold (10%)
+    - "DBC"    # Commodities (5%)
+
+  # Momentum Sector Rotation
+  momentum_rotation:
+    - "XLK"    # Technology
+    - "XLF"    # Financial
+    - "XLE"    # Energy
+    - "XLV"    # Healthcare
+    - "XLI"    # Industrial
+    - "XLY"    # Consumer Discretionary
+    - "XLP"    # Consumer Staples
+    - "XLU"    # Utilities
+    - "XLRE"   # Real Estate
+
+  # Dividend + Growth Mix
+  dividend_growth:
+    - "SCHD"   # Dividend Growth (50%)
+    - "QQQ"    # Nasdaq 100 Growth (50%)
+
+  # 60/40 Classic Portfolio
+  classic_60_40:
+    - "VTI"    # Total Stock Market (60%)
+    - "BND"    # Total Bond Market (40%)
+
+  # Aggressive Growth
+  aggressive_growth:
+    - "QQQ"    # Nasdaq 100 (50%)
+    - "IWM"    # Small Cap (30%)
+    - "EEM"    # Emerging Markets (20%)
