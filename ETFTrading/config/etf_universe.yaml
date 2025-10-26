@@ -1,0 +1,136 @@
+# ETF Universe Definition
+# Format: ticker: {name, category, expense_ratio}
+
+# Domestic Equity ETFs
+domestic_equity:
+  "069500":
+    name: "KODEX 200"
+    category: "domestic_equity"
+    expense_ratio: 0.0015
+
+  "102110":
+    name: "TIGER 200"
+    category: "domestic_equity"
+    expense_ratio: 0.0045
+
+# US Equity ETFs
+us_equity:
+  "360750":
+    name: "TIGER 미국S&P500"
+    category: "us_equity"
+    expense_ratio: 0.0007
+
+  "133690":
+    name: "TIGER 미국나스닥100"
+    category: "us_equity"
+    expense_ratio: 0.0007
+
+  "360200":
+    name: "TIGER 미국테크TOP10 INDXX"
+    category: "us_equity"
+    expense_ratio: 0.0099
+
+# Dividend ETFs
+dividend:
+  "458730":
+    name: "TIGER 미국배당다우존스"
+    category: "dividend"
+    expense_ratio: 0.0009
+
+  "161510":
+    name: "ARIRANG 고배당주"
+    category: "dividend"
+    expense_ratio: 0.0030
+
+# Bond ETFs
+bonds:
+  "152380":
+    name: "KODEX 국고채3년"
+    category: "bonds"
+    expense_ratio: 0.0015
+
+  "114260":
+    name: "KODEX 국고채10년"
+    category: "bonds"
+    expense_ratio: 0.0015
+
+  "148070":
+    name: "KOSEF 국고채10년"
+    category: "bonds"
+    expense_ratio: 0.0015
+
+# Commodities
+commodities:
+  "132030":
+    name: "KODEX 골드선물(H)"
+    category: "commodities"
+    expense_ratio: 0.0045
+
+  "411060":
+    name: "ACE 미국원유선물Enhanced(H)"
+    category: "commodities"
+    expense_ratio: 0.0065
+
+# Sector ETFs (for momentum rotation)
+sectors:
+  "091180":
+    name: "KODEX 반도체"
+    category: "sector_tech"
+    expense_ratio: 0.0045
+
+  "157450":
+    name: "TIGER 2차전지테마"
+    category: "sector_battery"
+    expense_ratio: 0.0045
+
+  "227540":
+    name: "TIGER 200 IT"
+    category: "sector_it"
+    expense_ratio: 0.0045
+
+  "102780":
+    name: "KODEX 삼성그룹"
+    category: "sector_samsung"
+    expense_ratio: 0.0030
+
+  "139230":
+    name: "TIGER 200 건설"
+    category: "sector_construction"
+    expense_ratio: 0.0045
+
+  "139260":
+    name: "TIGER 200 에너지화학"
+    category: "sector_energy"
+    expense_ratio: 0.0045
+
+  "139250":
+    name: "TIGER 200 금융"
+    category: "sector_finance"
+    expense_ratio: 0.0045
+
+  "228790":
+    name: "TIGER 200 헬스케어"
+    category: "sector_healthcare"
+    expense_ratio: 0.0045
+
+# Strategy-specific universe mappings
+strategy_universe:
+  global_asset_allocation:
+    - "069500"    # KODEX 200 (30%)
+    - "360750"    # TIGER 미국S&P500 (40%)
+    - "152380"    # KODEX 국고채3년 (20%)
+    - "132030"    # KODEX 골드선물 (10%)
+
+  momentum_rotation:
+    - "091180"    # KODEX 반도체
+    - "157450"    # TIGER 2차전지테마
+    - "227540"    # TIGER 200 IT
+    - "139230"    # TIGER 200 건설
+    - "139260"    # TIGER 200 에너지화학
+    - "139250"    # TIGER 200 금융
+    - "228790"    # TIGER 200 헬스케어
+    - "360750"    # TIGER 미국S&P500
+
+  dividend_growth:
+    - "458730"    # TIGER 미국배당다우존스 (50%)
+    - "133690"    # TIGER 미국나스닥100 (50%)
