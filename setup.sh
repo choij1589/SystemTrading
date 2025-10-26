@@ -1,3 +1,2 @@
 #!/bin/bash
-source ~/.conda-activate
-conda activate systemtrading
+source .venv/bin/activate
