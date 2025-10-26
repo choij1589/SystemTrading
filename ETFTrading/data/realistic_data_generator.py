@@ -30,6 +30,7 @@ class RealisticETFDataGenerator:
         # Bonds
         "TLT": {"annual_return": 0.05, "volatility": 0.15, "sharpe": 0.33},
         "IEF": {"annual_return": 0.03, "volatility": 0.08, "sharpe": 0.38},
+        "BND": {"annual_return": 0.03, "volatility": 0.06, "sharpe": 0.50},
 
         # Commodities
         "GLD": {"annual_return": 0.08, "volatility": 0.16, "sharpe": 0.50},
