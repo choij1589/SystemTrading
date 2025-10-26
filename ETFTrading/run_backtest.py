@@ -1,7 +1,8 @@
 """
 ETF Strategy Backtesting Script
 
-Run backtests for all 3 strategies and generate comparison report.
+Run backtests for all 3 strategies with REAL market data from Yahoo Finance.
+No random data generation - all results are deterministic and reproducible.
 """
 
 import sys
@@ -25,97 +26,16 @@ from ETFTrading.strategy.asset_allocation import GlobalAssetAllocationStrategy
 from ETFTrading.strategy.momentum_rotation import MomentumSectorRotationStrategy
 from ETFTrading.strategy.dividend_growth import DividendGrowthMixStrategy
 from ETFTrading.backtesting.engine import ETFBacktestEngine
+from ETFTrading.data.yahoo_loader import YahooETFLoader
 
 print("="*80)
 print("ETF Investment Strategy Backtesting")
 print("="*80)
 print()
 
-# Generate realistic sample data
-def generate_realistic_etf_data(tickers, start_date, end_date):
-    """
-    Generate realistic ETF price data based on historical characteristics.
-
-    Different ETF types have different return/volatility profiles:
-    - Equity ETFs: Higher return, higher volatility
-    - Bond ETFs: Lower return, lower volatility
-    - Gold: Moderate return, moderate volatility
-    - Sector ETFs: Varied performance
-    """
-    dates = pd.date_range(start=start_date, end=end_date, freq='D')
-
-    # ETF characteristics (annual return, annual volatility)
-    etf_profiles = {
-        # Strategy 1: Global Asset Allocation
-        "069500": (0.08, 0.20),   # KODEX 200: 8% return, 20% vol
-        "360750": (0.12, 0.18),   # TIGER S&P500: 12% return, 18% vol
-        "152380": (0.02, 0.05),   # KODEX 국고채: 2% return, 5% vol
-        "132030": (0.05, 0.15),   # KODEX 골드: 5% return, 15% vol
-
-        # Strategy 2: Momentum Sectors
-        "091180": (0.15, 0.35),   # KODEX 반도체: High return, high vol
-        "157450": (0.18, 0.40),   # TIGER 2차전지: Very high
-        "227540": (0.10, 0.25),   # TIGER IT
-        "139230": (0.05, 0.30),   # TIGER 건설
-        "139260": (0.07, 0.28),   # TIGER 에너지
-        "139250": (0.06, 0.22),   # TIGER 금융
-        "228790": (0.09, 0.26),   # TIGER 헬스케어
-
-        # Strategy 3: Dividend + Growth
-        "458730": (0.08, 0.14),   # TIGER 배당: Lower vol
-        "133690": (0.14, 0.22),   # TIGER 나스닥: Higher growth
-    }
-
-    result = {}
-
-    for ticker in tickers:
-        if ticker not in etf_profiles:
-            # Default profile
-            annual_return, annual_vol = 0.08, 0.20
-        else:
-            annual_return, annual_vol = etf_profiles[ticker]
-
-        # Convert to daily
-        daily_return = annual_return / 252
-        daily_vol = annual_vol / np.sqrt(252)
-
-        # Generate returns with some autocorrelation (momentum)
-        np.random.seed(hash(ticker) % (2**32))
-
-        returns = np.zeros(len(dates))
-        returns[0] = daily_return
-
-        for i in range(1, len(dates)):
-            # Add momentum effect (0.3 autocorrelation)
-            momentum = 0.3 * returns[i-1]
-            noise = np.random.normal(0, daily_vol)
-            returns[i] = daily_return + momentum + noise
-
-        # Generate price series
-        initial_price = 10000.0
-        prices = initial_price * np.cumprod(1 + returns)
-
-        # Add realistic OHLC variation
-        df = pd.DataFrame({
-            'date': dates,
-            'close': prices,
-        })
-
-        df['open'] = df['close'] * (1 + np.random.uniform(-0.005, 0.005, len(dates)))
-        df['high'] = df[['open', 'close']].max(axis=1) * (1 + np.random.uniform(0, 0.01, len(dates)))
-        df['low'] = df[['open', 'close']].min(axis=1) * (1 - np.random.uniform(0, 0.01, len(dates)))
-        df['volume'] = np.random.randint(100000, 1000000, len(dates))
-
-        df = df[['date', 'open', 'high', 'low', 'close', 'volume']]
-
-        result[ticker] = df
-
-    return result
-
-
 # Configuration
 START_DATE = "2020-01-01"
-END_DATE = "2024-10-26"
+END_DATE = datetime.now().strftime("%Y-%m-%d")
 
 print(f"📅 Backtest Period: {START_DATE} to {END_DATE}")
 print()
@@ -142,19 +62,36 @@ all_tickers = set()
 for strategy, _ in strategies:
     all_tickers.update(strategy.get_universe())
 
-print(f"📦 Loading data for {len(all_tickers)} ETFs...")
+print(f"📦 Fetching REAL market data from Yahoo Finance...")
 print(f"   Tickers: {sorted(all_tickers)}")
+print(f"   This may take a moment...")
 print()
 
-# Generate data
-data = generate_realistic_etf_data(
+# Load REAL data from Yahoo Finance
+loader = YahooETFLoader()
+data = loader.load_multiple(
     tickers=list(all_tickers),
     start_date=START_DATE,
-    end_date=END_DATE
+    end_date=END_DATE,
+    use_cache=True  # Cache to avoid repeated API calls
 )
 
-print(f"✓ Generated {len(data)} ETF price histories")
-print(f"✓ {len(data[list(data.keys())[0]])} trading days")
+if not data:
+    print("❌ Failed to fetch data from Yahoo Finance")
+    print("   Possible issues:")
+    print("   - Internet connection")
+    print("   - Yahoo Finance API temporarily down")
+    print("   - ETF tickers not available on Yahoo Finance")
+    sys.exit(1)
+
+print(f"✓ Successfully loaded data for {len(data)} ETFs")
+
+# Show data summary
+if data:
+    sample_ticker = list(data.keys())[0]
+    sample_df = data[sample_ticker]
+    print(f"✓ Date range: {sample_df['date'].min()} to {sample_df['date'].max()}")
+    print(f"✓ Trading days: {len(sample_df)}")
 print()
 
 # Initialize backtesting engine
@@ -164,6 +101,7 @@ engine = ETFBacktestEngine(
     monthly_deposit=300_000,
     commission_rate=0.00015,
     tax_rate=0.0023,
+    bid_ask_spread=0.0001,
     rebalance_frequency="monthly"
 )
 
@@ -177,7 +115,7 @@ print()
 results = []
 
 print("="*80)
-print("RUNNING BACKTESTS")
+print("RUNNING BACKTESTS WITH REAL DATA")
 print("="*80)
 print()
 
@@ -268,7 +206,7 @@ print("="*80)
 print()
 
 fig, axes = plt.subplots(2, 2, figsize=(16, 10))
-fig.suptitle('ETF Investment Strategy Comparison', fontsize=16, fontweight='bold')
+fig.suptitle('ETF Investment Strategy Comparison (Real Data)', fontsize=16, fontweight='bold')
 
 # 1. Equity curves
 ax = axes[0, 0]
@@ -406,3 +344,9 @@ for r in results:
     r['trades'].to_csv(trades_file, index=False)
 
 print(f"\n✓ Results saved to CSV files in ETFTrading/ directory")
+print()
+print("=" * 80)
+print("NOTE: Results are based on REAL market data from Yahoo Finance")
+print("      All results are deterministic and reproducible")
+print("      Data is cached locally for faster subsequent runs")
+print("=" * 80)

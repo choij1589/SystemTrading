@@ -35,8 +35,11 @@
 conda create -n etftrading python=3.10
 conda activate etftrading
 pip install pandas numpy matplotlib seaborn pyyaml
-pip install yfinance  # Yahoo Finance 데이터용
 ```
+
+**데이터 소스 설정:**
+- **실전용**: 한국투자증권 API 필수 (`config/secrets.yaml` 설정 필요)
+- **테스트용**: Yahoo Finance는 한국 ETF 지원 제한적 (접근 오류 발생 가능)
 
 ### 2. 백테스트 실행
 ```bash
@@ -134,10 +137,16 @@ transaction:
 
 ## ⚠️ 주의사항
 
+### 데이터 품질
+- **실제 시장 데이터 사용 필수**: 모든 백테스트는 실제 API 데이터 기반
+- **재현성 보장**: 동일한 백테스트 재실행 시 동일한 결과 보장
+- **임의성 배제**: 랜덤 데이터 생성 금지 (deterministic approach)
+- **캐싱**: 데이터는 `data/cache/` 디렉토리에 캐싱되어 재현성 확보
+
 ### 백테스팅 한계
 - 과거 성과 ≠ 미래 수익
-- 시뮬레이션 데이터 사용 (실제 ETF 가격과 차이 있음)
 - 생존 편향 미반영
+- 슬리피지, 유동성 제약 단순화
 
 ### 실전 투자 전
 1. ✅ 한국투자증권 API 키 발급
@@ -152,6 +161,7 @@ transaction:
 - **README.md**: 프로젝트 개요 (이 파일)
 - **STRATEGY_LOGIC.md**: 전략 로직 상세 설명
 - **BACKTEST_REPORT.md**: 백테스트 결과 분석
+- **CLAUDE.md**: 개발 가이드라인 및 규칙 (Claude Code용)
 
 ---
 
